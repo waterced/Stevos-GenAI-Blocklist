@@ -24,7 +24,7 @@ After:
 <img width="791" height="456" alt="image" src="https://github.com/user-attachments/assets/0698522f-54ed-4653-9fcc-ca847406ba3e" />
 
 ## Installation
-### For Firefox, Microsoft Edge, or Waterfox
+### For Firefox, Microsoft Edge, or Waterfox (Desktop)
 #### Automatic import
 - Install [uBlock Origin](https://ublockorigin.com/).
 - Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
@@ -40,12 +40,12 @@ If the automatic import didn't work, (possibly due to multiple adblockers being 
 
 If done correctly, you should see "**_Stevo's GenAI Blocklist_**" listed under "**_Custom_**".
 
-### For Brave
+### For Brave (Desktop)
 - Open _Settings > Shields > Content filtering_.
 - Under "_Add custom filter lists_", enter `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`
 - Click _Add_.
 
-### For Google Chrome
+### For Google Chrome (Desktop)
 - Install [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en)
 - Open [`GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
 - Click the "Copy raw file" button (⮺). ([screenshot](https://github.com/user-attachments/assets/e8e8c75a-2718-431e-b48b-1bb8b1ba418e))
