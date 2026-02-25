@@ -691,6 +691,11 @@ workspace.google.com##div._innerGrid_1u063_113 > div._card_1u063_136:has-text("P
 ! Also blocks other cards advertising AI features
 workspace.google.com##gws-card-wrapper:is([href="/solutions/ai/"], [href="/products/notebooklm"])
 
+! -- https://workspace.google.com/intl/en-US/gmail/
+! "Gmail is entering the Gemini era" promo banner in header
+workspace.google.com##section[data-module="TemplateLocalizedModuleContainer"]:has(._gemini_1j2q4_140)
+workspace.google.com##section[data-module="TemplateLocalizedModuleContainer"]:has(._gemini_1j2q4_140) + [data-module="TemplateSpacer"]
+
 ! ===========
 ! == Gmail ==
 ! ===========
