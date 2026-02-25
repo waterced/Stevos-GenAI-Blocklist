@@ -756,6 +756,8 @@ docs.google.com###content-library-rail-image-synthesis-element, #content-library
 docs.google.com##div.goog-toolbar-button.appsFlixPluginsTimelineAudioItemToolbarButton[data-tooltip="Generate a voiceover"]
 ! Upgrade sticky banner
 docs.google.com###docs-banner-container:has-text("Upgrade to elevate your videos with AI custom clips with Veo, voiceovers, and more")
+! Popup promo for video generation in top right
+docs.google.com###video-generation-promo
 
 ! ======================
 ! == Google Workspace ==
