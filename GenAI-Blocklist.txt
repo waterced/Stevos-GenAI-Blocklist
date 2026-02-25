@@ -658,14 +658,14 @@ developers.google.com##devsite-search-summary
 ! =================
 ! == Google Docs ==
 ! =================
-! The filters below may only apply to accounts with an Google AI Pro subscription
+! These filters only apply to accounts with a Google AI Plus/Pro subscription
 
 ! -- https://docs.google.com/create
 ! "Listen to this tab" icon in header toolbar
 docs.google.com###textToSpeechToolbarButton
 ! "Help me write" icon in floating menu
 docs.google.com##.superfab-aitextgeneratormenu-button
-! Header > Gemini button (Replaces "Try Gemini" if you have subscribed to Google AI)
+! Header > Gemini button (Replaces "Try Gemini" button)
 docs.google.com###docs-sidekick-button-container
 ! "Insert" > "Audio buttons" in menubar
 ! Two label checks to catch placeholder during page load and finalized button
@@ -678,7 +678,7 @@ docs.google.com##.apps-menuitem:has(.goog-menuitem-label[aria-label="Gemini 2"])
 ! ==================
 ! == Google Drive ==
 ! ==================
-! The filters below may only apply to accounts with an Google AI Pro subscription
+! These filters only apply to accounts with a Google AI Plus/Pro subscription
 
 ! -- https://drive.google.com/drive/my-drive
 ! "Ask Gemini" icon in header
@@ -766,7 +766,7 @@ mail.google.com##.jKzJCd
 
 ! -- Search (https://mail.google.com/mail/u/0/#search/test)
 ! AI Overview for search
-! Only shown for AI Pro subscribers
+! Only shown to accounts with a Google AI Plus/Pro subscription
 mail.google.com##.JLWipf
 
 ! ==========
