@@ -658,6 +658,8 @@ docs.google.com###content-library-rail-image-synthesis-element, #content-library
 ! Bottom timeline - Generate audio button
 ! Appears when selecting an audio track on the timeline
 docs.google.com##div.goog-toolbar-button.appsFlixPluginsTimelineAudioItemToolbarButton[data-tooltip="Generate a voiceover"]
+! Upgrade sticky banner
+docs.google.com###docs-banner-container:has-text("Upgrade to elevate your videos with AI custom clips with Veo, voiceovers, and more")
 
 ! ===================
 ! == Google Gemini ==
