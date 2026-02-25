@@ -85,6 +85,15 @@ old.reddit.com##body.subreddits-page > .content > #siteTable > .thing.subreddit:
 squareup.com###q-messenger-frame[title="Qualified Messenger"]
 
 ! ===============
+! == The Verge ==
+! ===============
+! -- https://www.theverge.com/
+! "AI" category in header
+www.theverge.com##._1wnt6o3v._1wnt6o3r._1wnt6o3l.urbcaf0:has(> [href="https://www.theverge.com/ai-artificial-intelligence"])
+! "AI" category in header menu (☰)
+www.theverge.com##._1sdloqz0:has(> [aria-label="Collapse 'AI' Section"])
+
+! ===============
 ! == X/Twitter ==
 ! ===============
 ! -- Posts by Grok
