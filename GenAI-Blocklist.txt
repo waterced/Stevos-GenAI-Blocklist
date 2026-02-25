@@ -655,6 +655,23 @@ developers.google.com##.devsite-concierge-ai-panel--menu-item
 ! "AI Powered" results
 developers.google.com##devsite-search-summary
 
+! ==================
+! == Google Drive ==
+! ==================
+! The filters below may only apply to accounts with an Google AI Pro subscription
+
+! -- https://drive.google.com/drive/my-drive
+! "Ask Gemini" icon in header
+drive.google.com###WWNEkf
+! "Summarize this file" in selection bar above files after selecting a file (Also matches "Catch me up")
+drive.google.com##.SMHH7
+! "Summarize this folder/file" in file "More actions" menu (⋮)
+! TODO: Fix arrow key navigation. (:remove() doesn't fix it)
+drive.google.com##.h-v[role="menuitem"]:has(.Nsw7Y)
+drive.google.com##.h-v[role="menuitem"]:has(.Nsw7Y) + .h-Yo[role="separator"]
+! "Summarize this file" when hovering over file icon
+drive.google.com##.oaTPh
+
 ! =================
 ! == Google Vids ==
 ! =================
