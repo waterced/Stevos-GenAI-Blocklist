@@ -641,10 +641,9 @@ developers.google.com##.devsite-concierge-ai-panel--menu-item
 developers.google.com##devsite-search-summary
 
 ! =================
-! == Google Docs ==
+! == Google Vids ==
 ! =================
-! -- Google Vids
-! - "Start a new video" page (https://docs.google.com/videos/u/0/create)
+! -- "Start a new video" page (https://docs.google.com/videos/u/0/create)
 ! "Let's start creating" intro popup - infocards ("Storyboard", "Veo", "AI Avatar")
 docs.google.com##.appsDocsGettingStartedEntryPointSelectionViewButton:is(.sketchysmith, .videogen, .avatars)
 ! Bottom promo bar to buy Google AI
@@ -653,7 +652,7 @@ docs.google.com###getting-started-recommendation-banner-container[data-recommend
 ! Convert Slides > Select Presentation > disable "Include AI" checkbox
 docs.google.com##.punch-importslides-ai-toggle-label > div.punch-importslides-ai-toggle > div.apps-ui-material-slide-toggle-container:watch-attr(apps-ui-material-slide-toggle-container):remove-class(apps-ui-material-slide-toggle-container-checked)
 
-! - Editing a blank video (https://docs.google.com/videos/u/0/create)
+! -- Editing a blank video (https://docs.google.com/videos/u/0/create)
 ! Right sidebar > "Generate", "Avatar", "Voiceover", & "Veo" buttons
 docs.google.com###content-library-rail-image-synthesis-element, #content-library-rail-avatars-element, #content-library-rail-voiceovers-element, #content-library-rail-video-generation-element
 ! Bottom timeline - Generate audio button
