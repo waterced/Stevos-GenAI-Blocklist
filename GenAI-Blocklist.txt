@@ -615,6 +615,13 @@ analytics.google.com##gmp-suggestion-dropdown > .ng-star-inserted:has(> .suggest
 ! Insights button in report header
 analytics.google.com##ga-toolbar-icon-button-component.ga-intelligence-button
 
+! =================
+! == Google Blog ==
+! =================
+! -- https://blog.google/search/?query=Why+am+I+here
+! AI summary in search
+blog.google##uni-search-ai-summary
+
 ! ==================
 ! == Google Cloud ==
 ! ==================
