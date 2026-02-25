@@ -1216,6 +1216,13 @@ askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com#
 askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.s-sidebarwidget--item:has(svg.iconPencilSm)
 askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.s-sidebarwidget--item:has(svg.iconPencilSm):remove()
 
+! -- Beta homepage (https://beta.stackoverflow.com/)
+! "AI Assist" text prompt
+beta.stackoverflow.com##.d-flex.g8.mb12
+beta.stackoverflow.com##.wmx7.w100.mb24
+! "AI Assist" button in left sidebar
+beta.stackoverflow.com##.s-navigation > li:has(> [href="/ai-assist"])
+
 ! =========================
 ! == Stack Overflow Blog ==
 ! =========================
