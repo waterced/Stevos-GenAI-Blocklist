@@ -764,6 +764,11 @@ mail.google.com##.eLNZDd[command="sdt"]:remove()
 ! Note: Typing '/' as the first typed character is sometimes blocked by the AI shortcut.
 mail.google.com##.jKzJCd
 
+! -- Search (https://mail.google.com/mail/u/0/#search/test)
+! AI Overview for search
+! Only shown for AI Pro subscribers
+mail.google.com##.JLWipf
+
 ! ==========
 ! == Grok ==
 ! ==========
