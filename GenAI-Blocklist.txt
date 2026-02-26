@@ -65,11 +65,11 @@ photoshop.adobe.com##.genAICards
 ! * Alternate country domains from https://gist.github.com/noraworld/0ee7af8b6b068d5d7b6d97caded18bab
 ! * We define countries explicitly instead of using a wildcard (*) to support uBlock Origin Lite
 
-! -- Homepage (https://www.amazon.com/)
+! -- https://www.amazon.com/ (homepage)
 ! "Rufus" button in top navbar
 www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.co.za,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.ie,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg###nav-rufus-disco
 
-! -- Product page (https://www.amazon.com/Celeste-Nintendo-Switch-Digital-Code/dp/B079Z1LPSP)
+! -- https://www.amazon.com/Celeste-Nintendo-Switch-Digital-Code/dp/B079Z1LPSP (Product page)
 ! "Ask Rufus" suggestions below product image
 www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.co.za,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.ie,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg###nile-inline_feature_div
 ! "Ask rufus or search reviews" section above user reviews ("ie: Looking for specific info?")
@@ -81,7 +81,7 @@ www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.
 ! ===========
 ! == Baidu ==
 ! ===========
-! -- Homepage (https://www.baidu.com/)
+! -- https://www.baidu.com/
 ! "Wenxin" tab in top navbar
 www.baidu.com###csaitab
 ! "Ask Wenxin" button in search bar
@@ -91,7 +91,7 @@ www.baidu.com##.panel-list_8jHmm
 ! AI hyperlink in logo (Added during Chinese New Year 2026)
 www.baidu.com##area[href^="//chat.baidu.com/"]:remove()
 
-! -- Search results (https://www.baidu.com/s?wd=Test)
+! -- https://www.baidu.com/s?wd=Test (Search results)
 ! "Wenxin" tab in navbar below search bar
 www.baidu.com##.s-tab-csaitab
 ! AI summary + Question suggestions
@@ -100,7 +100,7 @@ www.baidu.com##div.dqa-aiAsk-wrap_5W1GG
 ! "Ask Wenxin" button in right sidebar
 www.baidu.com###ai-accompanies-height-container
 
-! -- Mobile search results (https://www.baidu.com/from=844b/s?word=test&ms=1)
+! -- https://www.baidu.com/from=844b/s?word=test&ms=1 (Mobile search results)
 ! "Wenxin" tab in navbar below search box
 www.baidu.com##.se-main-tab-item[data-pd="csaitab"]
 ! TODO: Filter AI summary box
@@ -109,7 +109,7 @@ www.baidu.com##.se-main-tab-item[data-pd="csaitab"]
 ! ==========
 ! == Bing ==
 ! ==========
-! -- Homepage (https://www.bing.com/)
+! -- https://www.bing.com/ (Homepage)
 ! "Copilot" tab in header on the left
 www.bing.com###codex
 ! "Chat" button to the left of search bar (Possibly removed?)
@@ -119,7 +119,7 @@ www.bing.com##.cdxCopilotIconBg
 ! "Image creator" and "Video creator" buttons below search bar
 www.bing.com###aitools
 
-! -- Search results (https://www.bing.com/search?q=You%20ever%20wonder%20why%20we%27re%20here%3F&)
+! -- https://www.bing.com/search?q=You%20ever%20wonder%20why%20we%27re%20here%3F& (Search results)
 ! Copilot "Search" tab in navbar below search bar
 www.bing.com###b-scopeListItem-copilotsearch
 ! "Copilot" tab in navbar below search bar
@@ -132,7 +132,7 @@ www.bing.com###b_copilot_search_container
 ! =============
 ! == Bold BI ==
 ! =============
-! -- Homepage (https://www.boldbi.com/)
+! -- https://www.boldbi.com/ (Homepage)
 ! "AI-Powered Analytics" sticky banner at top of page
 www.boldbi.com##.new-feature-banner.elementor-element-61515ce1
 ! Products > "AI-Powered Analytics" in navbar menu
@@ -156,6 +156,7 @@ www.boldbi.com###boldchat-host
 ! == Boorus (NSFW) ==
 ! ===================
 ! Imageboards categorized by tag. Filters can be generalized.
+
 ! Images with AI tags
 donmai.moe,donmai.us##.post-preview:has(img:is([title~="ai"], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated"], [title~="ai_art"], [title~="ai_assisted"], [title~="ai_generated"], [title~="ai_voice"]))
 gelbooru.com##.thumbnail-preview:has(img:is([title~="ai"], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated"], [title~="ai_art"], [title~="ai_assisted"], [title~="ai_generated"], [title~="ai_voice"]))
@@ -179,11 +180,11 @@ rule34video.com##.button_fav.ai
 ! ==================
 ! == Brave Search ==
 ! ==================
-! -- Homepage (https://search.brave.com/)
+! -- https://search.brave.com/ (Homepage)
 ! Purple "Ask" button in search bar
 search.brave.com###submit-llm-button
 
-! -- Search (https://search.brave.com/search?q=Why+are+we+here)
+! -- https://search.brave.com/search?q=Why+are+we+here (Search results)
 ! "Ask" tab in navbar
 search.brave.com###primary-tabs > li.tab-item:has(> a[href^="/ask"])
 ! AI Answer
@@ -202,7 +203,7 @@ dictionary.cambridge.org##.lbb.lb-cm.hlh21:has(> [href="/assistant"])
 ! == Canva ==
 ! ===========
 ! "Enahnce with AI" button
-! -- Templates (https://www.canva.com/templates)
+! -- https://www.canva.com/templates (Templates)
 ! Above searchbar - AI button
 www.canva.com##div.GLyNIw.zAWjSA:nth-of-type(3) > .LuBWVA.EC2pjw.BMOCzQ > .vFBXLA.YnfReg.a1ZYkQ.LuBWVA.FQ64gg._6Mu4Ow.EC2pjw.aysH_g._4tv94w.BMOCzQ.wbdPFQ.PuABGQ
 ! Loading placeholder for the above AI button
@@ -213,7 +214,7 @@ www.canva.com##div.BMOCzQ.EC2pjw.LuBWVA:has(div#assistant)
 ! =============
 ! == ChatGPT ==
 ! =============
-! -- Main page (logged-in) (https://chatgpt.com/)
+! -- https://chatgpt.com/ (Main page - logged-in)
 ! Chat window
 chatgpt.com##main.min-h-0.flex-1[id="main"] > div.group\/thread[id="thread"] > div[role="presentation"]
 ! Left sidebar - expanded (minus account settings)
@@ -250,7 +251,7 @@ www.computerworld.com##.section-block--announcementbar:has(.reset-button)
 ! ================
 ! == DeviantArt ==
 ! ================
-! -- Homepage (https://www.deviantart.com/)
+! -- https://www.deviantart.com/ (Homepage)
 ! Header > "DreamUp"
 www.deviantart.com##a.reset-link.Sd_t0H
 ! AI Art tag
@@ -258,17 +259,17 @@ www.deviantart.com##a.reset-link.ds-card.pU_pB9.L4TOyE[href="https://www.deviant
 ! Left sidebar - DreamUp
 www.deviantart.com##div.IlpLyK.NtBF_m:has(a.reset-link.PxZapP[href="https://www.deviantart.com/dreamup"])
 
-! -- Daily Challenge (https://www.deviantart.com/tag/puzzle)
+! -- https://www.deviantart.com/tag/puzzle (Tag marked for daily challenge)
 ! "Create Art" > "Create with DreamUp"
 www.deviantart.com##a#_R_pel4qH1_-option-0[href*="https://www.deviantart.com/dreamup"]
 ! "Create Art" > "Create with Draw" > Prompt box
 www.deviantart.com##div.Ey5HOr.jcpWS7.ZiBWJn:has(> textarea#positivePrompt)
 
-! -- Tag page (https://www.deviantart.com/tag/background)
+! -- https://www.deviantart.com/tag/background (Tag)
 ! "Create Art" > "Create with DreamUp"
 www.deviantart.com##a.reset-link[href^="https://www.deviantart.com/dreamup"]
 
-! -- Deviation page (example is AI image) (https://www.deviantart.com/megalevance/art/Untitled-959302716)
+! -- https://www.deviantart.com/megalevance/art/Untitled-959302716 (Deviation page for AI image)
 ! Bottom promo banner, sometimes has a DreamUp ad
 ! TODO: Allow non-DreamUp promos
 www.deviantart.com##div.VS2KXS.KQfkEY
@@ -277,14 +278,14 @@ www.deviantart.com##a.reset-link.Qnm9x2
 ! Hide image if "Created using AI tools" notice exists
 www.deviantart.com##.usPswk:has-text("Created using AI tools"):upward(3) > .ymztWQ
 
-! -- Shop (https://www.deviantart.com/shop)
+! -- https://www.deviantart.com/shop (Shop)
 ! "DreamUp and earn big with AI" section
 www.deviantart.com##section.ail3hi
 
 ! =============
 ! == Dropbox ==
 ! =============
-! -- Main page - logged out (https://www.dropbox.com/)
+! -- https://www.dropbox.com/ (Main page - logged out)
 ! Header - "Meet Dropbox Dash" sticky promo
 ! We have 2 rules to hide and remove. Hide is immediate, but it leaves a gap. Remove is slower, but gets rid of the gap.
 www.dropbox.com##div._banner_1ozs8_1:has(> a.dwg-text[data-trackingid="dwg_banner_plank-b6fbc6399b__meet-dropbox-dash-your-new-ai-teammate--1"])
@@ -306,7 +307,7 @@ www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text
 www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__reclaimai--15"])
 www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__ai-principles--33"])
 
-! -- Home - Logged in (https://www.dropbox.com/home)
+! -- https://www.dropbox.com/home (Home - Logged in)
 ! TODO: Block AI feature promo notices that appear upon initial login. (Seemingly do not re-appear for a given account after being dismissed)
 ! Left sidebar > More > AI features
 ! TODO: Unclear if Dash's AI file search should be blocked. May not count as genAI? Will need investigation)
@@ -316,7 +317,7 @@ www.dropbox.com##.oa-pulsar-effect-WAFFLE_RECLAIM
 ! ================
 ! == DuckDuckGo ==
 ! ================
-! -- Homepage (https://duckduckgo.com/)
+! -- https://duckduckgo.com/ (Homepage)
 ! Search box - AI mode toggle
 duckduckgo.com##.ai-searchbox_modeSelectorWrapper__yKK7S
 ! Header > "Duck.ai"
@@ -328,7 +329,7 @@ duckduckgo.com##.sideMenu_sectionLink__2zUPb[href="https://duck.ai/?origin=funne
 !       blocked, so users may get redirected if they unknowingly press the key combo.
 duckduckgo.com##.search-input_duckAiSubmitWrapper__yHJMl
 
-! -- Search page (https://duckduckgo.com/?q=what+is+a+snow+emergency)
+! -- https://duckduckgo.com/?q=what+is+a+snow+emergency (Search results)
 ! Navbar > "Duck.ai" button
 duckduckgo.com##a.Pd_jmhkZzftl0UtTaw0u[href*="&ia=chat"]
 ! Navbar > "Search Assist" button
@@ -345,13 +346,13 @@ duckduckgo.com##[data-layout="wikinlp"]
 ! ============
 ! == Ecosia ==
 ! ============
-! Homepage (https://www.ecosia.org/)
+! -- https://www.ecosia.org/ (Homepage)
 ! "AI Search" button in header bar
 www.ecosia.org##[data-test-id="ai-search-button"]
 ! "AI Search" button in search bar
 www.ecosia.org##button[data-test-id="omnibox-search-form-ai-search"]
 
-! Search results (https://www.ecosia.org/search?q=test)
+! -- https://www.ecosia.org/search?q=test (Search results)
 ! "AI Search" & separator in navbar below search bar
 www.ecosia.org##.search-navigation__item[data-test-id="search-navigation-item-ai_search"]
 www.ecosia.org##.search-navigation__divider:has(+ .search-navigation__item[data-test-id="search-navigation-item-ai_search"])
@@ -359,11 +360,11 @@ www.ecosia.org##.search-navigation__divider:has(+ .search-navigation__item[data-
 ! ==============
 ! == Facebook ==
 ! ==============
-! -- Main page (logged out) (https://www.facebook.com/)
+! -- https://www.facebook.com/ (Main page - logged out)
 ! Footer - "Meta AI" and "Meta AI more content"
 www.facebook.com##.pageFooterLinkList > li:has(a[href^="https://www.meta.ai/"])
 
-! -- Homepage (logged in) (https://www.facebook.com/)
+! -- https://www.facebook.com/ (Main feed - logged in)
 ! - Top navbar > Menu > More from Meta ("Meta AI" and "Chat with AIs")
 ! Note: The "Meta AI" button changes href when hovered with mouse cursor, so we use `*=` instead of `^=`
 www.facebook.com##div[role="listitem"] > div > div > a:is([href*="www.meta.ai"], [href^="https://aistudio.facebook.com/"])
@@ -377,19 +378,19 @@ www.facebook.com##div.xwib8y2.x1y1aw1k > div > ul.x1hc1fzr > li > div > div > di
 ! Compose post > Generate images button
 www.facebook.com##div[aria-label="Generate images using AI"]
 
-! -- Menu (mobile) (https://www.facebook.com/bookmarks/)
+! -- https://www.facebook.com/bookmarks/ (Mobile menu)
 ! "Also From Meta" > "Meta AI" button
 ! TODO: Leaves a blank space, requires editing height of parent container
 www.facebook.com##[data-type="container"]:has(> .nb > [role="button"][aria-label="Meta AI"])
 
-! -- Post - logged out (https://www.facebook.com/groups/derbyposting/posts/1415634490032194/)
+! -- https://www.facebook.com/groups/derbyposting/posts/1415634490032194/ (Group post - logged out)
 ! - AI post summary
 www.facebook.com##div:not([class]):has( > .x1g0dm76.xpdmqnj > .x1120s5i.xyamay9.x1n2onr6 > .html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x78zum5.x1n2onr6.xh8yej3)
 
 ! ============
 ! == Fandom ==
 ! ============
-! -- Article page (https://avatar.fandom.com/wiki/Aang)
+! -- https://avatar.fandom.com/wiki/Aang (Article)
 ! Quick Answers - appears below contents box
 fandom.com##section.trfc161
 
@@ -413,7 +414,7 @@ gitbook.com##button[aria-label="GitBook Assistant"]:remove()
 ! ============
 ! == GitHub ==
 ! ============
-! -- Homepage (logged in) (https://github.com/)
+! -- https://github.com/ (Homepage - logged in)
 ! "Chat with Copilot" icon in header next to search bar
 github.com##div.prc-ButtonGroup-ButtonGroup-vFUrY:has(> div > a[type="button"][href="/copilot"])
 ! "Copilot" button in left hamburger menu (≡)
@@ -426,17 +427,17 @@ github.com##.ActionList-sectionDivider:has(+ .ActionList-sectionDivider > [role=
 ! Changelog posts containing "Copilot" in right sidebar
 github.com##.dashboard-changelog .TimelineItem:has-text("Copilot")
 
-! -- Homepage with "New Dashboard Experience" enabled via "Feature Preview"
+! - With "New Dashboard Experience" is enabled via "Feature Preview"
 ! "Open in Copilot chat" icon that appears when hovering over pull requests and issues.
 github.com##.DashboardListView-module__contextBubbleMenu__q0zmI:has(> button > svg.octicon-copilot)
 
-! -- "Command Palette" enabled via "Feature Preview"
+! - With "Command Palette" enabled via "Feature Preview"
 ! Copilot menu option
 ! Use :remove() to fix arrow key navigation.
 github.com##command-palette-item[data-item-title="Copilot"]
 github.com##command-palette-item[data-item-title="Copilot"]:remove()
 
-! -- File view (https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
+! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt (File view)
 ! "Ask Copilot about this file" button - Copilot logo in header bar above file contents
 github.com###blob-view-header-copilot-icon
 ! "Ask Copilot about this snippet" button that appears after selecting lines in file view
@@ -454,25 +455,25 @@ github.com##.prc-UnderlineNav-UnderlineNavItem-syRjR:has(> a[href*="/agents?"])
 !       To prevent this, users would need to change their GitHub account settings.
 github.com##.prc-Button-IconButton-fyge7.prc-components-Invisible-bKOcl.prc-Button-ButtonBase-9n-Xk
 
-! -- New issue page (https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues/new)
+! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues/new (New issue page)
 ! - "Write with Copilot" below issue description
 ! Doesn't always appear. May be limited to issues from repository owner?
 ! The end of class name changed from "__RL1TZUq" to "__eCAAR". Is it dynamic?
 github.com##.Footer-module__footerButtonWrapper__RL1TZUq, .Footer-module__footerButtonWrapper__eCAAR
 
-! -- Copilot features in account settings (https://github.com/settings/copilot/features)
+! -- https://github.com/settings/copilot/features (Copilot features in account settings)
 ! Promo banner for GitHub Copilot (Doesn't appear for all users)
 github.com##.start-copilot-banner
 ! "Getting started" checklist section
 github.com##[data-testid="copilot-free-user-checklist"]
 
-! -- Pull request (https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/pull/13)
+! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/pull/13 (Pull request)
 ! "Copilot" promo when adding reviewers via gear icon
 github.com##[partial-name="copilot-assisted-review-upsell"]
 ! "Code with agent mode" under "Development" section in sidebar
 github.com##.DevelopmentSection-module__developmentSectionContainer__fplqG
 
-! -- Pull request file view (https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/pull/15/files)
+! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/pull/15/files (Viewing changed files of a pull request)
 ! "Ask Copilot" button next to "Review" button
 github.com##[partial-name="copilot-code-chat"]
 ! "Ask Copilot about this file diff" icon that appears when hovering over diff
@@ -480,7 +481,7 @@ github.com##.DiffLinesMenu-module__diff-button-container__vsLlS:has([data-testid
 ! "Ask Copilot about this diff" in action menu (...)
 github.com##[data-target="copilot-diff-entry.menuItemsSlot"]
 
-! -- Viewing commit (https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/commit/0a4ba065e2b4e5b5ee60b23e6d01621561343af4)
+! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/commit/0a4ba065e2b4e5b5ee60b23e6d01621561343af4 (Viewing commit)
 ! "Copilot" section in menu that appears when hitting ▾ in code diff. (ie: "Ask about this diff")
 ! Use :remove() to fix arrow key navigation.
 github.com##[role="menuitem"]:has(.octicon-copilot)
@@ -488,11 +489,11 @@ github.com##[role="menuitem"]:has(.octicon-copilot):remove()
 github.com##[role="menuitem"]:has(.octicon-copilot) + [data-component="ActionList.Divider"]
 github.com##[role="menuitem"]:has(.octicon-copilot) + [data-component="ActionList.Divider"]:remove()
 
-! -- Failed workflow job (https://github.com/zloirock/core-js/actions/runs/22272347580/job/64429009933)
+! -- https://github.com/zloirock/core-js/actions/runs/22272347580/job/64429009933 (Failed workflow job)
 ! "Explain error" button
 github.com##[data-test-id="copilot-actions-chat-button"]
 
-! -- Homepage (logged out) (https://github.com/home)
+! -- https://github.com/home (Homepage - logged out)
 ! Header - Platform >  "AI Code Creation" section
 ! Note: This filter might hide more than intended if the Copilot button gets moved to a column with non-ai features
 github.com##li:has(> div[class^="NavGroup-module__group"] a[href="https://github.com/features/copilot"])
@@ -510,13 +511,14 @@ github.com###automation > .lp-SectionTemplate > .lp-SectionBlock > .lp-SectionBl
 github.com##.Link--secondary[href="/features/copilot"]
 github.com##.Link--secondary[href="/features/ai"]
 
-! -- (https://github.com/features/ai)
+! -- https://github.com/features/ai
 ! Block all but header and footer
 github.com##react-app[app-name="landing-pages"][initial-path="/features/ai"]
 
 ! =================
 ! == GitHub Blog ==
 ! =================
+! -- https://github.blog/
 ! Header - "Try Copilot" button
 github.blog##.Button[href="https://github.com/features/copilot"]
 
@@ -537,7 +539,7 @@ github.dev##.codicon-preferences-ai-results
 ! =================
 ! == GitHub Docs ==
 ! =================
-! -- (https://docs.github.com/)
+! -- https://docs.github.com/
 ! - "Ask Copilot" autocomplete suggestions in search bar + divider
 docs.github.com##.prc-ActionList-Divider-rsZFG
 docs.github.com##[data-testid="ai-autocomplete-suggestions"]
@@ -550,7 +552,7 @@ docs.github.com##.ArticleList_linkItem__9__Qg:has( > [href$="/copilot/how-tos/ge
 docs.github.com##.SearchBarButton_searchInputButton__nAE_3[aria-label="Search or ask Copilot"] > div > span > span > svg.octicon-copilot
 docs.github.com##.SearchBarButton_searchInputButton__nAE_3[aria-label="Search or ask Copilot"] > div > span > span > span:nth-of-type(2)
 
-! -- (https://docs.github.com/?search-overlay-open=true)
+! -- https://docs.github.com/?search-overlay-open=true (Search page)
 ! - Search bar placeholder text "Search or ask Copilot"
 ! If this filter list has been added to 'trustedListPrefixes' in uBlock Origin's advanced settings
 ! and the search bar text is in English, change the placeholder text to "Search"
@@ -561,7 +563,7 @@ docs.github.com##input[aria-controls="search-suggestions-list"][placeholder*="Co
 ! ============
 ! == GitLab ==
 ! ============
-! -- About page (about.gitlab.com)
+! -- https://about.gitlab.com/ (About page)
 ! Sticky promo banner for "See how agentic AI transforms software delivery: Watch GitLab Transcend now"
 about.gitlab.com##.banner:has([data-ga-name="transcend event"])
 ! Promo card for "GitLab Duo Agent Platform"
@@ -571,7 +573,7 @@ about.gitlab.com##.card.card-1.gitlab-duo
 ! Footer - AI features
 about.gitlab.com##[data-ga-name="ai-assisted development"], [data-ga-name="ai for coding"], [data-ga-name="agentic ai"]
 
-! -- Homepage (logged in) (https://gitlab.com/)
+! -- https://gitlab.com/ (Homepage - logged in)
 ! "GitLab Duo Agent Platform" in left sidebar
 ! Blocks both the button to open Duo panel and the panel itself
 gitlab.com##.ai-panels
@@ -584,7 +586,7 @@ gitlab.com##div.gl-p-3.gl-pb-5.featured-carousel
 ! Summarize this email, sometimes appears at top of messages
 mail.google.com##div.eJPjde
 
-! -- Inbox (https://mail.google.com/mail/)
+! -- https://mail.google.com/mail/ (Inbox)
 ! Remove sparkle from search icon (Requires trusted filter list)
 mail.google.com##+js(trusted-set-attr, .gb_Oe.gb_Pe.bEP > svg, viewBox, 0 0 24 24)
 mail.google.com##+js(trusted-set-attr, .gb_Oe.gb_Pe.bEP > svg > path, d, "M20.49,19l-5.73-5.73C15.53,12.2,16,10.91,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.41,0,2.7-0.47,3.77-1.24L19,20.49L20.49,19z M5,9.5C5,7.01,7.01,5,9.5,5S14,7.01,14,9.5S11.99,14,9.5,14S5,11.99,5,9.5z")
@@ -599,7 +601,7 @@ mail.google.com##.eLNZDd[command="sdt"]:remove()
 ! Note: Typing '/' as the first typed character is sometimes blocked by the AI shortcut.
 mail.google.com##.jKzJCd
 
-! -- Search (https://mail.google.com/mail/u/0/#search/test)
+! -- https://mail.google.com/mail/u/0/#search/test (Search)
 ! AI Overview for search
 ! Only shown to accounts with a Google AI Plus/Pro subscription
 mail.google.com##.JLWipf
@@ -623,7 +625,7 @@ google.com##[data-rp-placement-id="gemkick-pep-icon-callout-id"]
 ! =====================
 ! == Google (search) ==
 ! =====================
-! -- Homepage (https://www.google.com/)
+! -- https://www.google.com/ (Homepage)
 ! Search bar > "AI Mode" button
 www.google.com,www.google.co.jp,www.google.com.hk##button[jsname="B6rgad"]
 ! Footer - "Applying AI towards science and the environment"
@@ -635,7 +637,7 @@ www.google.com,www.google.co.jp,www.google.com.hk###LS8OJ > .k1zIA.kKvsb > a[hre
 ! Promo text below search bar mentioning AI
 www.google.com,www.google.co.jp,www.google.com.hk##promo-middle-slot:has-text("/\bAI\b/")
 
-! -- Search results (https://www.google.com/search?q=Why+is+this)
+! -- https://www.google.com/search?q=Why+is+this (Search results)
 ! Navbar > "AI Mode" tab
 www.google.com,www.google.co.jp,www.google.com.hk##div[role="listitem"][jsname] > div > div.olrp5b
 ! Backup filter
@@ -710,7 +712,7 @@ blog.google##uni-search-ai-summary
 ! ==================
 ! == Google Cloud ==
 ! ==================
-! -- (logged in) (https://console.cloud.google.com/welcome)
+! -- https://console.cloud.google.com/welcome (Logged in)
 ! "Gemini Cloud Assist chat" button in header bar
 console.cloud.google.com###pcc-duet-chat-container
 ! - "Cloud Assist" side panel
@@ -721,14 +723,14 @@ console.cloud.google.com##.pcc-zero-state-products > .ng-star-inserted:has(searc
 ! ====================================
 ! == Google Developer Documentation ==
 ! ====================================
-! -- Documentation page (https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema)
+! -- https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema (Documentation page)
 ! "Page Summary"
 developers.google.com##devsite-key-takeaways-panel
 ! Left sidebar > "Chat"
 ! IE: Ask About this Page
 developers.google.com##.devsite-concierge-ai-panel--menu-item
 
-! -- Search results (https://developers.google.com/s/results?q=API%20Call%20Structure&text=API%20Call%20Structure)
+! -- https://developers.google.com/s/results?q=API%20Call%20Structure&text=API%20Call%20Structure (Search results)
 ! "AI Powered" results
 developers.google.com##devsite-search-summary
 
@@ -822,14 +824,14 @@ support.google.com##div.helpPanelContainerRoot
 ! =================
 ! == Google Vids ==
 ! =================
-! -- "Start a new video" page (https://docs.google.com/videos/u/0/create)
+! -- https://docs.google.com/videos/u/0/create ("Start a new video" window)
 ! "Let's start creating" intro popup - infocards ("Storyboard", "Veo", "AI Avatar")
 docs.google.com##.appsDocsGettingStartedEntryPointSelectionViewButton:is(.sketchysmith, .videogen, .avatars)
 ! Bottom promo bar to buy Google AI
 ! Element is removed instead of hidden to avoid empty space
 docs.google.com###getting-started-recommendation-banner-container[data-recommendation*="VIDS_GEN_AI_G1_PERSISTENT_UPSELL"]:remove()
 
-! -- Editing a blank video (https://docs.google.com/videos/u/0/create)
+! -- https://docs.google.com/videos/u/0/create (Editing a blank video)
 ! Right sidebar > "Generate", "Avatar", "Voiceover", & "Veo" buttons
 docs.google.com###content-library-rail-image-synthesis-element, #content-library-rail-avatars-element, #content-library-rail-voiceovers-element, #content-library-rail-video-generation-element
 ! Bottom timeline - Generate audio button
@@ -843,7 +845,7 @@ docs.google.com###video-generation-promo
 ! ======================
 ! == Google Workspace ==
 ! ======================
-! -- Promo page (https://workspace.google.com/)
+! -- https://workspace.google.com/ (Promo page)
 ! Navbar - AI
 workspace.google.com##nav > div[class^="_headerNavGroup_"]:has(> [data-g-action="ai"])
 ! "Premium AI built-in" section
@@ -852,7 +854,7 @@ workspace.google.com##div._innerGrid_1u063_113 > div._card_1u063_136:has-text("P
 ! Also blocks other cards advertising AI features
 workspace.google.com##gws-card-wrapper:is([href="/solutions/ai/"], [href="/products/notebooklm"])
 
-! -- https://workspace.google.com/intl/en-US/gmail/
+! -- https://workspace.google.com/intl/en-US/gmail/ (About Gmail)
 ! "Gmail is entering the Gemini era" promo banner in header
 workspace.google.com##section[data-module="TemplateLocalizedModuleContainer"]:has(._gemini_1j2q4_140)
 workspace.google.com##section[data-module="TemplateLocalizedModuleContainer"]:has(._gemini_1j2q4_140) + [data-module="TemplateSpacer"]
@@ -899,14 +901,14 @@ imgflip.com###gen-qa > p:has-text("Funny you ask. Why yes, we do. Here you go:")
 ! ======================
 ! == Insight Software ==
 ! ======================
-! -- Main page (logged in) (https://central.insightsoftware.com/)
+! -- https://central.insightsoftware.com/ (Main page - logged in)
 ! Virtual Assistant
 central.insightsoftware.com##iframe#forethought-chat
 
 ! ===============
 ! == Instagram ==
 ! ===============
-! -- Homepage (logged in) (https://www.instagram.com)
+! -- https://www.instagram.com (Homepage - logged in)
 ! Left sidebar > Create > AI
 www.instagram.com##.xt8cgyo.x13fuv20.x5ur3kl.xn3w4p2.x1nhvcw1.x1oa3qoh.x1qjc9v5.xqjyukv.xdt5ytf.x2lah0s.x1c4vz4f.xryxfnj.x1plvlek.x1uhb9sk.x1y1aw1k.xwib8y2.xf7dkkf.xv54qhq.xbiv7yw.x16uus16.x1ga7v0g.x15mokao.x78zum5.xjbqb8w.x9f619.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div
 ! Left sidebar > Also from meta > AI Studio
@@ -926,18 +928,18 @@ developerdocs.instructure.com##[data-testid="search-ask-question"]
 ! ===========
 ! == Jimdo ==
 ! ===========
-! -- Main page (https://www.jimdo.com/)
+! -- https://www.jimdo.com/
 ! "Companion AI" promo section
 www.jimdo.com###companion
 
 ! ==========
 ! == Kagi ==
 ! ==========
-! -- Homepage (https://kagi.com/)
+! -- https://kagi.com/
 ! Menubar > Apps (Assistant, Summarize, FastGPT)
 kagi.com##.nav-item-link:is([href="/assistant"], [href="/summarizer"], [href="/fastgpt"])
 
-! -- Search results (https://kagi.com/search?q=test)
+! -- https://kagi.com/search?q=test (Search results)
 ! "Quick Answer"
 kagi.com##button.quick-answer-trigger-link
 ! Search Result > Action Menu > Separator + "Quick Summary" + "Contine in Assistant"
@@ -946,9 +948,10 @@ kagi.com##.__sri_more_menu > .k_ui_dropdown_data_list > .list_items > :is(hr, ._
 ! ==============
 ! == LinkedIn ==
 ! ==============
-! -- Feed (logged in) (https://www.linkedin.com/feed/)
+! -- https://www.linkedin.com/feed/ (Feed - logged in)
 ! Start a post > "Rewrite with AI" button
 www.linkedin.com##.share-creation-state__writing-assistant-container--premium
+
 ! -- My Profile - Experience - Edit
 ! "Enahnce with AI" button
 www.linkedin.com##div.pvs-entity__secondary-action-container:has(svg[data-test-icon="premium-signal-ai-small"])
@@ -959,7 +962,7 @@ www.linkedin.com##div.pvs-entity__secondary-action-container:has(svg[data-test-i
 ! There are a few non-AI items that we don't want to block. (Search, Settings, etc)
 ! Unless stated otherwise, settings were tested on a Microsoft account with a corporate 365 subscription
 
-! -- Main chat page (https://m365.cloud.microsoft/)
+! -- https://m365.cloud.microsoft/ (Main chat page)
 ! Chat box + prompt suggestions
 m365.cloud.microsoft###chat-input-wrapper
 m365.cloud.microsoft##.___g910dn0 > .___xtcqig0
@@ -970,13 +973,13 @@ m365.cloud.microsoft##.fui-NavDrawerBody > [data-testid="core-modules-section"] 
 ! Sidebar > "Agents" & "Chats" sections
 m365.cloud.microsoft##.fui-NavDrawerBody > .___wvxaoh0.f22iagw.f1vx9l62.fnknrz3.f5yzyt
 
-! -- Search (https://m365.cloud.microsoft/search/)
+! -- https://m365.cloud.microsoft/search/ (Search)
 ! Copilot suggestions about files
 m365.cloud.microsoft##.EdgeworthItemControl-module__document-column__copilot-prompts__BhZZG
 ! "Open expanded view" sparkle icon. Appears next to some files.
 m365.cloud.microsoft##.EdgeworthItemControl-module__title-icon-button__UewmV
 
-! -- Main page (regular account, no 365 subscription) (https://m365.cloud.microsoft/)
+! -- https://m365.cloud.microsoft/ (Main page - Account with no 365 subscription)
 ! Sidebar - "Chat" & "Create" buttons
 m365.cloud.microsoft##div.fui-NavDrawerBody > div.___12uu7fi.f22iagw.f1vx9l62.f7e3wsx > #chat
 m365.cloud.microsoft##div.fui-NavDrawerBody > div.___12uu7fi.f22iagw.f1vx9l62.f7e3wsx > .___1vgvawp > div > div > button[aria-roledescription="Menu item"][aria-label="Create"]
@@ -984,7 +987,7 @@ m365.cloud.microsoft##div.fui-NavDrawerBody > div.___12uu7fi.f22iagw.f1vx9l62.f7
 ! ===============
 ! == Messenger ==
 ! ===============
-! -- Main page (logged in) (https://www.messenger.com/)
+! -- https://www.messenger.com/ (logged in)
 ! - Chats - Meta AI
 www.messenger.com##div[role="gridcell"] > div > a[role="link"][href="/t/156025504001094/"]
 
@@ -1004,7 +1007,7 @@ www.microsoft.com,cloud.microsoft##.c-list > li:has(> [href$="/ai?icid=DSM_Foote
 www.microsoft.com,cloud.microsoft##.c-list > li:has(> [href="https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98"])
 www.microsoft.com,cloud.microsoft##.c-list > li:has(> [href$="/education/ai-in-education"])
 
-! -- Homepage (https://www.microsoft.com/en-us)
+! -- https://www.microsoft.com/en-us
 ! Promotional banner for Copilot at top of page
 www.microsoft.com,cloud.microsoft###headerUniversalHeader > #epb:has(> .c-uhfh-alert > div > .c-paragraph > img[alt="Copilot logo"])
 ! Carousel that contains an AI promo.
@@ -1027,7 +1030,7 @@ www.microsoft.com##reimagine-featured:has(reimagine-heading-block#heading-block-
 ! Carousel - "Protecting biodiversity with AI" card
 www.microsoft.com##reimagine-carousel-item:has(a[data-bi-hn="Protecting biodiversity with AI"])
 
-! -- Search page (https://www.microsoft.com/en-us/search/explore?q=How+do+I+update+windows)
+! -- https://www.microsoft.com/en-us/search/explore?q=How+do+I+update+windows (Search results)
 ! "AI Overview"
 www.microsoft.com###ai-overview-container
 
@@ -1037,7 +1040,7 @@ www.microsoft.com##.uca-assistant-drawer-button, .uca-assistant-drawer-panel
 ! "Ask Microsoft" in middle of page
 www.microsoft.com##.chatgpt-banner
 
-! -- About Copilot (https://www.microsoft.com/en-us/microsoft-copilot/organizations/)
+! -- https://www.microsoft.com/en-us/microsoft-copilot/organizations/ (About Copilot)
 ! "Try Copilot Chat" in primary & secondary headers
 www.microsoft.com###c-shellmenu_custom_button_solid_newtab_tryCopilotChat_right
 www.microsoft.com##.btn[data-bi-ecn="Try Copilot Chat"]
@@ -1064,6 +1067,7 @@ portal.azure.com##.___koxvwx0_fue3jg0
 ! -- https://excel.cloud.microsoft/
 ! "Copilot in Excel" recomended template
 excel.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Excel null modern"])
+
 ! -- https://word.cloud.microsoft/
 ! "Copilot prompts for Word" recomended template
 word.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Word null modern simple"])
@@ -1079,24 +1083,24 @@ www.copilot.com##.pt-1.gap-0\.5.items-start.flex-col.flex.relative.pointer-event
 ! =====================
 ! == Microsoft Learn ==
 ! =====================
-! -- Homepage (https://learn.microsoft.com/en-us/)
+! -- https://learn.microsoft.com/en-us/
 ! "What can we help you with today?" prompt
 learn.microsoft.com##[data-assistant-on-homepage="enabled"]
 
-! -- Support article (https://learn.microsoft.com/en-us/visualstudio/get-started/visual-studio-ide)
+! -- https://learn.microsoft.com/en-us/visualstudio/get-started/visual-studio-ide (Support article)
 ! "Ask Learn" button
 learn.microsoft.com##[data-bi-name="ask-learn-assistant-entry"]
 ! "Summarize this article for me" button
 learn.microsoft.com##[data-id="ai-summary"]
 
-! -- Search results (https://learn.microsoft.com/en-us/search/?terms=test)
+! -- https://learn.microsoft.com/en-us/search/?terms=test (Search results)
 ! AI search summary
 learn.microsoft.com###search-answer
 
 ! ==============================
 ! == Microsoft Power Automate ==
 ! ==============================
-! -- Homepage (https://make.powerautomate.com/)
+! -- https://make.powerautomate.com/
 ! - "Create your automation with Copilot" prompt
 make.powerautomate.com##[data-automation-id="copilotBanner"]:upward(2)
 ! - Sidebar > "AI Hub" & "Prompts"
@@ -1138,7 +1142,7 @@ usc-powerpoint.officeapps.live.com###ChatPPT-group:upward(2)
 ! =====================
 ! == Microsoft Teams ==
 ! =====================
-! -- Main page (logged in) (https://teams.microsoft.com/v2/)
+! -- https://teams.microsoft.com/v2/ (logged in)
 ! Sidebar - Copilot button
 teams.microsoft.com###b5abf2ae-c16b-4310-8f8a-d3bcdb52f162
 ! Chat - Copilot button
@@ -1155,7 +1159,7 @@ teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 ! =========
 ! == MSN ==
 ! =========
-! -- Homepage (https://www.msn.com/)
+! -- https://www.msn.com/
 ! - Search bar - Copilot button
 ! Only applies to the "New MSN Homepage", which can be toggled in settings.
 www.msn.com##fluent-button#codex-bing-button
@@ -1165,7 +1169,7 @@ www.msn.com##.me-stripe-tile-content:has(> .me-stripe-tile-button[aria-label="Mi
 ! ===========
 ! == Pixiv ==
 ! ===========
-! -- Image page (https://www.pixiv.net/en/artworks/140381030)
+! -- https://www.pixiv.net/en/artworks/140381030 (Image page)
 ! Hide image if AI-generated tag is present
 pixiv.net##footer.sc-965e5f82-4.hvhvYg:has(a[href="https://www.pixiv.help/hc/articles/11866167926809"]):upward(4) > figure.sc-bf28ee48-2.kiQxQX
 
@@ -1178,18 +1182,18 @@ www.rambler.ru##.rc__788yz.rc__U-mRx.r-vvrm5f4e
 ! ============
 ! == Reddit ==
 ! ============
-! -- Main page (https://www.reddit.com/)
+! -- https://www.reddit.com/
 ! - "Ask" button in top search bar
 www.reddit.com##div.label-container > span.trailing-content-container.has-trailing-content
 www.reddit.com##div.label-container > hr.trailing-divider
 
-! -- Reddit Answers (https://www.reddit.com/answers/)
+! -- https://www.reddit.com/answers/ (Reddit Answers)
 ! Chatbox
 www.reddit.com##main#main-content > div#variant_2 > div > guides-search-input-base
 ! Question suggestions
 www.reddit.com##main#main-content > div#variant_2 > div > div.flex.flex-col.gap-xs:has(> div[aria-label="recommendations list"])
 
-! -- Search results (https://www.reddit.com/search/?q=ai)
+! -- https://www.reddit.com/search/?q=ai (Search results)
 ! - Answers section
 www.reddit.com##.relative.xs\:rounded-4.hover\:bg-neutral-background-hover.search-answers-preview-section
 
@@ -1199,14 +1203,14 @@ www.reddit.com##.relative.xs\:rounded-4.hover\:bg-neutral-background-hover.searc
 ! Can't block AI art from search because only a few image tags are present in the metadata.
 ! There are so many AI features on the site, these filters are a drop in the bucket ¯\_(ツ)_/¯
 
-! -- Homepage (after welcome prompt, logged out) (https://www.sankakucomplex.com/)
+! -- https://www.sankakucomplex.com/ (Homepage - after welcome prompt, logged out)
 ! Left sidebar (Companions & AI Creator)
 www.sankakucomplex.com##[class^="MuiButtonBase-root-"]:is([data-test="ai_companion"], [data-test="ai_art"])
 
 ! =============
 ! == Shopify ==
 ! =============
-! -- Homepage (logged out) (https://www.shopify.com/)
+! -- https://www.shopify.com/ (logged out)
 ! Header navbar > Why Shopify > Sidekick
 www.shopify.com##div.\[grid-area\:aside\] > ul > li:has(> a[href="/sidekick"])
 ! Header navbar > Products (Sidekick, AI Chats)
@@ -1217,7 +1221,7 @@ www.shopify.com##ul.\[grid-area\:items\] > li > ul.level3-container > li > a:is(
 !       that out seems like a lot of effort to preserve promotional materials, so I hid the whole section instead.  ¯\_(ツ)_/¯
 www.shopify.com##div.container:has(> div.flex > div.shadow-card > div > div > p.richtext > a[data-component-name="cta-magic"][href="/magic"])
 
-! -- Store Homepage (logged in) (https://admin.shopify.com/)
+! -- https://admin.shopify.com/ (Store homepage - logged in)
 ! Header - AI Chat button & placeholder box when page is loading
 admin.shopify.com##._ButtonWrapper_1zyxe_4
 admin.shopify.com##.Polaris-Box > .Polaris-InlineStack > ._Avatar_iv0hk_7
@@ -1229,11 +1233,11 @@ admin.shopify.com##._Sidebar_xdtqe_5
 !       Removing /themes would make it compatible, but I can't test without signing up for another Shopify free trial.
 online-store-web.shopifyapps.com##.Polaris-Layout__Section:has(._generationsContainer_8uqbi_1)
 
-! -- Website builder promo (https://www.shopify.com/website/builder)
+! -- https://www.shopify.com/website/builder (Website builder promo)
 ! "Create a custom website with AI" promo
 www.shopify.com##.hero-second-panel:has(a[data-component-name="ai-store-builder"])
 
-! -- Magic AI promo (https://www.shopify.com/magic)
+! -- https://www.shopify.com/magic (Magic AI promo)
 ! Block all sections except free trial
 www.shopify.com##main#main > section.grid-cols-full#magic-hero
 www.shopify.com##main#main > section.grid-cols-full#sidekick
@@ -1241,13 +1245,13 @@ www.shopify.com##main#main > section.grid-cols-full#interactive-features
 www.shopify.com##main#main > section.grid-cols-full#testimonials-section
 www.shopify.com##main#main > section.grid-cols-full#faq-section
 
-! -- AI business name generator (https://www.shopify.com/tools/business-name-generator)
+! -- https://www.shopify.com/tools/business-name-generator (AI business name generator)
 www.shopify.com##main#main > div > div.container:has-text("AI Business Name Generator"):has(> div.sm\:px-14.text-center.relative > a[href="/tools"])
 
 ! ============
 ! == Square ==
 ! ============
-! -- (logged in) (https://app.squareup.com/dashboard/)
+! -- https://app.squareup.com/dashboard/ (Dashboard -logged in)
 ! "Square AI" icon at bottom of left sidebar
 app.squareup.com##eh-market-tooltip:has(eh-market-button[data-testid="spotlight-mfe-button"])
 ! "Square AI" chat window
@@ -1266,25 +1270,25 @@ app.squareup.com##[data-testid="filter-AI"]
 ! "Ask Square AI" button on search with no results
 app.squareup.com##[data-testid="ask-square-ai-button"]
 
-! -- Create item (logged in) (https://app.squareup.com/dashboard/items/library/react/new)
+! -- https://app.squareup.com/dashboard/items/library/react/new (Create item - logged in)
 ! "Generate" button for customer-facing description
 app.squareup.com##._autoWriteCTA_6eccb5d
 
-! -- Create service (logged in) (https://app.squareup.com/dashboard/items/services/new)
+! -- https://app.squareup.com/dashboard/items/services/new (Create service - logged in)
 ! "Generate" button for description
 app.squareup.com##.item-library-edit__auto-write-button-wrapper
 
 ! ===================================
 ! == Stack Overflow/Stack Exchange ==
 ! ===================================
-! -- Homepage (logged in) (https://stackoverflow.com/)
+! -- https://stackoverflow.com/ (Homepage - logged in)
 ! AI Assist (Header + chatbox)
 stackoverflow.com###hide-this-if-you-want > div > div > div.d-flex.fd-column.as-start
 stackoverflow.com###mainbar > div.wmx7.w100.bg-white.mb24:has(textarea#ask-stack-initial-question)
 ! Left sidebar > AI Assist
 askubuntu.com,mathoverflow.net,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com###nav-askstack
 
-! -- Beta homepage (https://beta.stackoverflow.com/)
+! -- https://beta.stackoverflow.com/ (Beta homepage)
 ! "AI Assist" text prompt
 beta.stackoverflow.com##.d-flex.g8.mb12
 beta.stackoverflow.com##.wmx7.w100.mb24
@@ -1330,13 +1334,13 @@ www.tubegalore.com##.card:has([href*="/c/ai-generated"])
 ! "AI Generated" category in "Popular Categoires" section
 www.tubegalore.com##.items-baseline[href*="/c/ai-generated"]
 
-! -- Categories (https://www.tubegalore.com/az#)
+! -- https://www.tubegalore.com/az# (Categories)
 www.tubegalore.com##.category[href*="/c/ai-generated"]
 
 ! =========
 ! == UPS ==
 ! =========
-! -- Track a package (https://www.ups.com/track)
+! -- https://www.ups.com/track (Track a package)
 !  Bottom right - "Ask UPS" chat button & chat window
 ups.com###digital-assistant-launcher
 ups.com###WACContainer
@@ -1344,7 +1348,7 @@ ups.com###WACContainer
 ! ===========
 ! == Vimeo ==
 ! ===========
-! -- Homepage - promo materials (https://vimeo.com/)
+! -- https://vimeo.com/ (Homepage - promo materials)
 ! Navbar - Features > Platform > Vimeo AI
 vimeo.com##li[role="listitem"][aria-label="Vimeo AI"]
 
@@ -1381,7 +1385,7 @@ editor.wix.com##[data-hook="start-screen-generation-container"]
 ! ==============
 ! == WhatsApp ==
 ! ==============
-! -- Main page (logged in) https://web.whatsapp.com/
+! -- https://web.whatsapp.com/ (Main page - logged in)
 ! Right window - "Ask Meta AI" panel (below "download WhatsApp for Windows")
 web.whatsapp.com##section.x6egj2d.xh8yej3.x5yr21d.x2b8uid.x6s0dn4.xl56j7k.x78zum5.xdt5ytf > div.x78zum5 > button.x2b8uid.xyi3aci.xwf5gio.x1p453bz.x1suzm8a.xtnn1bt.x9v5kkp.xmw7ebm.xrdum7p.x-default-marker:has(> div > img._ao3e)
 
@@ -1402,13 +1406,13 @@ web.whatsapp.com##.x1y332i5.x1n2onr6.x6ikm8r.x10wlt62.x1tiyuxx > div.x10l6tqk.xh
 ! ===============
 ! == Wordpress ==
 ! ===============
-! -- Main page - logged out (https://wordpress.com/)
+! -- https://wordpress.com/ (Main page - logged out)
 ! Top navbar > Products > AI Website Builder
 wordpress.com##.x-nav--ai-website-builder-header
 ! Top navbar > Footer > AI Website Builder
 wordpress.com##.x-nav-footer--ai-website-builder-footer
 
-! -- (logged in) (https://wordpress.com/sites)
+! -- https://wordpress.com/sites (Logged in)
 ! "Add new site" > "Create with AI"
 wordpress.com##.dashboard-add-new-site__menu-item[href="https://wordpress.com/setup/ai-site-builder?source=sites-dashboard&ref=new-site-popover"]
 ! Sites - "Build with AI"
@@ -1430,11 +1434,6 @@ x.com##div[data-testid="GrokDrawer"]
 x.com##a[role="menuitem"][href*="grok.com/imagine"]
 ! "Edit Image" when hovering over bottom right of image
 x.com##a[aria-label="Edit image"]
-
-! -- (https://x.com/grok/status/2021675529582039415)
-! "Ask Grok" button - below posts from Grok
-x.com##.css-175oi2r.r-1mmae3n:has(> [data-testid="grok_post_atgrok_button"])
-
 ! - Promos
 ! Main feed (Top) - "Create epic videos in cinematic quality" promo + separator
 x.com##[data-testid="cellInnerDiv"] > .css-175oi2r.r-1adg3ll.r-1ny4l3l > .css-175oi2r > .css-175oi2r.r-kemksi:has(> [data-testid="inlinePrompt"] > [data-testid="inlinePrompt-primaryAction"] > a[href="https://grok.com/imagine"])
@@ -1442,11 +1441,17 @@ x.com##[data-testid="cellInnerDiv"]:has(> .css-175oi2r.r-1adg3ll.r-1ny4l3l > .cs
 ! Right sidebar - "Make videos in seconds" promo
 x.com##.css-175oi2r:has(> .r-kemksi.r-1ifxtd0 > aside[role="complementary"] > a[href="https://grok.com/imagine?referring_page=home_sidebar_grok_promo"])
 
+! -- https://x.com/grok/status/2021675529582039415
+! "Ask Grok" button - below posts from Grok
+x.com##.css-175oi2r.r-1mmae3n:has(> [data-testid="grok_post_atgrok_button"])
+
 ! =====================
 ! == xHamster (NSFW) ==
 ! =====================
-! -- Categories (https://xhamster.com/categories)
-! Covers tags by letter & tag search. Separate urls for "AI" category and "AI <something>" tags
+! -- https://xhamster.com/categories (Categories)
+! AI Tags
+! * Use two classes to cover tags by letter & tag search. 
+! * Separate urls for standalong "AI" category and "AI <something>" tags
 xhamster.com##:is(.letter-block, .search-result-block) > .items > .item > [data-role="tag-link"]:is([href="https://xhamster.com/categories/ai"], [href^="https://xhamster.com/tags/ai-"])
 
 ! =====================
@@ -1460,7 +1465,7 @@ www.xnxx.com##.thumb-block[data-id="239"]
 www.xnxx.com###side-cat-list a[href="/search/ai"]
 www.xnxx.com###side-cat-list a[href^="/search/ai-"]
 
-! -- Tags (https://www.xnxx.com/tags)
+! -- https://www.xnxx.com/tags (Tags)
 www.xnxx.com###content > #content-thumbs > #tags > li:has(> a[href^="/search/ai-"])
 
 ! ====================
@@ -1490,7 +1495,7 @@ www.yahoo.co.jp##button#aichat
 ! AI Assistant tab above search bar
 www.yahoo.co.jp##a.ygDfdPUPK5OPiqKG4UtuU[aria-label="AIアシスタントで検索"]
 
-! -- Search (https://search.yahoo.co.jp/search?p=Why+are+we+here)
+! -- https://search.yahoo.co.jp/search?p=Why+are+we+here (Search results)
 ! AI Assistant button in header to the right of search bar
 search.yahoo.co.jp##div.AiAssistant
 ! AI tab in navbar
@@ -1501,7 +1506,7 @@ search.yahoo.co.jp##a.AnswerAiNavigation__content
 ! ============
 ! == Yandex ==
 ! ============
-! -- Search results (https://yandex.com/search/?text=test)
+! -- https://yandex.com/search/?text=test (Search results)
 ! Navbar - yandex ai
 yandex.com##a.HeaderNav-Tab[href$="&promo=force_neuro"]
 ! AI Summary banner
@@ -1512,13 +1517,13 @@ yandex.com##li[data-fast-name="neuro_answer"]
 ! =============
 ! Note: 'www.' is excluded from some filters for mobile site compatability. (m.youtube.com)
 
-! -- Homepage (https://www.youtube.com/)
+! -- https://www.youtube.com/ (Homepage - logged in)
 ! "Your custom feed" category for video suggestions
 www.youtube.com##yt-chip-cloud-chip-renderer:has-text("Your custom feed")
 ! "Ask for videos any way you like"
 www.youtube.com##ytd-talk-to-recs-flow-renderer
 
-! -- Video page (https://www.youtube.com/watch?v=Hlh_wxrPpkI)
+! -- https://www.youtube.com/watch?v=Hlh_wxrPpkI (Video page)
 ! Description > "Ask Questions"
 youtube.com##yt-video-description-youchat-section-view-model
 ! Description > AI Summary
@@ -1549,18 +1554,18 @@ www.youtube.com##div#expandable-metadata > ytd-expandable-metadata-renderer[has-
 ! ====================
 ! == YouTube Studio ==
 ! ====================
-! -- All pages (https://studio.youtube.com/)
+! -- https://studio.youtube.com/
 ! "Ask Studio" sparkle button in top bar
 studio.youtube.com##ytcp-creator-chat-trigger
 ! Note: There's an "Chat with creator support" button that uses AI, but you can get a real person
 !       by asking to "Talk with a human", so the rule is commented out below.
 ! studio.youtube.com##.ytcpSamChatHost
 
-! -- Content
+! -- Content tab
 ! Inspiration tab
 studio.youtube.com###inspiration-tab
 
-! -- Analytics
+! -- Analytics tab
 ! Brainstorm video ideas
 studio.youtube.com##tp-yt-paper-item[test-id="brainstorm"]
 ! Suggested questions for channel analytcs in "Analytics" > "Overview"
@@ -1570,13 +1575,13 @@ studio.youtube.com##.screen-banners-container.yta-screen:has(#anchor[href="https
 ! "Brainstorm video ideas" button that appears under "Analytics" > "Trends" after using search bar
 studio.youtube.com##.brainstorm-ideas-button
 
-! -- Community
+! -- Community tab
 ! "Brainstorm video ideas" button in action menu (...) under "Community" > "Comments"
 studio.youtube.com##ytcp-menu-service-item-renderer:has-text("Brainstorm video ideas")
 ! Comment reply suggestions under "Community" > "Comments"
 ! https://support.google.com/youtube/answer/10357396
 studio.youtube.com###comment-smart-replies
 
-! -- Video Details
+! -- Video Details page
 ! "Brainstorm video ideas" in action menu (⋮)
 studio.youtube.com##[test-id="VIDEO_BRAINSTORM_IDEA"]
