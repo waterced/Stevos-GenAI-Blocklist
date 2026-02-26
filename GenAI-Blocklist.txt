@@ -754,17 +754,6 @@ drive.google.com##.oaTPh
 ! Gemini popup on new form creation
 docs.google.com##[jsname="Vjwl5e"]:has(#getting-started-dialog-navigation-view)
 
-! ===================
-! == Google Gemini ==
-! ===================
-! -- Main page
-! Header bar - Upgrade to Google AI Plus
-gemini.google.com##button[data-test-id="bard-upsell-menu-button"]
-! Chat box (when initially loading page)
-gemini.google.com##div.initial-input-area-container
-! Chat window
-gemini.google.com##div.content-container > chat-window
-
 ! =================
 ! == Google Meet ==
 ! =================
