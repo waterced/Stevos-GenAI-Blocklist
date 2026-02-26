@@ -538,6 +538,9 @@ github.dev##.cgmr.codicon-gutter-lightbulb-sparkle-filled
 github.dev##.codicon-sparkle-filled[widgetid="LightBulbWidget"][title="Run: Modify"]
 ! "Show AI-recommended results" sparkle icon in settings search
 github.dev##.codicon-preferences-ai-results
+! Copilot on status bar below code window
+! * Only filter if Copilot chat hasn't been setup yet. Otherwise, users may need button to toggle off AI features.
+github.dev###chat\.statusBarEntry[aria-label="Finish Setup"]
 
 ! =================
 ! == GitHub Docs ==
