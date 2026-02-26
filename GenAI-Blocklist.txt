@@ -517,9 +517,11 @@ github.blog##.Button[href="https://github.com/features/copilot"]
 ! Web version of VS Code used for editing files on GitHub
 ! TODO: Many more AI elements to block
 
-! - Source Control > Changes > Message bar - "Generate Commit Message" sparkle icon
+! Source Control > Changes > Message bar - "Generate Commit Message" sparkle icon
 ! Leaves behind an an invisible box which shows "click" mouse cursor when hovered. Clicking just focuses text box though.
 github.dev##.action-label.codicon.codicon-sparkle[role="button"]
+! "Modify selected code" sparkle icon when selecting lines of code
+github.dev##.cgmr.codicon-gutter-lightbulb-sparkle-filled
 
 ! =================
 ! == GitHub Docs ==
