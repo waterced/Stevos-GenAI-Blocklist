@@ -110,6 +110,13 @@ If you want to file an issue or submit a pull request for an item that isn't bei
 
 If you want to incorporate any of these filters in your own filter list, please feel free to do so.
 
+Commit messages use prefixes to indicate the type of change.
+* A: Added a new filter
+* M: Modified an existing filter
+* R: Removed a filter
+* C: Cosmetic change like editing comments or rearranging filters
+* +: Filter applied to the "extra" list 
+
 ## Other AI blocking projects
 
 * [uBlockOrigin Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist): Blocklist for search engines to remove AI generated images
