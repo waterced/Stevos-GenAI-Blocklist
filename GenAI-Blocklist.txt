@@ -614,6 +614,8 @@ www.google.com,www.google.co.jp,www.google.com.hk##.pHiOh[href="https://ai.googl
 www.google.com,www.google.co.jp,www.google.com.hk##button.xOchs
 ! Remove AI hyperlinks from Google Logo. (Added during Olympics)
 www.google.com,www.google.co.jp,www.google.com.hk###LS8OJ > .k1zIA.kKvsb > a[href*="&udm=50"]:remove-attr(href)
+! Promo text below search bar mentioning AI
+www.google.com,www.google.co.jp,www.google.com.hk##promo-middle-slot:has-text("/\bAI\b/")
 
 ! -- Search results (https://www.google.com/search?q=Why+is+this)
 ! Navbar > "AI Mode" tab
