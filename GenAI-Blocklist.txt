@@ -522,6 +522,8 @@ github.blog##.Button[href="https://github.com/features/copilot"]
 github.dev##.action-label.codicon.codicon-sparkle[role="button"]
 ! "Modify selected code" sparkle icon when selecting lines of code
 github.dev##.cgmr.codicon-gutter-lightbulb-sparkle-filled
+! "Show AI-recommended results" sparkle icon in settings search
+github.dev##.codicon-preferences-ai-results
 
 ! =================
 ! == GitHub Docs ==
