@@ -21,7 +21,7 @@
 ! AI Chatbot "Find the right app to bring your ideas to life."
 www.adobe.com##.brand-concierge.hero.above-pods
 
-! -- Adobe Home (logged in) (https://www.adobe.com/home)
+! -- https://www.adobe.com/home (logged in)
 ! Promo bar for Firefly
 www.adobe.com##.promobar:has-text("Adobe Firefly")
 ! Image generation prompt
