@@ -1065,6 +1065,10 @@ learn.microsoft.com##[data-bi-name="ask-learn-assistant-entry"]
 ! "Summarize this article for me" button
 learn.microsoft.com##[data-id="ai-summary"]
 
+! -- Search results (https://learn.microsoft.com/en-us/search/?terms=test)
+! AI search summary
+learn.microsoft.com###search-answer
+
 ! ==============================
 ! == Microsoft Power Automate ==
 ! ==============================
