@@ -189,6 +189,15 @@ search.brave.com###primary-tabs > li.tab-item:has(> a[href^="/ask"])
 ! AI Answer
 search.brave.com###llm-snippet
 
+! ==========================
+! == Cambridge Dictionary ==
+! ==========================
+! -- https://dictionary.cambridge.org/
+! "AI Assistant" in header
+dictionary.cambridge.org##.hdib:has(> [href="/assistant"])
+! "AI Assistant" in left sidebar menu (☰)
+dictionary.cambridge.org##.lbb.lb-cm.hlh21:has(> [href="/assistant"])
+
 ! ===========
 ! == Canva ==
 ! ===========
