@@ -683,6 +683,10 @@ www.google.com,www.google.co.jp,www.google.com.hk###Odp5De:has(> div.YNk70c.EjQT
 ! alt: www.google.com,www.google.co.jp,www.google.com.hk##div.YNk70c.EjQTId:has(+ div[data-hveid] > div[data-hveid] > div#Odp5De)
 www.google.com,www.google.co.jp,www.google.com.hk##div.YNk70c.EjQTId:has(+ div[data-hveid] > div[data-hveid] > div#Odp5De > div.YNk70c.EjQTId > div.Kevs9.SLPe5b > div[jscontroller] > div#eKIzJc > div.YzCcne > div.hdzaWe > div[data-attnms])
 
+! Web Guide
+! * Must be enabled in Search Labs
+www.google.com##.h7W2Pb.Ww4FFb.vt6azd
+
 ! -- https://www.google.com/search?q=ghola+dune (Mobile only)
 ! Pregenerated AI Infobox
 ! * When testing these rules, use a mobile device or mobile device emulation in browser dev tools
