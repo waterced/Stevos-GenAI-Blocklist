@@ -1224,6 +1224,13 @@ teams.microsoft.com##[data-tid="store-collection-app:co:featuredapps"], [data-ti
 ! Sparkle icon indicating an app has AI features
 teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 
+! ====================
+! == My Lust (NSFW) ==
+! ====================
+! -- https://mylust.com/categories/
+! "AI Generated" category
+mylust.com##.item:has(> [data-id="307"])
+
 ! =========
 ! == MSN ==
 ! =========
