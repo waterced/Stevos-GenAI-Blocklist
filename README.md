@@ -35,14 +35,14 @@ If the automatic import didn't work, (possibly due to multiple adblockers being 
 - Install [uBlock Origin](https://ublockorigin.com/).
 - Click the uBlock button in the toolbar and open Dashboard Settings (gear icon)
 - Select the "_Filter lists_" tab
-- Open the "_Import..._" section and paste [`https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
+- Open the "_Import..._" section and paste [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
 - Click "_Apply Changes_"
 
 If done correctly, you should see "**_Stevo's GenAI Blocklist_**" listed under "**_Custom_**".
 
 ### For Brave (Desktop)
 - Open _Settings > Shields > Content filtering_.
-- Under "_Add custom filter lists_", enter [`https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
+- Under "_Add custom filter lists_", enter [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
 - Click _Add_.
 
 ### For Google Chrome (Desktop)
@@ -66,7 +66,7 @@ If done correctly, you should see "**_Stevo's GenAI Blocklist_**" listed under "
 - Tap _uBlock Origin_ and select _Settings_
 - Open the "_Filter lists_" tab
 - Scroll to the bottom and tap "_Import..._"
-- Paste in the link [`https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
+- Paste in the link [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
 - Tap "_Apply Changes_"
 
 ### For Safari (iOS)
