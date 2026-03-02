@@ -1109,6 +1109,10 @@ www.microsoft.com##.btn[data-bi-ecn="Try Copilot Chat"]
 ! "Ask Microsoft" chat box that appears after a delay
 www.microsoft.com###uca-proactive-chat
 
+! -- https://www.microsoft.com/en-us/microsoft-365/onedrive/onedrive-for-business
+! "Discover Microsoft 365 Copilot" promo banner
+www.microsoft.com##.experiencefragment:has([data-component-id="01dbc0460ff412456ec49899ac06c10e"])
+
 ! ====================
 ! == Micosoft Azure ==
 ! ====================
