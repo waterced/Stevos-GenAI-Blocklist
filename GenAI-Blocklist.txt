@@ -1320,15 +1320,15 @@ www.reddit.com##.relative.xs\:rounded-4.hover\:bg-neutral-background-hover.searc
 ! AI-Website Builder
 www.rediff.com##.navlink:has(> [data-secid="nav_aisitebuilder"])
 
-! ===========================
+! ============================
 ! == Sankaku Complex (NSFW) ==
-! ===========================
+! ============================
 ! Can't block AI art from search because only a few image tags are present in the metadata.
 ! There are so many AI features on the site, these filters are a drop in the bucket ¯\_(ツ)_/¯
 
 ! -- https://www.sankakucomplex.com/ (Homepage - after welcome prompt, logged out)
 ! Left sidebar (Companions & AI Creator)
-www.sankakucomplex.com##[class^="MuiButtonBase-root-"]:is([data-test="ai_companion"], [data-test="ai_art"])
+www.sankakucomplex.com##[data-test="ai_companion"], [data-test="ai_art"]
 
 ! =============
 ! == Shopify ==
