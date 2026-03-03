@@ -1584,7 +1584,7 @@ search.yahoo.com##.scoutPromo
 
 ! -- https://search.yahoo.com/search?p=Test
 ! Header > "Yahoo Scout"
-search.yahoo.com##div.scoutNav
+search.yahoo.com##.scoutNav
 
 ! =================
 ! == Yahoo Japan ==
