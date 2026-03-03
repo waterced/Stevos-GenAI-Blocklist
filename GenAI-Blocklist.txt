@@ -1615,9 +1615,11 @@ www.xnxx.com###content > #content-thumbs > #tags > li:has(> a[href^="/search/ai-
 ! ====================
 ! == XVideos (NSFW) ==
 ! ====================
-! -- Homepage
+! -- https://www.xvideos.com/ (Homepage)
 ! Navbar - Categories - AI
-www.xvideos.com##ul#main-cats-sub-list > li.dyntop-cat > a[href="/c/AI-239"]
+www.xvideos.com##.dyntop-cat:has(> [href="/c/AI-239"])
+! Video with AI keyword
+www.xvideos.com##.thumb-block:has(.title > a:not([title*="kizuna ai" i]):matches-attr(title="/\bai\b/i"))
 
 ! ==========
 ! == YaCy ==
