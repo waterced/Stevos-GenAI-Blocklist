@@ -1325,6 +1325,13 @@ www.shopify.com##main#main > section.grid-cols-full#faq-section
 ! -- https://www.shopify.com/tools/business-name-generator (AI business name generator)
 www.shopify.com##main#main > div > div.container:has-text("AI Business Name Generator"):has(> div.sm\:px-14.text-center.relative > a[href="/tools"])
 
+! ===========
+! == Sogou ==
+! ===========
+! -- https://sogou.com/web?query=test
+! AI navbar tab
+sogou.com##.searchnav > li:has(> #sogou_aimode)
+
 ! ============
 ! == Square ==
 ! ============
