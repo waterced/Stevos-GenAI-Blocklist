@@ -1445,6 +1445,20 @@ www.tubegalore.com##.category[href*="/c/ai-generated"]
 ups.com###digital-assistant-launcher
 ups.com###WACContainer
 
+! ============
+! == Vercel ==
+! ============
+! -- https://vercel.com/
+! "Ask AI" button in header
+vercel.com##.right-section-module__J7WNxW__nonPrimaryContent > button[data-cdp-track*="\"header_ask_ai_clicked\""]
+
+! -- https://vercel.com/kb/bulletin/security-bulletin-cve-2025-55184-and-cve-2025-55183?inf_ver=2
+! "Ask AI" button in header
+vercel.com##[aria-label="Ask AI"]
+! "Ask AI about this page" + separator
+vercel.com##.mt-3 button:has-text("Ask AI")
+vercel.com##.mt-3 div:has(+ button:has-text("Ask AI"))
+
 ! ===========
 ! == Vimeo ==
 ! ===========
