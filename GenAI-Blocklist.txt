@@ -18,7 +18,9 @@
 ! == 4tube (NSFW) ==
 ! ==================
 ! -- https://www.4tube.com/
-! AI Generated category
+! "AI chat" in header nav
+www.4tube.com##.dropdown:has([href^="https://www.ourdreamersai.com/"])
+! "AI Generated" category
 www.4tube.com##.card:has(> [href="/category/ai-generated"])
 
 ! =================
