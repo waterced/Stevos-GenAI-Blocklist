@@ -302,8 +302,7 @@ www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text
 ! -- https://www.dropbox.com/home (Home - Logged in)
 ! * TODO: Block AI feature promo notices that appear upon initial login. (Seemingly do not re-appear for a given account after being dismissed)
 ! Left sidebar > More > AI features
-! * TODO: Unclear if Dash's AI file search should be blocked. May not count as genAI? Will need investigation)
-! www.dropbox.com##.oa-pulsar-effect-WAFFLE_DASH
+www.dropbox.com##.oa-pulsar-effect-WAFFLE_DASH
 www.dropbox.com##.oa-pulsar-effect-WAFFLE_RECLAIM
 
 ! ================
