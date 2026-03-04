@@ -1283,6 +1283,13 @@ www.nate.com##.link-ngpt
 ! AI Chat tab below search bar
 www.nate.com##.chat1
 
+! =============
+! == Pictory ==
+! =============
+! -- https://pictory.ai/
+! AI Chatbot
+pictory.ai###livex-chatbot-app
+
 ! ===========
 ! == Pixiv ==
 ! ===========
