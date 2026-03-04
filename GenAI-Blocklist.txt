@@ -349,6 +349,13 @@ duckduckgo.com##.nav-menu__item:has(> a[href="https://duck.ai"])
 !       For example, (https://duckduckgo.com/?q=what+is+a+test&ia=web)
 duckduckgo.com##[data-layout="wikinlp"]
 
+! ========
+! == e+ ==
+! ========
+! -- https://support-qa.eplus.jp/hc/ja
+! Chatbot
+support-qa.eplus.jp##iframe[title="AI Chat Support"]
+
 ! ============
 ! == Ecosia ==
 ! ============
