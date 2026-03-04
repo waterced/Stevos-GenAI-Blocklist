@@ -1336,6 +1336,8 @@ www.reddit.com##main#main-content > div#variant_2 > div > div.flex.flex-col.gap-
 www.reddit.com##.relative.xs\:rounded-4.hover\:bg-neutral-background-hover.search-answers-preview-section
 
 ! -- https://www.reddit.com/r/PasswordManagers/comments/1rksafr/psa_posts_to_1password_community_are_actively/
+! -- Reddit Answers logo in header (Mobile only)
+www.reddit.com###answers-nav-button
 ! "Related Answers" (Mobile only)
 www.reddit.com###answers-suggested-queries-m3
 
