@@ -232,6 +232,15 @@ platform.claude.com###aiSearchResults__Item-__ask_ai__
 ! Search bar - Toggle AI mode
 platform.claude.com##.ikp-ai-search-input-group > [data-part="view_toggle"]
 
+! ========================
+! == Collins Dictionary ==
+! ========================
+! -- https://www.collinsdictionary.com/
+! "AI Assistant" button next to search bar
+www.collinsdictionary.com##.assistantIcon
+! "Ask Collins Dictionary" in bottom-right corner
+www.collinsdictionary.com###assistant-link
+
 ! ====================
 ! == Computer World ==
 ! ====================
