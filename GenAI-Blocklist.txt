@@ -160,6 +160,10 @@ www.boldbi.com##.e-child.e-con.e-flex.e-con-full.elementor-element-6e4054b5.elem
 ! AI chat assistant
 www.boldbi.com###boldchat-host
 
+-- https://cloud.boldbi.com/ (dashboard, logged in)
+! "AI" tab in left sidebar.
+cloud.boldbi.com###bold-ai
+
 ! ===================
 ! == Boorus (NSFW) ==
 ! ===================
