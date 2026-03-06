@@ -1068,6 +1068,24 @@ developers.hubspot.com,docs.kits.ai##[role="listbox"] > .px-2\.5.py-2.text-gray-
 docs.kits.ai##.chat-assistant-floating-input
 
 ! ==============
+! == Langfuse ==
+! ==============
+! -- https://langfuse.com/
+! "Ask AI" Floating chat button
+langfuse.com##.ikp-chat-button__container
+! "Ask AI" search suggestion
+langfuse.com###aiSearchResults__Item-__ask_ai__
+! "Ask AI" search toggle
+langfuse.com##.ikp-ai-search-input-group > .ikp-view_toggle
+
+! -- https://langfuse.com/docs
+! "Open in" options in "Copy page" dropdown
+langfuse.com##[role="menuitem"][href^="https://chatgpt.com"]
+langfuse.com##[role="menuitem"][href^="https://claude.ai"]
+! "Ask AI" in sidebar
+langfuse.com##._flex-col:has(> [href="/docs/ask-ai"])
+
+! ==============
 ! == LinkedIn ==
 ! ==============
 ! -- https://www.linkedin.com/feed/ (Feed - logged in)
