@@ -236,6 +236,18 @@ platform.claude.com###aiSearchResults__Item-__ask_ai__
 ! Search bar - Toggle AI mode
 platform.claude.com##.ikp-ai-search-input-group > [data-part="view_toggle"]
 
+! ===================
+! == CoinMarketCap ==
+! ===================
+! -- https://coinmarketcap.com/
+! Floating AI chat
+coinmarketcap.com##.FloatingAiChat_floatingAiChatContainer__YJK16
+coinmarketcap.com##.BasePopover_with-arrow__66AQQ:has-text(AI trained on the market)
+! "Add AI alert"
+coinmarketcap.com##.SetAlertItem_set-alert-item__fVuCD
+! AI questions in news topics
+coinmarketcap.com##.homepageAiInsights_questionItem__6Igst
+
 ! ========================
 ! == Collins Dictionary ==
 ! ========================
