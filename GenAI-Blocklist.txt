@@ -253,6 +253,21 @@ www.collinsdictionary.com###assistant-link
 ! * The header announcement gets added by a script with id='enqueued-script-consent-manager-js-after', which also handles items like the cookie consent banner.
 www.computerworld.com##.section-block--announcementbar:has(.reset-button)
 
+! ======================
+! == Consumer Reports ==
+! ======================
+! -- https://www.consumerreports.org/
+! "AskCR" button in search bar
+www.consumerreports.org##.cda-gnav__main-search-askcr-ai
+! "AskCR" floating promo
+www.consumerreports.org###mt-askcr-sf-abandon-footer
+! "AskCR" search suggestions
+www.consumerreports.org##.cda-gnav__main-search-hints-semantic-askCR
+
+! -- https://www.consumerreports.org/search/?query=test
+! "AskCR" tab
+www.consumerreports.org###ask-cr-search-tab
+
 ! ================
 ! == DeviantArt ==
 ! ================
