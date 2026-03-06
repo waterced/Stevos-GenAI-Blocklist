@@ -107,10 +107,11 @@ If you want to [report an issue](https://github.com/Stevoisiak/Stevos-GenAI-Bloc
 
 Commit messages use prefixes to indicate the type of change.
 * A: Added a new filter
+* F: Fixed a filter (not working, blocking too much, typo, etc)
 * M: Modified an existing filter
 * R: Removed a filter
-* C: Cosmetic change like editing comments or rearranging filters
-* +: Filter applied to the "extra" list 
+* C: Cosmetic "meta" change like editing comments or rearranging filters
+* +: Filter applied to the "extra" list
 
 ## Other AI blocking projects
 
