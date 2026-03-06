@@ -1546,6 +1546,14 @@ webmail.strato.de##[data-app-name="io.ox/ai-chat"]
 ! "Magic Apron Assist" floating button
 www.homedepot.com###magic-apron-loader
 
+! ==========
+! == Time ==
+! ==========
+! -- https://time.com/
+! "Ask me anything" hovering chat box
+! * Appears after scrolling down the page
+time.com###scale-agent-overlay-container
+
 ! =============
 ! == Todoist ==
 ! =============
