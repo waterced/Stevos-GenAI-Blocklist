@@ -1290,6 +1290,13 @@ teams.cloud.microsoft,teams.microsoft.com##[data-tid="store-collection-app:co:fe
 ! Sparkle icon indicating an app has AI features
 teams.cloud.microsoft,teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 
+! ============
+! == Mojeek ==
+! ============
+! -- https://www.mojeek.com/search?q=test
+! "Summarize these results"
+www.mojeek.com##.llm-btn
+
 ! =========
 ! == MSN ==
 ! =========
