@@ -1394,7 +1394,7 @@ www.reddit.com##div.label-container > hr.trailing-divider
 ! Chatbox
 www.reddit.com##main#main-content > div#variant_2 > div > guides-search-input-base
 ! Question suggestions
-www.reddit.com##main#main-content > div#variant_2 > div > div.flex.flex-col.gap-xs:has(> div[aria-label="recommendations list"])
+www.reddit.com##.flex.flex-col.gap-xs:has(> div[aria-label="recommendations list"])
 
 ! -- https://www.reddit.com/search/?q=ai (Search results)
 ! Answers section
