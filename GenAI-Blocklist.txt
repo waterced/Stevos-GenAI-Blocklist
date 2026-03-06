@@ -470,7 +470,7 @@ github.com##div.copilotPreview__container
 github.com##.ActionList-sectionDivider:has(> [role="presentation"] > .ActionListItem[data-command-name="search-copilot-chat"])
 github.com##.ActionList-sectionDivider:has(+ .ActionList-sectionDivider > [role="presentation"] > .ActionListItem[data-command-name="search-copilot-chat"])
 ! Changelog posts containing "Copilot" in right sidebar
-github.com##.dashboard-changelog .TimelineItem:has-text("Copilot")
+github.com##.dashboard-changelog .TimelineItem:has-text(/copilot/i)
 
 ! "Open in Copilot chat" icon that appears when hovering over pull requests and issues.
 ! * Requires enabling "New Dashboard Experience" in "Feature Preview"
