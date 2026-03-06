@@ -1567,6 +1567,17 @@ app.todoist.com##._3930afa0._650176bf._7246d092.abd5766f[aria-label*="Ramble"]
 ! Ramble button on "Add task" screen
 app.todoist.com##._3930afa0.aa19cb97._1e29d236.abd5766f[aria-label*="Ramble"]
 
+! ==============
+! == Trip.com ==
+! ==============
+! -- https://us.trip.com/
+! Trip Advisor floating chat button
+trip.com##.A9zea
+
+! -- https://us.trip.com/webapp/tripmap/tripplanner
+! "Plan a Trip with AI"
+trip.com##.StartModule_planAI__S_98b
+
 ! =======================
 ! == TubeGalore (NSFW) ==
 ! =======================
