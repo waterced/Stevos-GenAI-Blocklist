@@ -1085,6 +1085,8 @@ www.investing.com###main-header:has(promo-strip [href^="https://www.investing.co
 ! Stock sidebar buttons
 www.investing.com##[data-test="ws-warren-btn"]
 www.investing.com##[data-test="ws-propicks-btn"]
+! "ProPicks AI - Stocks picked by AI" promo
+www.investing.com##.order-6:has([data-test="inv-pro-strategies"])
 
 ! =================
 ! == iShopChangi ==
