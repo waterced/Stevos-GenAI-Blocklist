@@ -206,6 +206,13 @@ search.brave.com###llm-snippet
 ! "Ask the Chatbot" button below search bar
 www.britannica.com##.category-link-CHATBOT
 
+! ==============
+! == Bunnings ==
+! ==============
+! -- https://www.bunnings.com.au/
+! AI button next to search bar
+www.bunnings.com.au##[aria-label="Ask Bunnings AI"]
+
 ! ==========================
 ! == Cambridge Dictionary ==
 ! ==========================
