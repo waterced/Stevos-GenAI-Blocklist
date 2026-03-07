@@ -1072,6 +1072,20 @@ www.instagram.com##div.html-div.xdj266r.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.
 ! Search bar - "Find the answer with AI"
 developerdocs.instructure.com##[data-testid="search-ask-question"]
 
+! ===================
+! == Investing.com ==
+! ===================
+! -- https://www.investing.com/
+! Navbar links "Warren" and "Stocks Picked by AI"
+www.investing.com##.quick-links_item__N8CIb:has(> [href="https://www.investing.com/warrenai"])
+www.investing.com##.quick-links_item__N8CIb:has(> [href="https://www.investing.com/pro/propicks"])
+! Promo banner for "AI-picked stocks"
+www.investing.com###promo-strip:has([href^="https://www.investing.com/pro/propicks"])
+www.investing.com###main-header:has(promo-strip [href^="https://www.investing.com/pro/propicks"]):style(margin-bottom: 66px !important)
+! Stock sidebar buttons
+www.investing.com##[data-test="ws-warren-btn"]
+www.investing.com##[data-test="ws-propicks-btn"]
+
 ! =================
 ! == iShopChangi ==
 ! =================
