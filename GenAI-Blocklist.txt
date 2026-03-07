@@ -1350,6 +1350,13 @@ www.nate.com##.link-ngpt
 ! AI Chat tab below search bar
 www.nate.com##.chat1
 
+! ======================
+! == NutraIngredients ==
+! ======================
+! -- https://www.nutraingredients.com/
+! Floating AI chat button
+www.nutraingredients.com##.ask-ia-widget
+
 ! =============
 ! == Paychex ==
 ! =============
