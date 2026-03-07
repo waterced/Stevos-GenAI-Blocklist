@@ -199,6 +199,13 @@ search.brave.com###primary-tabs > li.tab-item:has(> a[href^="/ask"])
 ! AI Answer
 search.brave.com###llm-snippet
 
+! ================
+! == Britannica ==
+! ================
+! -- https://www.britannica.com/
+! "Ask the Chatbot" button below search bar
+www.britannica.com##.category-link-CHATBOT
+
 ! ==========================
 ! == Cambridge Dictionary ==
 ! ==========================
