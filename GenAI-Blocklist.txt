@@ -1665,6 +1665,13 @@ trip.com##.A9zea
 ! "Plan a Trip with AI"
 trip.com##.StartModule_planAI__S_98b
 
+! ==================
+! == Tube8 (NSFW) ==
+! ==================
+! -- https://www.tube8.com/
+! "Ai Girls" in header nav
+tube8.com,tube8.es,tube8.fr##.paidTab:has([data-label2="Ai Girls"])
+
 ! =======================
 ! == TubeGalore (NSFW) ==
 ! =======================
