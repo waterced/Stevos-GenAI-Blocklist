@@ -1514,7 +1514,7 @@ develop.sentry.dev,docs.sentry.io##.search_search-bar__XzLtg > span.text-\[var\(
 develop.sentry.dev,docs.sentry.io##.search_search-bar__XzLtg > .kapa-ai-class
 ! "Ask sentry about" search autocomplete suggestion
 develop.sentry.dev,docs.sentry.io##.search_sgs-ai__2z63Q
-`
+
 ! =============
 ! == Shopify ==
 ! =============
