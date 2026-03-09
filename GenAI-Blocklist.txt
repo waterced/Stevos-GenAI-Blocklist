@@ -298,24 +298,21 @@ www.consumerreports.org###ask-cr-search-tab
 ! == DeviantArt ==
 ! ================
 ! -- https://www.deviantart.com/ (Homepage)
-! Header > "DreamUp"
-www.deviantart.com##a.reset-link.Sd_t0H
+! Header > "DreamUp AI Art"
+www.deviantart.com##.Sd_t0H
 ! AI Art tag
-www.deviantart.com##a.reset-link.ds-card.pU_pB9.L4TOyE[href="https://www.deviantart.com/tag/ai"]
+www.deviantart.com##.reset-link.ds-card.pU_pB9.L4TOyE[href="https://www.deviantart.com/tag/ai"]
 ! Left sidebar - DreamUp
-www.deviantart.com##div.IlpLyK.NtBF_m:has(a.reset-link.PxZapP[href="https://www.deviantart.com/dreamup"])
+www.deviantart.com##.NtBF_m:has(> .PxZapP[href="https://www.deviantart.com/dreamup"])
 
-! -- https://www.deviantart.com/tag/puzzle (Tag marked for daily challenge)
+! -- https://www.deviantart.com/tag/puzzle (Tag)
 ! "Create Art" > "Create with DreamUp"
-www.deviantart.com##a#_R_pel4qH1_-option-0[href*="https://www.deviantart.com/dreamup"]
-! "Create Art" > "Create with Draw" > Prompt box
-www.deviantart.com##div.Ey5HOr.jcpWS7.ZiBWJn:has(> textarea#positivePrompt)
-! "Create Art" > "Create with Draw" > Background remover
+www.deviantart.com##.reset-link[href^="https://www.deviantart.com/dreamup"]
+! "Create Art" > "Create with Draw" > navbar buttons for Dreamup and Remove Background
+www.deviantart.com##.SE92mD[aria-label="DreamUp"]
 www.deviantart.com###backgroundIcon
-
-! -- https://www.deviantart.com/tag/background (Tag)
-! "Create Art" > "Create with DreamUp"
-www.deviantart.com##a.reset-link[href^="https://www.deviantart.com/dreamup"]
+! "Create Art" > "Create with Draw" > Prompt box
+www.deviantart.com##.Ey5HOr.jcpWS7.ZiBWJn:has(> textarea#positivePrompt)
 
 ! -- https://www.deviantart.com/megalevance/art/Untitled-959302716 (Deviation page for AI image)
 ! Bottom promo banner, sometimes has a DreamUp ad
