@@ -101,6 +101,16 @@ There is an additional optional filterlist [`GenAI-Blocklist-Extra.txt`](https:/
 
 These filters were previously part of the main blocklist, but it was split off as a separate list you can toggle on and off.
 
+## FAQ
+#### Q: Does this prevent AI content from being generated?
+No. AI elements are only hidden. In most cases, AI content will still be generated in the background.
+
+#### Q: Will this work with Adblock Plus or Adguard?
+Probably. The list was developed for uBlock Origin, but I've been told it works with other adblockers.
+
+#### Q: Will this work with Pi-hole?
+No. Pi-hole and uBlock Origin work differently. uBlock Origin allows filtering individual elements on pages, while Pi-hole blocks entire domains.
+
 ## Contributing guidelines
 
 If you want to [report an issue](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues) or submit a pull request for an item that isn't being blocked, please include the URL where the unblocked item appears and a screenshot of the page showing the unblocked item.
