@@ -195,7 +195,7 @@ search.brave.com###submit-llm-button
 
 ! -- https://search.brave.com/search?q=Why+are+we+here (Search results)
 ! "Ask" tab in navbar
-search.brave.com###primary-tabs > li.tab-item:has(> a[href^="/ask"])
+search.brave.com##.tab-item:has(> a[href^="/ask"])
 ! AI Answer
 search.brave.com###llm-snippet
 
@@ -220,7 +220,7 @@ www.bunnings.com.au##[aria-label="Ask Bunnings AI"]
 ! "AI Assistant" in header
 dictionary.cambridge.org##.hdib:has(> [href="/assistant"])
 ! "AI Assistant" in left sidebar menu (☰)
-dictionary.cambridge.org##.lbb.lb-cm.hlh21:has(> [href="/assistant"])
+dictionary.cambridge.org##.lb-cm.hlh21:has(> [href="/assistant"])
 
 ! ===========
 ! == Canva ==
@@ -307,6 +307,7 @@ www.deviantart.com##.NtBF_m:has(> .PxZapP[href="https://www.deviantart.com/dream
 
 ! -- https://www.deviantart.com/tag/puzzle (Tag)
 ! "Create Art" > "Create with DreamUp"
+! * URL can sometimes include tag name, so do a partial match
 www.deviantart.com##.reset-link[href^="https://www.deviantart.com/dreamup"]
 ! "Create Art" > "Create with Draw" > navbar buttons for Dreamup and Remove Background
 www.deviantart.com##.SE92mD[aria-label="DreamUp"]
@@ -333,8 +334,8 @@ www.deviantart.com##section.ail3hi
 ! -- https://www.dropbox.com/ (Main page - logged out)
 ! Header - "Meet Dropbox Dash" sticky promo
 ! * We have 2 rules to hide and remove. Hide is immediate, but it leaves a gap. Remove is slower, but gets rid of the gap.
-www.dropbox.com##div._banner_1ozs8_1:has(> a.dwg-text[data-trackingid="dwg_banner_plank-b6fbc6399b__meet-dropbox-dash-your-new-ai-teammate--1"])
-www.dropbox.com##div._banner_1ozs8_1:has(> a.dwg-text[data-trackingid="dwg_banner_plank-b6fbc6399b__meet-dropbox-dash-your-new-ai-teammate--1"]):remove()
+www.dropbox.com##._banner_1ozs8_1:has(> [data-trackingid="dwg_banner_plank-b6fbc6399b__meet-dropbox-dash-your-new-ai-teammate--1"])
+www.dropbox.com##._banner_1ozs8_1:has(> [data-trackingid="dwg_banner_plank-b6fbc6399b__meet-dropbox-dash-your-new-ai-teammate--1"]):remove()
 
 ! Header nav > Products > AI links
 www.dropbox.com##.dwg-dropdown-list-item__container:has(> [role="menuitem"][data-trackingid="unav_product_Reclaim.ai"])
@@ -491,18 +492,18 @@ gitbook.com##button[aria-label="GitBook Assistant"]:remove()
 ! ============
 ! -- https://github.com/ (Homepage - logged in)
 ! "Chat with Copilot" icon in header next to search bar
-github.com##div.prc-ButtonGroup-ButtonGroup-vFUrY:has(> div > a[type="button"][href="/copilot"])
+github.com##.prc-ButtonGroup-ButtonGroup-vFUrY:has(> div > [type="button"][href="/copilot"])
 ! "Copilot" button in left hamburger menu (≡)
-github.com##a[data-testid="side-nav-menu-item-COPILOT"]
+github.com##[data-testid="side-nav-menu-item-COPILOT"]
 ! "Ask Copilot" prompt box in "Home" feed
-github.com##div.copilotPreview__container
+github.com##.copilotPreview__container
 ! "Copilot" section & separator in search bar auto-complete suggestions
 github.com##.ActionList-sectionDivider:has(> [role="presentation"] > .ActionListItem[data-command-name="search-copilot-chat"])
 github.com##.ActionList-sectionDivider:has(+ .ActionList-sectionDivider > [role="presentation"] > .ActionListItem[data-command-name="search-copilot-chat"])
 ! Changelog posts containing "Copilot" in right sidebar
 github.com##.dashboard-changelog .TimelineItem:has-text(/copilot/i)
 
-! "Open in Copilot chat" icon that appears when hovering over pull requests and issues.
+! Floating "Open in Copilot chat" icon when hovering over a pull request or issue.
 ! * Requires enabling "New Dashboard Experience" in "Feature Preview"
 github.com##.DashboardListView-module__contextBubbleMenu__q0zmI:has(> button > svg.octicon-copilot)
 
@@ -636,7 +637,7 @@ docs.github.com##section[data-testid="product"] .flex-column:has(.flex-items-cen
 ! "Getting code suggestions in your IDE with GitHub Copilot" in popular articles
 docs.github.com##.ArticleList_linkItem__9__Qg:has( > [href$="/copilot/how-tos/get-code-suggestions/get-ide-code-suggestions"])
 ! "Search or ask Copilot" placeholder text in search bar. Change it to "Search or ask".
-! Only apply to English page, since grammar may not work in all languages
+! * Only apply to English page, since grammar may not work in all languages
 docs.github.com##.SearchBarButton_searchInputButton__nAE_3[aria-label="Search or ask Copilot"] > div > span > span > svg.octicon-copilot
 docs.github.com##.SearchBarButton_searchInputButton__nAE_3[aria-label="Search or ask Copilot"] > div > span > span > span:nth-of-type(2)
 
