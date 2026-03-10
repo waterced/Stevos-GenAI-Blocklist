@@ -2,7 +2,7 @@
 
 Set of uBlock Origin filters intended to hide generative AI features on various websites.
 
-## Examples of hidden content
+## Examples of filtered content
 * Google's AI summaries
 * YouTube's Ask button, AI summaries, & "Inspiration" tab
 * Copilot buttons on GitHub, Microsoft 365, and Azure Portal
