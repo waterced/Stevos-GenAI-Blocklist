@@ -218,9 +218,10 @@ www.bunnings.com.au##[aria-label="Ask Bunnings AI"]
 ! ==========================
 ! -- https://dictionary.cambridge.org/
 ! "AI Assistant" in header
-dictionary.cambridge.org##.hdib:has(> [href="/assistant"])
+! * Link can change by language, so use partial match on URL
+dictionary.cambridge.org##.hdib:has(> [href$="/assistant"])
 ! "AI Assistant" in left sidebar menu (☰)
-dictionary.cambridge.org##.lb-cm.hlh21:has(> [href="/assistant"])
+dictionary.cambridge.org##.lb-cm.hlh21:has(> [href$="/assistant"])
 
 ! ===========
 ! == Canva ==
