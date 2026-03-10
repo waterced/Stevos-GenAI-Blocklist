@@ -171,6 +171,13 @@ stripchat.com##.CVSearchSuggestions\#O1
 ! "Click to run Magic Search" search bar autocomplete suggestion
 stripchat.com##.CVSearchSpotlightItem\#_Z
 
+! ================
+! == TechCrunch ==
+! ================
+! -- https://techcrunch.com/
+! AI news category in navbar
+techcrunch.com##.wp-block-navigation-link:has(> [data-ctatext="AI"])
+
 ! ===============
 ! == The Verge ==
 ! ===============
