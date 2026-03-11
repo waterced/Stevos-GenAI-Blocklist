@@ -952,7 +952,7 @@ www.google.com,google.ca,www.google.co.jp,www.google.com.hk##[data-crust-trigger
 ! ===================
 ! == Google Sheets ==
 ! ===================
-! These filters may only apply to accounts with a Google AI AI Plus/Pro/Ultra subscription
+! * These filters may only apply to accounts with a Google AI AI Plus/Pro/Ultra subscription
 ! -- https://docs.google.com/spreadsheets/create
 ! "Ask gemini to analyze spreadsheet data" popup promo that can appear when loading a document
 docs.google.com##.javascriptMaterialdesignGm3WizDialog-dialog:has-text("Gemini")
@@ -975,6 +975,15 @@ docs.google.com##.building-blocks-sidekick-entrypoint-button
 docs.google.com##.building-blocks-promo-container
 ! Table categories with AI fields
 docs.google.com###feedback-sentiment-plus-classification-building-block, #expense-classification-building-block, #ad-generation-building-block, #email-generation-building-block, #call-summary-building-block
+
+! ===================
+! == Google Slides ==
+! ===================
+! * These filters may only apply to accounts with a Google AI AI Plus/Pro/Ultra subscription
+! * TODO: Filter more AI elements
+! -- https://docs.google.com/presentation/
+! Floating "refine" button when selecting a text box
+docs.google.com##.appsSketchyPluginsFloatingToolbarFloatingToolbarComponentGenerativeAiButton
 
 ! ====================
 ! == Google Support ==
