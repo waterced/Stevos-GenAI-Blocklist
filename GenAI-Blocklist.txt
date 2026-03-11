@@ -182,10 +182,6 @@ hypnohub.net,rule34.paheal.net,rule34.xxx,safebooru.org,tbib.org,xbooru.com##.th
 
 ! - Galleries with "AI Generated" in title
 nhentai.net###content > .container.index-container > .gallery:has-text(/(ai generated|ai-generated|aigenerated)/i)
-! Minimal/Minimal+/Compact/Extended view
-e-hentai.org,exhentai.org##.itg > tbody > tr:has(td:has(img:is([title*="ai generated" i], [title*="ai-generated" i], [title*="aigenerated" i])))
-! Thumbnail view
-e-hentai.org,exhentai.org##.itg > div.gl1t:has(img:is([title*="ai generated" i], [title*="ai-generated" i], [title*="aigenerated" i]))
 
 ! "AI Jerk off" Banner
 gelbooru.com##div[style="padding\: 20px; font-size\: 1.2em; font-weight\: bold;"]:has(> a[href="https://v4.dvdstr.com/1868c386-24d9-4fdc-b213-73d6e1f61423"])
@@ -394,6 +390,17 @@ duckduckgo.com##.nav-menu__item:has(> a[href="https://duck.ai"])
 ! * Sometimes the search assist can appear on the side instead of on top.
 !   For example, (https://duckduckgo.com/?q=what+is+a+test&ia=web)
 duckduckgo.com##[data-layout="wikinlp"]
+
+! =====================
+! == E-Hentai (NSFW) ==
+! =====================
+! Minimal/Minimal+/Compact/Extended view by title
+e-hentai.org,exhentai.org##.itg > tbody > tr:has(img:is([title*="ai generated" i], [title*="ai-generated" i], [title*="aigenerated" i]))
+! Thumbnail view by title
+e-hentai.org,exhentai.org##.itg > div.gl1t:has(img:is([title*="ai generated" i], [title*="ai-generated" i], [title*="aigenerated" i]))
+
+! Compact/Extended view by tag
+e-hentai.org,exhentai.org##.itg > tbody > tr:has(.gt[title="other:ai generated"])
 
 ! ========
 ! == e+ ==
