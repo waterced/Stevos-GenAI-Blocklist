@@ -1179,6 +1179,19 @@ www.linkedin.com##.share-creation-state__writing-assistant-container--premium
 www.linkedin.com##div.pvs-entity__secondary-action-container:has(svg[data-test-icon="premium-signal-ai-small"])
 
 ! =====================
+! == Luscious (NSFW) ==
+! =====================
+! -- https://www.luscious.net/
+! "AI Art" category under Manga/Hentai in navbar
+luscious.net##.desktop-module__submenu-item--njaEB:has(> [href$="&genre_ids=63&display=date_trending&page=1"])
+! "Check out our new AI Art Library" banner
+luscious.net##.site-banner:has([href*="genre_ids=63"])
+
+! -- https://members.luscious.net/ (logged in)
+! "AI Art" category under Manga/Hentai in navbar
+luscious.net##.desktop-module__submenu-item--njaEB:has([href$="/ai-art-63/"])
+
+! =====================
 ! == Merriam Webster ==
 ! =====================
 ! -- https://www.merriam-webster.com/
