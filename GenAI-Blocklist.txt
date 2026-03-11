@@ -400,7 +400,7 @@ e-hentai.org,exhentai.org##.itg > tbody > tr:has(img:is([title*="ai generated" i
 e-hentai.org,exhentai.org##.itg > div.gl1t:has(img:is([title*="ai generated" i], [title*="ai-generated" i], [title*="aigenerated" i]))
 
 ! Compact/Extended view by tag
-e-hentai.org,exhentai.org##.itg > tbody > tr:has(.gt[title="other:ai generated"])
+e-hentai.org,exhentai.org##.itg > tbody > tr:has(:is(.gt, gtl)[title="other:ai generated"])
 
 ! ========
 ! == e+ ==
