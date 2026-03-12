@@ -92,6 +92,13 @@ health.amazon.com###nav-health-ai
 ! "Health AI" promo section
 health.amazon.com##.bg-no-repeat[style*="background-image:url('https://m.media-amazon.com/images/G/01/ahs/health_ai/opt-in/HealthAI_Background_CDF0E9.jpg');"]
 
+! ======================
+! == BabesTube (NSFW) ==
+! ======================
+! -- https://www.babestube.com/
+! -- "AI GF" in navbar
+babestube.com##.item:has(> [href="https://z0000g.yvmads.com/api/direct/298767"])
+
 ! ===========
 ! == Baidu ==
 ! ===========
