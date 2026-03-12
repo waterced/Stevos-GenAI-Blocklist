@@ -96,7 +96,7 @@ health.amazon.com##.bg-no-repeat[style*="background-image:url('https://m.media-a
 ! == BabesTube (NSFW) ==
 ! ======================
 ! -- https://www.babestube.com/
-! -- "AI GF" in navbar
+! "AI GF" in navbar
 babestube.com##.item:has(> [href="https://z0000g.yvmads.com/api/direct/298767"])
 
 ! ===========
