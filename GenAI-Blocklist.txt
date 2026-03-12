@@ -1465,6 +1465,12 @@ www.oed.com###AIOverlay
 ! AI Chatbot
 www.paychex.com###q-messenger-frame
 
+! -- https://myapps.paychex.com/ (Logged in, Paychex Flex)
+! "Chat now" button in left sidebar
+myapps.paychex.com##png-chat-launcher
+! "Meet your Paychex Assistant" in right "help" sidebar
+myapps.paychex.com##png-fab-help-chat-card
+
 ! =====================
 ! == Porn.com (NSFW) ==
 ! =====================
