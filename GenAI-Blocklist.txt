@@ -1581,6 +1581,12 @@ www.reddit.com###answers-nav-button
 ! "Related Answers" (Mobile only)
 www.reddit.com###answers-suggested-queries-m3
 
+! ====================
+! == RedGIFs (NSFW) ==
+! ====================
+! -- RedGIFs.ai button in header
+www.redgifs.com##.aTab:has-text("RedGIFs.ai")
+
 ! ============
 ! == Rediff ==
 ! ============
