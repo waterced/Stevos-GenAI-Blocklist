@@ -47,11 +47,11 @@ drive.google.com##.h-v:has([src="https://ssl.gstatic.com/docs/doclist/images/med
 ! ===================
 ! -- Main page
 ! Header bar - Upgrade to Google AI Plus
-gemini.google.com##button[data-test-id="bard-upsell-menu-button"]
+gemini.google.com##[data-test-id="bard-upsell-menu-button"]
 ! Chat box (when initially loading page)
-gemini.google.com##div.initial-input-area-container
+gemini.google.com##.initial-input-area-container
 ! Chat window
-gemini.google.com##div.content-container > chat-window
+gemini.google.com##.content-container > chat-window
 
 ! ================================
 ! == M365 Copilot/Microsoft 365 ==
