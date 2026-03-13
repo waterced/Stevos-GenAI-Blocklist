@@ -1797,6 +1797,17 @@ webmail.strato.de##[aria-label="KI-Integration"]
 ! "AI-Chat" app link in app menu
 webmail.strato.de##[data-app-name="io.ox/ai-chat"]
 
+! ===============
+! == The Gamer ==
+! ===============
+! -- https://www.thegamer.com/gaming-site-videogamer-removed-google/
+! AI summary button in left sidebar
+www.thegamer.com##.qa-action-list.sensa-features
+! AI Sparkle in left sidebar
+www.thegamer.com##.i-sensa
+! AI summary button in header on small page sizes
+www.thegamer.com##.action-bar-ai-feature
+
 ! ====================
 ! == The Home Depot ==
 ! ====================
