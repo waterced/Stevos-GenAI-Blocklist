@@ -1479,6 +1479,17 @@ op.gg##.button-bold.rounded.size-\[40px\]:has(> .transition-all > .bg-animated-r
 ! Suggested questions below search bar
 op.gg##.flex-col.items-center.-mt-\[60px\] > .w-full.pb-2.md\:hidden.md\:pb-0
 
+! =============
+! == Outlook ==
+! =============
+! -- https://outlook.office.com/mail/
+! Copilot icon in top right
+outlook.office.com##[data-app-section="CopilotDabRibbon"]
+! Copilot icon in left sidebar
+outlook.office.com##.___77lcry0.f10pi13n[aria-label="Copilot"]
+! Summarize button while reading a message
+outlook.office.com##.fai-CopilotProvider
+
 ! ===============================
 ! == Oxford English Dictionary ==
 ! ===============================
