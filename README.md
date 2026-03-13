@@ -112,6 +112,9 @@ Probably. The list was developed for uBlock Origin, but I've been told it works 
 #### Q: Will this work with Pi-hole?
 No. Pi-hole and uBlock Origin work differently. uBlock Origin allows filtering individual elements on pages, while Pi-hole blocks entire domains.
 
+#### Q: Will this remove search results from sites that post AI generated content?
+No. If you want to block sites from search engines, try [laylavish's Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist).
+
 ## Contributing guidelines
 
 If you want to [report an issue](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues) or submit a pull request for an item that isn't being blocked, please include the URL where the unblocked item appears and a screenshot of the page showing the unblocked item.
@@ -135,7 +138,6 @@ Commit messages use prefixes to indicate the type of change.
 * [Blocklist for AI music on YouTube](https://surasshu.com/blocklist-for-ai-music-on-youtube/): Blocklist of AI music channels on YouTube for the Blocktube extension.
 * [Spotify AI Band Blocker](https://github.com/Reginald-Gillespie/Spotify-AI-Band-Blocker): Plugin for Spicetify to block AI artists on Spotify.
 * [Spotify AI Blocker](https://github.com/CennoxX/spotify-ai-blocker): Userscript to block AI artists on Spotify
-
 
 ## Feedback
 
