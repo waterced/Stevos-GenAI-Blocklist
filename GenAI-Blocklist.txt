@@ -995,6 +995,7 @@ docs.google.com##.extendTableControlsOverlayIconContainer:has(> .extendTableCont
 ! - Table options (Insert > Pre-built tables)
 ! "Help me create a table" button
 docs.google.com##.building-blocks-sidekick-entrypoint-button
+docs.google.com##.building-blocks-sidekick-scroll-top:style(top: 58px !important)
 ! "AI enhanced tables" promo
 docs.google.com##.building-blocks-promo-container
 ! Table categories with AI fields
