@@ -266,6 +266,13 @@ chatgpt.com##.button-glimmer-cta:has-text("Get Plus"):upward(1)
 ! AI search summary
 developer.chrome.com,web.dev##devsite-search-summary
 
+! =============
+! == Claimyr ==
+! =============
+! -- https://claimyr.com/government-services/irs/What-Business-Code-Should-I-Use-For-My-Content-Creator-Partnership-on-My-1099-MISC/2025-04-11
+! IRS AI chatbot assistant
+claimyr.com##.chat-container-container
+
 ! =================
 ! == Claude Docs ==
 ! =================
