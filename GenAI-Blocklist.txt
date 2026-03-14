@@ -2149,6 +2149,8 @@ www.youtube.com##yt-button-view-model:has([aria-label="طرح سؤال"], [aria-
 m.youtube.com##.ytSpecButtonViewModelHost:has(> [aria-label="طرح سؤال"], [aria-label="Ask"], [aria-label="पूछें"], [aria-label="질문하기"], [aria-label="Perguntar"], [aria-label="Preguntar"])
 ! Floating "Ask about this video" button over video
 www.youtube.com##.ytp-suggested-action-badge[aria-label="Ask about this video"]
+! Fullscreen "Ask" button
+www.youtube.com##.ytp-fullscreen-quick-actions button[aria-label="Ask"]
 
 ! AI dubbed audio languages (example: https://www.youtube.com/watch?v=e9Kwl1tdL8M)
 ! * Settings > Audio Track
