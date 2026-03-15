@@ -472,6 +472,13 @@ emojipedia.org##.Button_btn__p7Xgd[href="/ai-emoji-generator"]
 ! "AI Emoji Generator Stickers" section
 emojipedia.org##.flex.flex-col.gap-4:has(> .items-center > .Button_btn__p7Xgd[href="/ai-emoji-generator"])
 
+! ==========
+! == Etsy ==
+! ==========
+! -- https://www.etsy.com/listing/1877003583/princess-rosalina-cosplay-crown-3d
+! "Buyer highlights"
+www.etsy.com##[data-appears-component-name="reviews_feature_tags"]
+
 ! ==============
 ! == Facebook ==
 ! ==============
