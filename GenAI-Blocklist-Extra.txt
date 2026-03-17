@@ -60,6 +60,14 @@ gemini.google.com##.initial-input-area-container
 ! Chat window
 gemini.google.com##.content-container > chat-window
 
+! ===================
+! == Google Slides ==
+! ===================
+! "Convert to video" in "File" menubar and right sidebar 
+! * Can be used without AI, but heavily encourages using AI tools
+docs.google.com##.goog-menuitem:has([aria-label^="Convert to video"])
+docs.google.com###content-library-rail-convert-to-video-element
+
 ! ================================
 ! == M365 Copilot/Microsoft 365 ==
 ! ================================
