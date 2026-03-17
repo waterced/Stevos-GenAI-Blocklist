@@ -168,7 +168,7 @@ squareup.com###q-messenger-frame[title="Qualified Messenger"]
 ! =========================
 ! == Stack Overflow Blog ==
 ! =========================
--- https://stackoverflow.blog/
+! -- https://stackoverflow.blog/
 ! "AI/ML" category on left sidebar
 stackoverflow.blog##.my4:has(> a[href="/ai/"])
 
