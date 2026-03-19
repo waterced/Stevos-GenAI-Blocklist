@@ -997,9 +997,7 @@ www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.oGdvd
 www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.Kevs9.SLPe5b:has([data-attnms])
 www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.YNk70c.EjQTId:has(+ div [data-attnms])
 ! "People also ask" options with AI overviews
-! * Filter is delayed. 
-! * .DuQANe.MSJHRb.ZgCIV: "AI can make mistakes" disclaimer
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk##[jsname="YrZdPb"]:has(.DuQANe.MSJHRb.ZgCIV)
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk##[jsname="YrZdPb"]:not(:has(.Sbgr0))
 
 ! -- https://www.google.com/search?q=Mario
 ! Expandable "Things to know" that have AI overviews
