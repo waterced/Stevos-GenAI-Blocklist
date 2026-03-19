@@ -1124,6 +1124,14 @@ www.healio.com##body:style(padding-top: 0px !important)
 ! "Healio AI" in navbar
 www.healio.com##.ai-link
 
+! ===========================
+! == HD Porn Comics (NSFW) ==
+! ===========================
+! AI buttons in navbar
+hdporncomics.com###menu-item-231575, #menu-item-201810, #menu-item-212294
+! AI ad in "Latest Updates"
+hdporncomics.com##[data-ad-injected="true"]:has(> [href^="https://a.neurogrid7.com/"])
+
 ! =========================
 ! == Hentai Haven (NSFW) ==
 ! =========================
