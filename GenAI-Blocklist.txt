@@ -234,6 +234,15 @@ www.britannica.com##.category-link-CHATBOT
 ! AI button next to search bar
 www.bunnings.com.au##[aria-label="Ask Bunnings AI"]
 
+! ==============
+! == Buzzfeed ==
+! ==============
+! -- https://www.buzzfeed.com/arcade
+! Category for "Create with AI" 
+www.buzzfeed.com##.morefun_navigationFilters__L3eEr > ul > li:has([clip-path="url(#clip0_850_837)"])
+! Games categorized with "Create with AI"
+www.buzzfeed.com##.arcade_contentWrapper__3tHoG:has([clip-path="url(#clip0_850_837)"])
+
 ! ==========================
 ! == Cambridge Dictionary ==
 ! ==========================
