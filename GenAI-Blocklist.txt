@@ -796,7 +796,7 @@ mail.google.com##.JLWipf
 ! "Gemini" & "NotebookLLM" App Selector (⋮⋮⋮)
 ! * Applies to most Google apps (Calendar, Docs, Drive, Gmail, Maps, Search, Wallet, etc.)
 ! * Don't filter if app is in "Your Favorites" section to avoid leaving a blank space that can't be replaced with another app.
-google.com,google.ca,google.co.jp,google.com.hk##.LVal7b:not(.nq7pOb) .j1ei8c:has(> [data-pid="658"], > [data-pid="666"])
+google.com,www.google.com.hk,www.google.*##.LVal7b:not(.nq7pOb) .j1ei8c:has(> [data-pid="658"], > [data-pid="666"])
 
 ! -- https://drive.google.com/drive/
 ! "Try Gemini" button in header
@@ -982,52 +982,52 @@ one.google.com##.aTVMOe.RLyrIe.KGSMie
 
 ! -- https://www.google.com/ (Homepage)
 ! Search bar > "AI Mode" button
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.plR5qb
+www.google.com,www.google.com.hk,www.google.*##.plR5qb
 ! Remove AI hyperlinks from Google Logo (Added during Olympics)
 ! * Desktop
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.k1zIA.kKvsb > a[href*="&udm=50"]:remove-attr(href)
+www.google.com,www.google.com.hk,www.google.*##.k1zIA.kKvsb > a[href*="&udm=50"]:remove-attr(href)
 ! * Mobile
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk###hplogoo a[href*="&udm=50"]:remove-attr(href)
+www.google.com,www.google.com.hk,www.google.*###hplogoo a[href*="&udm=50"]:remove-attr(href)
 ! * Mobile search results page
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk###mlogo[href*="&udm=50"]:remove-attr(href)
+www.google.com,www.google.com.hk,www.google.*###mlogo[href*="&udm=50"]:remove-attr(href)
 ! Promo text below search bar mentioning AI
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk##promo-middle-slot:has-text("/\bAI\b/")
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk##promo-middle-slot:has-text("Gemini")
+www.google.com,www.google.com.hk,www.google.*##promo-middle-slot:has-text("/\bAI\b/")
+www.google.com,www.google.com.hk,www.google.*##promo-middle-slot:has-text("Gemini")
 ! Footer - "Applying AI towards science and the environment"
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.pHiOh[href="https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer"]
+www.google.com,www.google.com.hk,www.google.*##.pHiOh[href="https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer"]
 
 ! -- https://www.google.com/ (Mobile only)
 ! Search bar - AI button (magnifying glass icon)
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.xOchs
+www.google.com,www.google.com.hk,www.google.*##.xOchs
 
 ! -- https://www.google.com/search?q=test
 ! "AI Mode" tab in navbar
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.olrp5b
+www.google.com,www.google.com.hk,www.google.*##.olrp5b
 ! Main AI Overview
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk##[data-attnms]
+www.google.com,www.google.com.hk,www.google.*##[data-attnms]
 ! Web Guide
 ! * Only applies if Web Guide is enabled in Google Labs
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.oGdvd
+www.google.com,www.google.com.hk,www.google.*##.oGdvd
 
 ! -- https://www.google.com/search?q=Why+are+we+here
 ! Blank space for AI Overview at top of search results
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.Kevs9.SLPe5b:has([data-attnms])
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.YNk70c.EjQTId:has(+ div [data-attnms])
+www.google.com,www.google.com.hk,www.google.*##.Kevs9.SLPe5b:has([data-attnms])
+www.google.com,www.google.com.hk,www.google.*##.YNk70c.EjQTId:has(+ div [data-attnms])
 ! "People also ask" options with AI overviews
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk##[jsname="YrZdPb"]:not(:has(.Sbgr0))
+www.google.com,www.google.com.hk,www.google.*##[jsname="YrZdPb"]:not(:has(.Sbgr0))
 
 ! -- https://www.google.com/search?q=Mario
 ! Expandable "Things to know" that have AI overviews
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.o3PDvf.XBlWIe.VZ8ove.h373nd:has([data-fbctx="0gEHCgUIswEQAQ=="])
+www.google.com,www.google.com.hk,www.google.*##.o3PDvf.XBlWIe.VZ8ove.h373nd:has([data-fbctx="0gEHCgUIswEQAQ=="])
 
 ! -- https://www.google.com/search?q=Mario (mobile only)
 ! AI generated overview of topic
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk##[data-attrid="VisualDigestGeneratedDescription"]
+www.google.com,www.google.com.hk,www.google.*##[data-attrid="VisualDigestGeneratedDescription"]
 
 ! -- https://www.google.com/search?q=Halo&sca_esv=38a1cb84e2b2add3
 ! Expandable topics in "What people are saying" section
 ! * .k1U36b.OMMx3d: "Generative AI is experimental" disclaimer
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk##[data-crust-trigger] > div:has(.k1U36b.OMMx3d)
+www.google.com,www.google.com.hk,www.google.*##[data-crust-trigger] > div:has(.k1U36b.OMMx3d)
 
 ! ===================
 ! == Google Sheets ==

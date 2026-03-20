@@ -59,7 +59,7 @@ gemini.google.com##.content-container > chat-window
 ! -- https://www.google.com/
 ! Search autocomplete suggestion that uses AI mode
 ! * Use remove() to prevent selection by keyboard shortcut. The item still takes up a slot with keyboards selection, but it cannot be selected. (IE: Need to hit arrow twice to get past it.)
-google.com##.G43f7e > [data-attrid="AutocompletePrediction"]:has([role="option"][aria-description="AI Mode"]):remove()
+www.google.com,www.google.com.hk,www.google.*##.G43f7e > [data-attrid="AutocompletePrediction"]:has([role="option"][aria-description="AI Mode"]):remove()
 
 ! ===================
 ! == Google Slides ==
