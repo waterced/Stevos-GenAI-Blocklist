@@ -1182,6 +1182,12 @@ hentai.tv##.btn[href="https://aipenly.com/"]
 ! Galleries tagged ai generated
 hentaiera.com##.thumb[data-tags~="17758"]
 
+! =======================
+! == Hentaigasm (NSFW) ==
+! =======================
+! AI Jerk Off button
+hentaigasm.com###guest-nav:has(> [href="https://s.zlinkp.com/d.php?z=5442922"])
+
 ! =============
 ! == ImgFlip ==
 ! =============
@@ -1911,6 +1917,15 @@ webmail.strato.de##[aria-label="KI-Integration"]
 ! "AI-Chat" app link in app menu
 webmail.strato.de##[data-app-name="io.ox/ai-chat"]
 
+! ==========================
+! == The Porn List (NSFW) ==
+! ==========================
+! AI site categories
+! * Hiding a section without hiding the full blok2 leaves a blank space, but is needed if a blok2 has a non-ai section 
+thepornlist.net##.blok2:has([href="https://www.thepornlist.net/ai-porn-sites/"]):has(.blok2contentxl)
+thepornlist.net##.blok2title:has([href="https://www.thepornlist.net/ai-sex-chat-sites/"])
+thepornlist.net##.blok2title:has([href="https://www.thepornlist.net/ai-sex-chat-sites/"]) + [class="blok2contentmed"]
+
 ! ===============
 ! == The Gamer ==
 ! ===============
@@ -1993,6 +2008,12 @@ tube8.com,tube8.es,tube8.fr##.paidTab:has([data-label2="Ai Girls"])
 ! -- https://turbotax.intuit.com/
 ! "Ask AI Concierge" sticky button in bottom right
 turbotax.intuit.com###aic-entry
+
+! ==============================
+! == Uncensored Hentai (NSFW) ==
+! ==============================
+! AI Porn in navbar
+uncensoredhentai.xxx###menu-item-20697
 
 ! =========
 ! == UPS ==
