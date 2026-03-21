@@ -1643,6 +1643,14 @@ pictory.ai###livex-chatbot-app
 ! Hide image if AI-generated tag is present
 pixiv.net##footer.sc-965e5f82-4.hvhvYg:has(a[href="https://www.pixiv.help/hc/articles/11866167926809"]):upward(4) > figure.sc-bf28ee48-2.kiQxQX
 
+! ======================
+! == Porn Dude (NSFW) ==
+! ======================
+! AI site categories
+theporndude.com##.ai-erotic-story-generators-block-style, .ai-hentai-generator-sites-reviews-block-style, .ai-porn-generator-sites-reviews-block-style, .ai-porn-sites-block-style, .ai-sex-chat-sites-block-style, .ai-trans-porn-sites-reviews-block-style, .arab-ai-porn-sites-reviews-block-style, .asian-ai-porn-sites-reviews-block-style, .ebony-ai-porn-sites-reviews-block-style, .indian-ai-porn-sites-reviews-block-style, .latina-ai-porn-sites-reviews-block-style, .undress-ai-sites-block-style
+! Sites with AI categories
+theporndude.com##.category-item:has(> .ai-friendly-icon)
+
 ! ================
 ! == Posit Docs ==
 ! ================
