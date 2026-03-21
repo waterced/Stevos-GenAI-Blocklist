@@ -1917,6 +1917,13 @@ webmail.strato.de##[aria-label="KI-Integration"]
 ! "AI-Chat" app link in app menu
 webmail.strato.de##[data-app-name="io.ox/ai-chat"]
 
+! ==================================
+! == The Best Fetish Sites (NSFW) ==
+! ==================================
+! AI site categories
+thebestfetishsites.com##.homecatwrapper:has(> .homecategorytitle > [href="https://thebestfetishsites.com/ai-porn-sites/"])
+thebestfetishsites.com##.homecatwrapper:has(> .homecategorytitle > [href="https://thebestfetishsites.com/ai-sex-chat-sites/"])
+
 ! ==========================
 ! == The Porn List (NSFW) ==
 ! ==========================
