@@ -1168,6 +1168,14 @@ www.healio.com##.ai-link
 ! "AI Porn" link in header
 hentaihaven.xxx###menu-item-96519
 
+! ==========================
+! == Hentai Stream (NSFW) ==
+! ==========================
+! AI in navbar
+tube.hentaistream.com##li:has(> [href="https://tube.hentaistream.com/out/trahaicn"])
+! Create AI promo
+tube.hentaistream.com##.post:has([href^="https://tube.hentaistream.com/createai/"])
+
 ! ======================
 ! == Hentai.tv (NSFW) ==
 ! ======================
