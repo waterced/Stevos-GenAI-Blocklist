@@ -108,13 +108,13 @@ These filters were previously part of the main blocklist, but it was split off a
 #### Q: Does this prevent AI content from being generated?
 No. AI elements are only hidden. In most cases, AI content will still be generated in the background.
 
-#### Q: Will this work with Adblock Plus?
-No. The list can be added to Adblock Plus, but it does not work for some unknown reason.
+#### Q: Will this work with [Adblock](https://getadblock.com/en/) or [Adblock Plus](https://adblockplus.org/)?
+No. The list can be added, but it does not work for some unknown reason.
 
 #### Q: Will this work with [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html)?
 Yes. If you are using Google Chrome, you will need to enable "Allow User Scripts" in the settings.
 
-#### Q: Will this work with Pi-hole?
+#### Q: Will this work with [Pi-hole](https://pi-hole.net/)?
 No. Pi-hole and uBlock Origin work differently. uBlock Origin allows filtering individual elements on pages, while Pi-hole blocks entire domains.
 
 #### Q: Will this remove search results from sites that post AI generated content?
