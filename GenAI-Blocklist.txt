@@ -1582,6 +1582,12 @@ www.ndtv.com##.ASum_wr.ASum_Mnon
 ! Floating AI chat button
 www.nutraingredients.com##.ask-ia-widget
 
+! ====================
+! == OHentai (NSFW) ==
+! ====================
+! AI Generated category in sidebar
+ohentai.org##.interlink[href="tagsearch.php?tag=AI Generated"]
+
 ! ===========
 ! == OP.GG ==
 ! ===========
