@@ -2400,8 +2400,5 @@ studio.youtube.com##[test-id="VIDEO_BRAINSTORM_IDEA"]
 ! =====================
 ! == Misc Ads (NSFW) ==
 ! =====================
-||cdn.twinrdengine.com/04bc553d2358916d4afb8d2150da5d76_360p.mp4
-||cdn.twinrdengine.com/8a86b514d939f13d82bf0576b3c577d3_360p.mp4
-||cdn.twinrdengine.com/aa0cd813d46098dc171827f88161984a_360p.mp4
-||cdn.twinrdengine.com/ba678b37402031335ca50089a109c065_360p.mp4
-||playhubconnect.com/bn/87a/8cb/e0e/87a8cbe0e6cad89681012331a4c1eed70ee7f21a.mp4
+||cdn.twinrdengine.com^
+||playhubconnect.com^
