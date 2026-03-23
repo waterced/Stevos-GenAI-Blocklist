@@ -566,6 +566,14 @@ fandom.com##section.trfc161
 ! "AI Jerk Off" in navbar
 www.fapnado.xxx##.gngames[href="https://tsyndicate.com/api/v1/direct/9456ec3abb18461b91f4de5e492b0979?"]
 
+! =========================
+! == Freeuse Porn (NSFW) ==
+! =========================
+! "AI Cum Sluts" category
+freeuseporn.com##.categories [href="https://a.logivanta42.com/2adfb4f8-4cfc-428e-84d3-c1149fc2126f?creative=ai_cum_sluts&spot=txt_button&adg=0"]
+! "Free AI Sex" friend site
+freeuseporn.com##.friends [href="https://www.nsfwlover.com/"]
+
 ! ========
 ! == G2 ==
 ! ========
@@ -1358,6 +1366,16 @@ www.linkedin.com##.share-creation-state__writing-assistant-container--premium
 ! "Enahnce with AI" button
 www.linkedin.com##div.pvs-entity__secondary-action-container:has(svg[data-test-icon="premium-signal-ai-small"])
 
+! ======================
+! == LoLHentai (NSFW) ==
+! ======================
+! "AI Sex Chat" in navbar
+www.lolhentai.net##.init-popup:has(> [href^="https://www.gptgirlfriend.online"])
+! Floating AI chat ad
+www.lolhentai.net##iframe[src^="https://freeuseporn.com/bnrmanage/d3d3/ZGVsaXZlcnk=/YWZy.php?em9uZWlk=11"]
+! Sponsor box in right sidebar (Often has AI content)
+www.lolhentai.net##.sponsor
+
 ! =====================
 ! == Luscious (NSFW) ==
 ! =====================
@@ -1694,8 +1712,8 @@ pictory.ai###livex-chatbot-app
 ! == Pixiv ==
 ! ===========
 ! -- https://www.pixiv.net/en/artworks/140381030 (Image page)
-! Hide image if AI-generated tag is present
-pixiv.net##footer.sc-965e5f82-4.hvhvYg:has(a[href="https://www.pixiv.help/hc/articles/11866167926809"]):upward(4) > figure.sc-bf28ee48-2.kiQxQX
+! Hide image if Pixiv assigned an AI-generated label
+www.pixiv.net##footer.sc-965e5f82-4.hvhvYg:has(a[href="https://www.pixiv.help/hc/articles/11866167926809"]):upward(4) > figure.sc-bf28ee48-2.kiQxQX
 
 ! ======================
 ! == Porn Dude (NSFW) ==
