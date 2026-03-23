@@ -14,6 +14,15 @@
 ! * Removing sites that post Generative AI content from search engines.
 !   (Covered by https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist)
 
+! ==================
+! == 9vids (NSFW) ==
+! ==================
+! Candy AI in navbar
+9vids.com##.menu-item:has( > [href^="https://landing.candynetwork.ai/"])
+! Candy AI and AI Taboo in sidebar
+9vids.com##.menu-item:has(> [href="https://9vids.com/category/ai-taboo/"])
+9vids.com##.menu-item:has(> [href^="https://candyai.gg/"])
+
 ! =================
 ! == ACS Courier ==
 ! =================
