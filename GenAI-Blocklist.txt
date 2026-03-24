@@ -1605,6 +1605,13 @@ www.sciencedirect.com###pendo-base
 www.flyscoot.com##.ai-trip-section
 www.flyscoot.com##.vertical-divider:has(+ .currency-section)
 
+! =============
+! == Semrush ==
+! =============
+! -- https://www.semrush.com/blog/google-tag-manager/
+! "See How AI Is Talking About Your Brand" box in article
+www.semrush.com###vwo-ai-visibility-cta
+
 ! ==========================
 ! == Sentry Documentation ==
 ! ==========================
