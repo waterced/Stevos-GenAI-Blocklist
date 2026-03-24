@@ -201,6 +201,12 @@ www.britannica.com##.category-link-CHATBOT
 ! AI button next to search bar
 www.bunnings.com.au##[aria-label="Ask Bunnings AI"]
 
+! ======================
+! == Business Insider ==
+! ======================
+! -- https://www.businessinsider.com/aging-retirement-vibe-coding-ai-lovable-chatgpt-claude-security-cameras-2026-3
+www.businessinsider.com##.ai-summary-questions
+
 ! ==============
 ! == Buzzfeed ==
 ! ==============
