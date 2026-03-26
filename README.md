@@ -108,7 +108,7 @@ These filters were previously part of the main blocklist, but it was split off a
 #### Q: Does this prevent AI content from being generated?
 Sometimes, but not always.
 
-These filters work by hiding the AI elements. In some cases this may stop the generation, but in other cases AI content may still be generated in the background. For example, if you perform a Google Search with the filters on, then toggle "cosmetic filtering" off in uBlock Origin, you can see the AI overview won't generate until after it gets unhidden. 
+These filters work by hiding the AI elements. In some cases this may stop the generation, but in other cases AI content may still be generated in the background. For example, if you load [this Google Search page](https://www.google.com/search?q=SQL+What+percentage+of+users+have+accessed+a+group) with filters on, then toggle "cosmetic filtering" off in uBlock Origin, you can see the AI overview won't generate until after it gets unhidden.
 
 #### Q: Will this work with [Adblock](https://getadblock.com/en/) or [Adblock Plus](https://adblockplus.org/)?
 No. The list can be added, but it does not work for some unknown reason.
