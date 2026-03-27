@@ -1197,6 +1197,10 @@ kagi.com##.__sri_more_menu > .k_ui_dropdown_data_list > .list_items > ._0_discus
 ! ============
 ! == Kahoot ==
 ! ============
+! -- https://kahoot.com/
+! Study > "Studying with AI" in navbar
+kahoot.com##.menu-item:has(> [href^="https://kahoot.com/kahoot-study/notes-to-flashcards/"])
+
 ! -- https://create.kahoot.it/page/en/make
 ! AI Assisted tools to get started
 discover.kahoot.it##[data-functional-selector="native-carousel-item"]:has([class^="styles_AiAssisted__"])
