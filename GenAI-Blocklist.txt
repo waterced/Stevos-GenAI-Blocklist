@@ -2284,8 +2284,8 @@ www.lolhentai.net##.sponsor
 ! == Luscious (NSFW) ==
 ! =====================
 ! -- https://www.luscious.net/
-! "AI Art" category under Manga/Hentai in navbar
-luscious.net##.desktop-module__submenu-item--njaEB:has(> [href$="&genre_ids=63&display=date_trending&page=1"])
+! "AI Art" in navbar category menus
+luscious.net##[class^="desktop-module__submenu-item--"]:has(> [href$="&genre_ids=63&display=date_trending&page=1"])
 ! "Check out our new AI Art Library" banner
 luscious.net##.site-banner:has([href*="genre_ids=63"])
 
