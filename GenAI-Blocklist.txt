@@ -982,8 +982,12 @@ www.google.com,www.google.com.hk,www.google.*##[jsname="YrZdPb"]:not(:has(.Sbgr0
 www.google.com,www.google.com.hk,www.google.*##.o3PDvf.XBlWIe.VZ8ove.h373nd:has([data-fbctx="0gEHCgUIswEQAQ=="])
 
 ! -- https://www.google.com/search?q=Mario (mobile only)
-! AI generated overview of topic
+! AI generated overview
 www.google.com,www.google.com.hk,www.google.*##[data-attrid="VisualDigestGeneratedDescription"]
+
+! -- https://www.google.com/search?q=tie (mobile only)
+! AI generated overview container
+www.google.com,www.google.com.hk,www.google.*##.iVzeVc:has([data-attrid="VisualDigestGeneratedDescription"])
 
 ! -- https://www.google.com/search?q=computer+repair
 ! Have AI check prices
