@@ -2132,6 +2132,16 @@ studio.youtube.com###comment-smart-replies
 ! "Brainstorm video ideas" in action menu (⋮)
 studio.youtube.com##[test-id="VIDEO_BRAINSTORM_IDEA"]
 
+! ==========
+! == Zoom ==
+! ==========
+! -- https://www.zoom.com/
+! AI menu in header
+www.zoom.com##.zdcm-list-item-ai
+! AI notetaker banner
+www.zoom.com##.fdn-alert-banner--homepage-v2[href="https://www.zoom.com/en/products/ai-assistant/features/ai-note-taking/"]
+www.zoom.com##.hero__content:style(padding-top: 60px !important)
+
 ! -----------------------------------------------------------
 
 ! ==================

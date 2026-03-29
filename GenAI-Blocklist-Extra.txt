@@ -177,3 +177,10 @@ x.com##article[data-testid="tweet"]:has(div.css-175oi2r.r-5f1w11.r-u8s1d.r-8jfcp
 ! Separated into extra filters, as you are able to get support from a real human
 ! by asking to contact a real person.
 studio.youtube.com##ytcp-sam-chat
+
+! ==========
+! == Zoom ==
+! ==========
+! -- https://www.zoom.com/
+! Virtual Agent floating icon for support chatbot
+zoom.com,zoom.us##.livesdk__invitation
