@@ -860,7 +860,7 @@ drive.google.com###viewer-sidekick-button
 ! ====================
 ! -- https://www.google.com/travel/flights
 ! "Explore the best flight deals with AI"
-www.google.com##.kfgtbc:has(.lHmueb[viewBox="0 -960 960 960"]:not(.NMm5M))
+www.google.com##.yVTUN:has(svg.fdpJhe)
 
 ! ==================
 ! == Google Forms ==
