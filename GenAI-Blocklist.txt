@@ -2432,6 +2432,12 @@ ooxxx.com##.tag__item:has(> [href="https://candyai.gg/home2?oid=1&affid=223&sour
 www.porn.com##.nav-main__item:has(> [href="https://www.tckcandy.com/cmp/7XJHR8/2JL8K8/?source_id=porncom&sub1=tab_aijerkoff"])
 
 ! ====================
+! == PornDig (NSFW) ==
+! ====================
+! "AI Jerkoff" in navbar
+www.porndig.com##.main_menu_item:has(.icon-ic_16_ai_stars)
+
+! ====================
 ! == Pornhub (NSFW) ==
 ! ====================
 ! AI Cum Slut button
