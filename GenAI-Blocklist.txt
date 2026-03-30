@@ -781,6 +781,12 @@ about.google##.glue-footer__link[href^="https://ai.google/"]
 ! Gemini in Google Products list
 about.google##.product-filter__wrapper:has(> [href^="https://gemini.google.com/"])
 
+! ================
+! == Google Ads ==
+! ================
+! Ads Advisor in navbar
+ads.google.com##.app-bar-icon:has(> .icon-ads-guide)
+
 ! ======================
 ! == Google Analytics ==
 ! ======================
