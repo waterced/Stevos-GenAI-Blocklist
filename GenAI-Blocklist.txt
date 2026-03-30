@@ -783,6 +783,10 @@ blog.google##section[data-analytics-module*="\"section_header\": \"AI Impact Sum
 ! AI summary in search
 blog.google##uni-search-ai-summary
 
+! -- https://blog.google/products-and-platforms/products/search/search-live-global-expansion/
+! "Read AI-generated summary"
+blog.google##[data-component="uni-ai-generated-summary"]
+
 ! ==================
 ! == Google Cloud ==
 ! ==================
