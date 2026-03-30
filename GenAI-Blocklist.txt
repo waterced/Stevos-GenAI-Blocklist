@@ -96,6 +96,17 @@ health.amazon.com###nav-health-ai
 ! "Health AI" promo section
 health.amazon.com##.bg-no-repeat[style*="background-image:url('https://m.media-amazon.com/images/G/01/ahs/health_ai/opt-in/HealthAI_Background_CDF0E9.jpg');"]
 
+! =============
+! == Android ==
+! =============
+! -- https://www.android.com/
+! AI promos in carousel
+www.android.com###create-and-share-jaw-dropping-images-straight-from-your-phone-4:upward(1)
+www.android.com###remix-any-photo-right-in-your-messages:upward(1)
+! AI Promo sections
+www.android.com###create-your-own-unique-android-bot
+www.android.com###ai-on-android
+
 ! ===========
 ! == Baidu ==
 ! ===========
