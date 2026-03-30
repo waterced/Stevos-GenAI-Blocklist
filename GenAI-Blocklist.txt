@@ -1130,6 +1130,10 @@ workspace.google.com##gws-card-wrapper:is([href="/solutions/ai/"], [href="/produ
 workspace.google.com##section[data-module="TemplateLocalizedModuleContainer"]:has(._gemini_1j2q4_140)
 workspace.google.com##section[data-module="TemplateLocalizedModuleContainer"]:has(._gemini_1j2q4_140) + [data-module="TemplateSpacer"]
 
+! -- https://workspace.google.com/marketplace
+! "Works with Gemini" app section
+workspace.google.com##.ORSkHc:has([data-appset-type="49"])
+
 ! ==========
 ! == Grok ==
 ! ==========
