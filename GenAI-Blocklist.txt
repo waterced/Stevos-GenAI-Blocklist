@@ -810,6 +810,18 @@ blog.google##uni-search-ai-summary
 ! "Read AI-generated summary"
 blog.google##[data-component="uni-ai-generated-summary"]
 
+! =================
+! == Google Chat ==
+! =================
+! -- https://chat.google.com/app/home
+! Ask Gemini in navbar
+! * May be mergable with gmail rule via shared class .e5IPTd
+chat.google.com##.rHn5Xc.e5IPTd
+! "Summarize with Gemini" modal
+chat.google.com##.SDFSsb.oMuP2d:has([role="dialog"][data-promotype="19"])
+! "Summarize" button on message
+chat.google.com##.pYTkkf-Bz112c-LgbsSe.sgwC2b.q5K0Kc.sd47rd
+
 ! ==================
 ! == Google Cloud ==
 ! ==================
