@@ -766,6 +766,13 @@ google.com,www.google.com.hk,www.google.*##.LVal7b:not(.nq7pOb) .j1ei8c:has(> [d
 ! * Applies to Docs, Drive, & Gmail
 google.com##[data-rp-placement-id="gemkick-pep-icon-callout-id"]
 
+! ==================
+! == Google About ==
+! ==================
+! -- https://about.google/
+! Lyria 3 Pro section. (Yes, the ID is misleading)
+about.google###how-ai-can-help-improve-breast-cancer-detection
+
 ! ======================
 ! == Google Analytics ==
 ! ======================

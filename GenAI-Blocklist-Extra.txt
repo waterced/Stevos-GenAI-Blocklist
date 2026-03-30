@@ -29,13 +29,6 @@ deviantart.com##[data-testid="content_row"] > div:has(a:matches-attr(data-userna
 ! "Generative AI" reports in left sidebar
 admin.google.com###node-N19-47803731
 
-! ==================
-! == Google About ==
-! ==================
-! -- https://about.google/
-! Lyria 3 Pro section. (Yes, the ID is misleading)
-about.google###how-ai-can-help-improve-breast-cancer-detection
-
 ! ===================
 ! == Google Search ==
 ! ===================
