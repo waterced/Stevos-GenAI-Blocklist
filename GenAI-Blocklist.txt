@@ -1188,6 +1188,8 @@ imgflip.com###gen-qa > p:has-text("Funny you ask. Why yes, we do. Here you go:")
 ! == Insight Software ==
 ! ======================
 ! -- https://insightsoftware.com/
+! Lineos in header "About" menu
+insightsoftware.com##.dropdown-item[href="https://insightsoftware.com/insightsoftware-ai/"]
 ! Lineos AI in footer
 insightsoftware.com##.menu-item-object-custom:has(> [href="https://insightsoftware.com/insightsoftware-ai/"])
 
