@@ -778,7 +778,11 @@ about.google###how-ai-can-help-improve-breast-cancer-detection
 about.google##.glue-footer__link[href^="https://ai.google/"]
 
 ! -- https://about.google/products/
-! Gemini in Google Products list
+! AI promo sections
+about.google##.glue-jumplinks__link[href="#try-ai-tools"]
+about.google###ai-technology
+about.google###try-ai-tools
+! Gemini in products list
 about.google##.product-filter__wrapper:has(> [href^="https://gemini.google.com/"])
 
 ! ================
