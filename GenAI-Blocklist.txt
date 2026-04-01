@@ -2103,8 +2103,10 @@ search.yahoo.com##.sb-scout-wrap
 search.yahoo.com##.scoutPromo
 
 ! -- https://search.yahoo.com/search?p=Test
-! Header > "Yahoo Scout"
+! "Yahoo Scout" in navbar
 search.yahoo.com##.scoutNav
+! "Yahoo Scout" in navbar (mobile)
+search.yahoo.com##.scout-tab
 
 ! =================
 ! == Yahoo Japan ==
