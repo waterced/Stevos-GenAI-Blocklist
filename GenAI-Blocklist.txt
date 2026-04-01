@@ -2506,6 +2506,11 @@ rule34.xxx###displayOptions:has(#chkFilterAI[checked])
 ! AI tagged images
 rule34.xxx###content > .image-list > span:has( > .thumb > a > img:is([title~="ai"], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated"], [title~="ai_art"], [title~="ai_assisted"], [title~="ai_generated"], [title~="ai_voice"]))
 
+! =======================
+! == rule34.lol (NSFW) ==
+! =======================
+www.rule34.lol##.media-box:has(.thumb:is([data-image-tag-aliases*="ai assisted,"], [data-image-tag-aliases*="ai generated,"]))
+
 ! ============================
 ! == Sankaku Complex (NSFW) ==
 ! ============================
