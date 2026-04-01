@@ -1277,6 +1277,10 @@ www.jimdo.com###companion
 kagi.com##.nav-item-link[href="/assistant"]
 kagi.com##.nav-item-link[href="/summarizer"]
 kagi.com##.nav-item-link[href="/fastgpt"]
+! April Fools Day redesign
+kagi.com##.nav > [href="/assistant"]
+kagi.com##.nav > [href="/summarizer"]
+kagi.com##div:has(> b > [href="/summarizer"])
 
 ! -- https://kagi.com/search?q=test (Search results)
 ! "Quick Answer" button
