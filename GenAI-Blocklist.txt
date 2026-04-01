@@ -932,6 +932,9 @@ www.google.com##.kfgtbc:has([class="lHmueb"])
 ! -- https://docs.google.com/forms/create
 ! "Help me create a form" navbar button
 docs.google.com##[data-action-id="freebird-open-help-me-ask-from-icon"]
+! "Help me create a form" menu item for small page sizes
+docs.google.com##[role="menuitem"]:has(> [data-action-id="freebird-open-help-me-ask-from-icon"])
+docs.google.com##[role="menuitem"]:has(> [data-action-id="freebird-open-help-me-ask-from-icon"]) + [role="separator"]
 ! Gemini popup on new form creation
 docs.google.com##[jsname="Vjwl5e"]:has(#getting-started-dialog-navigation-view)
 
