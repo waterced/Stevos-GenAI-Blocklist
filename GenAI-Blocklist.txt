@@ -2090,7 +2090,11 @@ yacy.net##.navbar-right > li:has(> [href="https://chatgpt.com/g/g-h7fLnaDuI-yacy
 ! == Yahoo ==
 ! ===========
 ! -- https://www.yahoo.com/
-! Featured item from from Yahoo Scout near top of page 
+! Scout button on searchbar
+www.yahoo.com##[aria-label="Search with Yahoo Scout"]
+! Yahoo Scout in "More" navbar menu
+www.yahoo.com##[role="menuitem"]:has(> [href^="https://scout.yahoo.com/"])
+! Featured item from from Yahoo Scout below search bar 
 www.yahoo.com###conbar-content > .group:has(.stretched-box[href^="https://scout.yahoo.com"])
 
 ! -- https://search.yahoo.com/
