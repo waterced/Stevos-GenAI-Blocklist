@@ -2388,7 +2388,7 @@ hentai.tv##.btn[href="https://aipenly.com/"]
 ! == HentaiEra (NSFW) ==
 ! ======================
 ! Galleries tagged ai generated
-hentaiera.com##.thumb[data-tags~="17758"]
+hentaiera.com##[data-tags~="17758"]
 
 ! ===========================
 ! == HentaiFromHell (NSFW) ==
@@ -2406,10 +2406,10 @@ hentaifromhell.org##.textwidget > [href="https://undressaitool.ai/"] + br
 hentaigasm.com###guest-nav:has(> [href="https://s.zlinkp.com/d.php?z=5442922"])
 
 ! =====================
-! == IMHentai (NSFW) ==
+! == HentaiRun (NSFW) ==
 ! =====================
 ! Galleries tagged ai generated
-imhentai.xxx##.thumb[data-tags~="17861"]
+hentairun.com,imhentai.xxx##[data-tags~="17861"]
 
 ! ======================
 ! == LoLHentai (NSFW) ==
