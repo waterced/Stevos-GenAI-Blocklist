@@ -110,6 +110,9 @@ Sometimes, but not always.
 
 These filters work by hiding the AI elements. In some cases this may stop the generation. For example, if you load [this Google Search page](https://www.google.com/search?q=SQL+What+percentage+of+users+have+accessed+a+group) with filters on, then toggle "cosmetic filtering" off in uBlock Origin, you can see the AI overview won't generate until after it gets unhidden. However, AI content may still be generated in the background on other webpages.
 
+#### Q: Why are the filters not working on iOS/Chrome?
+The custom filter functionality in uBlock Origin Lite can be a bit inconsistent. ([Apparently it wasn't designed for large filter lists](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-4106088427)). Temporarily switching filter mode in uBlock Origin Lite may help, but results may vary.
+
 #### Q: Will this work with [Adblock](https://getadblock.com/en/) or [Adblock Plus](https://adblockplus.org/)?
 No. The list can be added, but it does not work for some unknown reason.
 
