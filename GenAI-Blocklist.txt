@@ -2162,9 +2162,7 @@ yep.com##.css-1k0ztkl-button
 ! =============
 ! -- https://www.youtube.com/ (Homepage - logged in)
 ! "Your custom home" chip
-www.youtube.com##yt-chip-cloud-chip-renderer.ytd-feed-filter-chip-bar-renderer:has-text("Your custom Home")
-! "Your custom feed" category for video suggestions
-www.youtube.com##yt-chip-cloud-chip-renderer.ytd-feed-filter-chip-bar-renderer:has-text("Your custom feed")
+www.youtube.com##yt-chip-cloud-chip-renderer.ytd-feed-filter-chip-bar-renderer:has(.ytChipShapeStartIconPadding)
 ! "Ask for videos any way you like"
 www.youtube.com##ytd-talk-to-recs-flow-renderer
 
