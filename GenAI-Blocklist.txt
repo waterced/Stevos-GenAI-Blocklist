@@ -2638,6 +2638,16 @@ uncensoredhentai.xxx###menu-item-20697
 xanimu.com##.nav-item:has(> [href="https://www.cmonbae.com/?union_id=MzU%3D"])
 xanimu.com##.nav-item:has(> [href="https://s.happyleafmotion.com/v1/d.php?z=2264"])
 
+!=====================
+! == xGroovy (NSFW) ==
+! ====================
+! -- https://xgroovy.com/best/
+! AI Tag
+xgroovy.com##li:has(> .selected_green[href="https://xgroovy.com/categories/ai/"])
+! AI promos in header
+xgroovy.com##[href^="https://rtb-6.xgroovy.com/bid?spot_id[]=161"]
+xgroovy.com##[href^="https://rtb-6.xgroovy.com/bid?spot_id[]=162"]
+
 ! =====================
 ! == xHamster (NSFW) ==
 ! =====================
