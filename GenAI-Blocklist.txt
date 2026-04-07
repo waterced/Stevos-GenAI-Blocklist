@@ -140,7 +140,7 @@ www.baidu.com##area[href^="//chat.baidu.com/"]:remove()
 ! "Wenxin" tab in navbar below search bar
 www.baidu.com##.s-tab-csaitab
 ! AI summary + Question suggestions
-www.baidu.com##div.cosc-card-content-border >  div.cosc-card-content:has(> div[data-module="header"] > div.cosd-search-header-primary > div.cosd-search-header-brand-area > div.cosd-search-header-brand-ai)
+www.baidu.com##div.cosc-card-content-border > div.cosc-card-content:has(> div[data-module="header"] > div.cosd-search-header-primary > div.cosd-search-header-brand-area > div.cosd-search-header-brand-ai)
 www.baidu.com##div.dqa-aiAsk-wrap_5W1GG
 ! "Ask Wenxin" button in right sidebar
 www.baidu.com###ai-accompanies-height-container
