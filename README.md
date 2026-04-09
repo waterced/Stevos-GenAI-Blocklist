@@ -1,6 +1,6 @@
 # Stevo's GenAI Blocklist
 
-A filter list for uBlock Origin that hides specific website features that use or promote Generative AI.
+A filter list for [uBlock Origin](https://github.com/gorhill/uBlock) and [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html) that hides specific website features that use or promote Generative AI.
 
 Available for PC, ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-firefox-microsoft-edge-or-waterfox-desktop), [Edge](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-firefox-microsoft-edge-or-waterfox-desktop), [Brave](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-brave-desktop), [Chrome](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-google-chrome-desktop)), iOS ([Safari](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-safari-ios)), and Android ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-firefox-android)).
 
@@ -49,6 +49,15 @@ If done correctly, you should see "**_Stevo's GenAI Blocklist_**" listed under "
 
 ### For Google Chrome (Desktop)
 
+#### For AdGuard (preferred)
+- Install [AdGuard Adblocker](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) for Chrome.
+- Click the green AdGuard icon in Chrome then click the gear icon.
+- Open the Filters tab, go to "Custom", and click the "extension settings" link.
+- Enable "Allow User Scripts".
+- Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
+- Under "Add custom filter", hit "Next" then "Add"
+
+#### For uBlock Origin Lite
 *Note: uBlock Origin Lite has several limitations compared to uBlock Origin. Some filters may not work, and custom filter lists cannot be auto-updated.*
 
 - Install [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en)
