@@ -1349,20 +1349,6 @@ kahoot.com##.menu-item:has(> [href^="https://kahoot.com/kahoot-study/notes-to-fl
 ! AI Assisted tools to get started
 discover.kahoot.it##[data-functional-selector="native-carousel-item"]:has([class^="styles_AiAssisted__"])
 
-! ===================================
-! == Kits AI/Hubspot Documentation ==
-! ===================================
-! -- https://docs.kits.ai/home
-! -- https://developers.hubspot.com/docs
-! "Ask AI" button
-developers.hubspot.com,docs.kits.ai###assistant-entry, #assistant-entry-mobile
-! "Ask AI assistant" search suggestions
-developers.hubspot.com,docs.kits.ai##[role="listbox"] > .px-2\.5.py-2.text-gray-500.text-sm.truncate.w-full
-developers.hubspot.com,docs.kits.ai##[role="listbox"] > .px-2\.5.py-2.text-gray-500.text-sm.truncate.w-full ~ [role="option"]
-
-! Floating chat box
-docs.kits.ai##.chat-assistant-floating-input
-
 ! ==============
 ! == Langfuse ==
 ! ==============
@@ -1591,6 +1577,25 @@ teams.cloud.microsoft,teams.microsoft.com##[data-testid="list-item-metaos-copilo
 teams.cloud.microsoft,teams.microsoft.com##[data-tid="store-provider-app:co:copilotplugins"], [data-tid="store-provider-app:co:abc1"], [data-tid="store-provider-app:co:aiapps"]
 ! "Categories" in Apps sidebar ("Agents we love", "Boost productivity with agents")
 teams.cloud.microsoft,teams.microsoft.com##[data-tid="store-collection-app:co:featuredapps"], [data-tid="store-collection-app:co:abc1"]
+
+! ==============================
+! == Mintlify (documentation) ==
+! ==============================
+! * Developer documentation platform used on multiple sites
+
+! -- https://www.mintlify.com/recharts/recharts/guides/getting-started
+! "Ask AI" button by searchbar
+developers.hubspot.com,developers.notion.com,docs.cdp.coinbase.com,docs.kits.ai,docs.lovable.dev,docs.perplexity.ai,www.mintlify.com###assistant-entry, #assistant-entry-mobile
+! "Ask AI assistant" search suggestions
+developers.hubspot.com,developers.notion.com,docs.cdp.coinbase.com,docs.kits.ai,docs.lovable.dev,docs.perplexity.ai,www.mintlify.com##[role="listbox"] > .px-2\.5.py-2.text-gray-500.text-sm.truncate.w-full
+developers.hubspot.com,developers.notion.com,docs.cdp.coinbase.com,docs.kits.ai,docs.lovable.dev,docs.perplexity.ai,www.mintlify.com##[role="listbox"] > .px-2\.5.py-2.text-gray-500.text-sm.truncate.w-full ~ [role="option"]
+! "Ask AI" button on code block
+developers.hubspot.com,developers.notion.com,docs.cdp.coinbase.com,docs.kits.ai,docs.lovable.dev,docs.perplexity.ai,www.mintlify.com##.z-10.select-none:has(> #ask-ai-code-block-button)
+
+! -- https://docs.perplexity.ai/docs/agent-api/quickstart
+! Floating "Ask a question" chat box
+! * Doesn't seem to be present on mintlify.com, but kept in list just in case
+developers.hubspot.com,developers.notion.com,docs.cdp.coinbase.com,docs.kits.ai,docs.lovable.dev,docs.perplexity.ai,www.mintlify.com##.chat-assistant-floating-input
 
 ! ============
 ! == Mojeek ==
