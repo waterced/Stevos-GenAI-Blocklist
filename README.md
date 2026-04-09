@@ -109,7 +109,7 @@ There is an additional optional filterlist [`GenAI-Blocklist-Extra.txt`](https:/
 These filters were previously part of the main blocklist, but it was split off as a separate list you can toggle on and off.
 
 ## FAQ
-### Why are the filters not working on iOS/Chrome?
+### Why are the filters not working on iOS?
 The custom filter functionality in uBlock Origin Lite can be a bit inconsistent. ([Apparently it wasn't designed for large filter lists](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-4106088427)). Temporarily switching filter mode in uBlock Origin Lite may help, but results may vary.
 
 ### Will this work with [Adblock](https://getadblock.com/en/) or [Adblock Plus](https://adblockplus.org/)?
