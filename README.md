@@ -26,30 +26,26 @@ After:
 <img width="791" height="456" alt="image" src="https://github.com/user-attachments/assets/0698522f-54ed-4653-9fcc-ca847406ba3e" />
 
 ## Installation
-### For Firefox, Microsoft Edge, or Waterfox (Desktop)
-#### Automatic import
+### Firefox, Microsoft Edge, or Waterfox (Desktop)
 - Install [uBlock Origin](https://ublockorigin.com/).
 - Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
 - Press "_Subscribe_" to import the filter list.
 
-#### Manual import
-If the automatic import didn't work, (possibly due to multiple adblockers being installed), try the following:
+If the above instructions didn't work, (possibly due to multiple adblockers being installed),  you can try importing manually:
+
 - Install [uBlock Origin](https://ublockorigin.com/).
 - Click the uBlock button in the toolbar and open Dashboard Settings (gear icon)
 - Select the "_Filter lists_" tab
 - Open the "_Import..._" section and paste [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
 - Click "_Apply Changes_"
 
-If done correctly, you should see "**_Stevo's GenAI Blocklist_**" listed under "**_Custom_**".
-
-### For Brave (Desktop)
+### Brave (Desktop)
 - Open _Settings > Shields > Content filtering_.
 - Under "_Add custom filter lists_", enter [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
 - Click _Add_.
 
-### For Google Chrome (Desktop)
+### Google Chrome (Desktop)
 
-#### For AdGuard (preferred)
 - Install [AdGuard Adblocker](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) for Chrome.
 - Click the green AdGuard icon in Chrome then click the gear icon.
 - Open the Filters tab, go to "Custom", and click the "extension settings" link.
@@ -57,8 +53,7 @@ If done correctly, you should see "**_Stevo's GenAI Blocklist_**" listed under "
 - Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
 - Under "Add custom filter", hit "Next" then "Add"
 
-#### For uBlock Origin Lite
-*Note: uBlock Origin Lite has several limitations compared to uBlock Origin. Some filters may not work, and custom filter lists cannot be auto-updated.*
+Alternatively, you can use these filters with uBlock Origin Lite. However, some filters may not work, and custom filter lists cannot be auto-updated.
 
 - Install [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en)
 - Open [`GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
@@ -69,7 +64,7 @@ If done correctly, you should see "**_Stevo's GenAI Blocklist_**" listed under "
 - Right click the filter box and hit "_Paste_"
 - Click the "_Add_" button
 
-### For Firefox (Android)
+### Firefox (Android)
 
 - Open Firefox
 - Tap the action menu (⋮) and select "_Extensions_"
@@ -81,7 +76,7 @@ If done correctly, you should see "**_Stevo's GenAI Blocklist_**" listed under "
 - Paste in the link [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
 - Tap "_Apply Changes_"
 
-### For Safari (iOS)
+### Safari (iOS)
 
 *Note: uBlock Origin Lite has several limitations compared to uBlock Origin. Some filters may not work, and custom filter lists cannot be auto-updated.*
 
@@ -98,7 +93,7 @@ If done correctly, you should see "**_Stevo's GenAI Blocklist_**" listed under "
 - Tap the filter box twice and select "_Paste_"
 - Tap the "_Add_" button
 
-### For Opera
+### Opera
 
 Unfortunately, this filter list does not currently work in Opera.
 
