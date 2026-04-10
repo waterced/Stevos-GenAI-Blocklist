@@ -376,13 +376,15 @@ www.deviantart.com###backgroundIcon
 www.deviantart.com##.Ey5HOr.jcpWS7.ZiBWJn:has(> textarea#positivePrompt)
 
 ! -- https://www.deviantart.com/megalevance/art/Untitled-959302716 (Deviation page for AI image)
+! Hide image if "Created using AI tools" notice exists
+www.deviantart.com##.usPswk:has-text("Created using AI tools"):upward(3) > .ymztWQ
 ! Bottom promo banner, sometimes has a DreamUp ad
 ! * TODO: Allow non-DreamUp promos
 www.deviantart.com##div.VS2KXS.KQfkEY
 ! DreamUp promo in right sidebar
 www.deviantart.com##a.reset-link.Qnm9x2
-! Hide image if "Created using AI tools" notice exists
-www.deviantart.com##.usPswk:has-text("Created using AI tools"):upward(3) > .ymztWQ
+! Dreamup video ad in right sidebar
+www.deviantart.com##.afudd4:has(> [href="https://www.deviantart.com/dreamup"])
 
 ! -- https://www.deviantart.com/shop (Shop)
 ! "DreamUp and earn big with AI" section
