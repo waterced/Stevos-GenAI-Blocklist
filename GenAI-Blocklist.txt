@@ -2301,6 +2301,18 @@ www.zoom.com##.hero__content:style(padding-top: 60px !important)
 ||hh-yin.pages.dev^
 ||playhubconnect.com^
 
+! =========================
+! == AllPornComic (NSFW) ==
+! =========================
+! Artists > "AI Artists" on menubar
+allporncomic.com##.menu-item:has(> [href="https://allporncomic.com/ai-artists/"])
+! "AI Girls" on menubar
+allporncomic.com##.menu-item:has(> [href="https://s.zlink7.com/v1/d.php?z=5605532"])
+
+! -- https://allporncomic.com/porncomic/?m_orderby=views
+! Genres > AI Gen
+allporncomic.com##.genres__collapse .col-6.col-sm-4.col-md-2:has(> [href="https://allporncomic.com/porncomicgenre/ai-gen/"])
+
 ! ==========================
 ! == AnimeIDHentai (NSFW) ==
 ! ==========================
