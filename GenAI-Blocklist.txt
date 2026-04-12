@@ -1008,6 +1008,13 @@ labs.google.com##.SzpS3d:has([href="/search/experiment/43"]):has([aria-checked="
 labs.google.com##.SzpS3d:has([href="/search/experiment/34"]):has([aria-checked="false"])
 
 ! =================
+! == Google Maps ==
+! =================
+! -- https://www.google.com/maps/
+! Ask Maps button in sidebar
+google.com##[jsaction="navigationrail.askMaps"]
+
+! =================
 ! == Google Meet ==
 ! =================
 ! -- https://meet.google.com/landing?hs=193&pli=1
