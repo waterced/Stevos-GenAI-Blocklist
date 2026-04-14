@@ -172,6 +172,12 @@ x.com##article[data-testid="tweet"]:has(div.css-175oi2r.r-5f1w11.r-u8s1d.r-8jfcp
 !   by asking to contact a real person.
 studio.youtube.com##ytcp-sam-chat
 
+! =====================
+! == Zendesk Support ==
+! =====================
+! Floating chatbot button
+support.zendesk.com###launcher
+
 ! ==========
 ! == Zoom ==
 ! ==========
