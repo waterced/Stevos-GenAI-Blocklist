@@ -1804,6 +1804,16 @@ develop.sentry.dev,docs.sentry.io##.search_search-bar__XzLtg > .kapa-ai-class
 ! "Ask sentry about" search autocomplete suggestion
 develop.sentry.dev,docs.sentry.io##.search_sgs-ai__2z63Q
 
+! ====================
+! == Sentry Support ==
+! ====================
+! -- https://sentry.zendesk.com/hc/en-us/
+! "Or Ask AI" next to searchbar
+sentry.zendesk.com##.new-search-component-span
+sentry.zendesk.com##.ask-ai
+! Floating "Ask AI" button
+sentry.zendesk.com###kapa-widget-container
+
 ! =============
 ! == Shopify ==
 ! =============
