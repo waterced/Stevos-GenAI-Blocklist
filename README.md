@@ -31,7 +31,7 @@ After:
 - Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
 - Press "_Subscribe_" to import the filter list.
 
-If the above instructions didn't work, (possibly due to multiple adblockers being installed),  you can try importing manually:
+If the above instructions didn't work, (possibly due to multiple adblockers being installed), you can try importing manually:
 
 - Install [uBlock Origin](https://ublockorigin.com/).
 - Click the uBlock button in the toolbar and open Dashboard Settings (gear icon)
@@ -105,7 +105,7 @@ Unfortunately, this filter list does not currently work in Opera.
 Importing the filters had no effect when testing with both uBlock Origin and Opera's built in ad blocking. ([May be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
 
 ## Optional extra blocklist
-There is an additional optional filterlist [`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) with additional blocks. These are more subjective blocks and may be more prone to accidentally blocking some non-AI content or content that may be required for site functionality. These include:
+There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) with additional blocks. These are more subjective blocks and may be more prone to accidentally blocking some non-AI content or content that may be required for site functionality. These include:
 * DeviantArt: Images from accounts that have posted AI images.
 * Reddit: Posts from AI-focused subreddits.
 * X: Posts made by @Grok.
@@ -113,7 +113,7 @@ There is an additional optional filterlist [`GenAI-Blocklist-Extra.txt`](https:/
 * Customer support chatbots that are must be used before you can contact human customer support.
 
 ## FAQ
-### Will this work with [Adblock](https://getadblock.com/en/) or [Adblock Plus](https://adblockplus.org/)?
+### Will this work with [AdBlock](https://getadblock.com/en/) or [Adblock Plus](https://adblockplus.org/)?
 No. The list can be added, but it does not work for some unknown reason.
 
 ### Will this work with [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html)?
@@ -124,6 +124,11 @@ No. Pi-hole and uBlock Origin work differently. uBlock Origin allows filtering i
 
 ### Will this remove search results from sites that post AI generated content?
 No. If you want to block sites from search engines, try [laylavish's Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist).
+
+### Why is AdGuard recommended for Google Chrome and iOS instead of uBlock Origin or uBlock Origin Lite?
+uBlock Origin is not available for Google Chrome and iOS. While uBlock Origin Lite exists as an alternative, it [does not support custom filter lists](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-2271471121). A previous version of this README suggested copying the GenAI filters into uBO Lite's custom filters as a workaround. However, filtering was unreliable, updating required [manually deleting the old filter rules](https://superuser.com/q/1934748/358766), and some filter rules were incompatible.
+
+Due to these limitations, AdGuard is recommended over uBlock Origin Lite.
 
 ### Does this prevent AI content from being generated in the background?
 Sometimes, but not always.
