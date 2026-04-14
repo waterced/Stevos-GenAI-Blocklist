@@ -2,8 +2,12 @@
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Stevoisiak/Stevos-GenAI-Blocklist
 
-! Blocks user accounts and subreddits that post AI generated content.
 ! This is intended as an optional complimentary list to the primary GenAI Blocklist.
+! Examples of filters that belong in extra include:
+! * Anything that may break important website functionality
+! * AI customer support chatbots that need to be used before sending requests to a real human support member
+! * Posts from subreddits that focus on AI generated content
+! * Filters that may catch non-ai content
 
 ! ===========
 ! == Adobe ==
