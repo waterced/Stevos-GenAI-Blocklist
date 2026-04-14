@@ -1516,19 +1516,28 @@ learn.microsoft.com##[data-id="ai-summary"]
 ! AI search summary
 learn.microsoft.com###search-answer
 
-! ==============================
-! == Microsoft Office (Cloud) ==
-! ==============================
+! ==========================
+! == Microsoft Office/365 ==
+! ==========================
 ! Use for web office apps, not including sharepoint and M365 Copilot.
+
+! -- https://word.cloud.microsoft/ (Microsoft Office)
+! "Copilot prompts for Word" recomended template
+word.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Word null modern simple"])
+! Document - Prompt box
+word.cloud.microsoft##.___h6kil70[aria-label="copilot"]
+! Document - Navbar buttons (Home tab) for Copilot
+usc-onenote.officeapps.live.com,usc-word-edit.officeapps.live.com###CopilotChat-group:upward(2)
+
 ! -- https://excel.cloud.microsoft/
 ! "Copilot in Excel" recomended template
 excel.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Excel null modern"])
+! Copilot navbar button
+usc-excel.officeapps.live.com###Copilot-group:upward(2)
 
-! -- https://word.cloud.microsoft/
-! Prompt box
-word.cloud.microsoft##.___h6kil70[aria-label="copilot"]
-! "Copilot prompts for Word" recomended template
-word.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Word null modern simple"])
+! -- https://powerpoint.cloud.microsoft/
+! * TODO: Copilot button briefly appears when PowerPoint is loading
+usc-powerpoint.officeapps.live.com###ChatPPT-group:upward(2)
 
 ! ==============================
 ! == Microsoft Power Automate ==
@@ -1557,20 +1566,13 @@ admin.powerplatform.microsoft.com##button[value="/copilot/overview"]
 ! "Copilot" button in header
 purview.microsoft.com###scc_oneShell-purview-copilot-button_container
 
-! ==============================
-! == Microsoft Sharepoint/365 ==
-! ==============================
+! ==========================
+! == Microsoft Sharepoint ==
+! ==========================
 ! -- Sharepoint site creator
 ! Right sidebar - Design ideas
 ! * TODO: Remove one of the two neighboring section separators
 sharepoint.com##[data-automation-id="designIdeas"]:upward(1)
-
-! -- Microsoft Office
-! Navbar buttons (Home tab) for Copilot
-usc-onenote.officeapps.live.com,usc-word-edit.officeapps.live.com###CopilotChat-group:upward(2)
-usc-excel.officeapps.live.com###Copilot-group:upward(2)
-! * TODO: Copilot button briefly appears when PowerPoint is loading
-usc-powerpoint.officeapps.live.com###ChatPPT-group:upward(2)
 
 ! =====================
 ! == Microsoft Teams ==
