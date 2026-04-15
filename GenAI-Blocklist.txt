@@ -2058,8 +2058,14 @@ vimeo.com##.text-footer-sub-content[href="/features/ai-translation"]
 www.washingtonpost.com##[data-qa="product-nav-links-ul"] [href="https://www.washingtonpost.com/ask-the-post-ai/?itid=hp_top_nav_ask the post ai"]
 ! * Mobile version
 www.washingtonpost.com###radix-\:rn\:-trigger-ask-the-post-ai
+! * Replace "Ask a question or search" text
+www.washingtonpost.com##form#search-form [role="label"]:style(font-size:0 !important;)
+www.washingtonpost.com##form#search-form [role="label"]::before:style(content:"Search"; font-size:16px;)
 
 ! -- https://www.washingtonpost.com/opinions/2026/04/15/will-connecticut-crackdown-self-checkout-lanes/
+! Replace "Ask a question or search" text in search bar
+www.washingtonpost.com##form > [aria-label="Washington Post site search"] [role="label"]:style(font-size:0 !important;)
+www.washingtonpost.com##form > [aria-label="Washington Post site search"] [role="label"]::before:style(content:"Search"; font-size:16px;)
 ! Comment summary
 www.washingtonpost.com##.wpds-c-bHXelH-igoXVOL-css
 
