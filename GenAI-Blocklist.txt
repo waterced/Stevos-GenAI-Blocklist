@@ -2638,12 +2638,25 @@ www.rule34.lol##.media-box:has(.thumb:is([data-image-tag-aliases*="ai assisted,"
 ! ============================
 ! == Sankaku Complex (NSFW) ==
 ! ============================
-! Can't block AI art from search because only a few image tags are present in the metadata.
-! There are so many AI features on the site, these filters are a drop in the bucket ¯\_(ツ)_/¯
-
 ! -- https://www.sankakucomplex.com/ (Homepage - after welcome prompt, logged out)
 ! Left sidebar (Companions & AI Creator)
-www.sankakucomplex.com##[data-test="ai_companion"], [data-test="ai_art"]
+www.sankakucomplex.com##[data-test="ai_companion"]
+www.sankakucomplex.com##[data-test="ai_art"]
+! Can't block AI art from non-chan site because only a few image tags are present in the metadata.
+! There are so many AI features, this filter is a drop in the bucket ¯\_(ツ)_/¯
+
+! -- https://chan.sankakucomplex.com/
+! Navbar, Posts > AI Artwork
+chan.sankakucomplex.com###subnavbar > li:has(> [href^="https://chan.sankakucomplex.com/?tags=sankaku_ai"])
+! Navbar, Companions
+chan.sankakucomplex.com##.nav-special:has(> [href="/companions"])
+! Floating companions window
+chan.sankakucomplex.com##.companion--draggable_element
+! Carousel promos
+chan.sankakucomplex.com##.ai-carousel
+chan.sankakucomplex.com##.companion-carousel
+! Images tagged as AI made
+chan.sankakucomplex.com##.post-preview:has([data-auto_page~="ai-assisted"], [data-auto_page~="ai-created"], [data-auto_page~="ai-upscaled"], [data-auto_page~="ai-voiced"])
 
 ! =====================
 ! == SexyPorn (NSFW) ==
