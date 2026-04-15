@@ -111,10 +111,6 @@ No. The filter list can be imported, but it had no effect when tested with both 
 ### Will this remove search results from sites that post AI generated content?
 No. If you want to block sites from search engines, try [laylavish's Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist).
 
-
-
-
-
 ### Why is AdGuard recommended for Google Chrome and iOS instead of uBlock Origin or uBlock Origin Lite?
 uBlock Origin is not available for Google Chrome and iOS. While uBlock Origin Lite exists as an alternative, it [does not support custom filter lists](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-2271471121). A previous version of this README suggested copying the GenAI filters into uBO Lite's custom filters as a workaround. However, filtering was unreliable, updating required [manually deleting the old filter rules](https://superuser.com/q/1934748/358766), and some filter rules were incompatible.
 
@@ -124,6 +120,9 @@ Due to these limitations, AdGuard is recommended over uBlock Origin Lite.
 Sometimes, but not always.
 
 These filters work by hiding the AI elements. In some cases this may stop the generation. For example, if you load [this Google Search page](https://www.google.com/search?q=SQL+What+percentage+of+users+have+accessed+a+group) with filters on, then toggle "cosmetic filtering" off in uBlock Origin, you can see the AI overview won't generate until after it gets unhidden. However, AI content may still be generated in the background on other webpages.
+
+### How many websites have filters for AI features?
+Over 200.
 
 ## Contributing guidelines
 
