@@ -2057,7 +2057,7 @@ vimeo.com##.text-footer-sub-content[href="/features/ai-translation"]
 ! "Ask the Post AI" in navbar
 www.washingtonpost.com##[data-qa="product-nav-links-ul"] [href="https://www.washingtonpost.com/ask-the-post-ai/?itid=hp_top_nav_ask the post ai"]
 ! * Mobile version
-www.washingtonpost.com###radix-\:rn\:-trigger-ask-the-post-ai
+www.washingtonpost.com##[id$="-trigger-ask-the-post-ai"]
 ! * Replace "Ask a question or search" text
 www.washingtonpost.com##form#search-form [role="label"]:style(font-size:0 !important;)
 www.washingtonpost.com##form#search-form [role="label"]::before:style(content:"Search"; font-size:16px;)
