@@ -2657,6 +2657,8 @@ chan.sankakucomplex.com##.ai-carousel
 chan.sankakucomplex.com##.companion-carousel
 ! Images tagged as AI made
 chan.sankakucomplex.com##.post-preview:has([data-auto_page~="ai-assisted"], [data-auto_page~="ai-created"], [data-auto_page~="ai-upscaled"], [data-auto_page~="ai-voiced"])
+! Sankaku subscription promo mentioning AI
+chan.sankakucomplex.com##.premium-carousel:has-text(" AI ")
 
 ! =====================
 ! == SexyPorn (NSFW) ==
