@@ -276,6 +276,8 @@ dictionary.cambridge.org##.lb-cm.hlh21:has(> [href$="/assistant"])
 ! == Canva ==
 ! ===========
 ! -- https://www.canva.com/ (logged in)
+! "Sneak Peak" button in header
+www.canva.com##.q2xokA .eAUiHA:has(._5KtATA.LQzFZw.VgvqkQ._8ERLTg.MCgm0w.Z3nT2A.LQzFZw.VgvqkQ._4_iekA.j34Zww.aqbYPg._3FvZZg._zAZoQ.vH2lRg)
 ! Floating AI chat button
 www.canva.com##button[aria-label="Help Assistant"]
 ! Sidebar, Create, For You, Quick Actions, AI tools
@@ -289,6 +291,7 @@ www.canva.com##[class="_7VDihQ VIDmNA _59tGwQ"]:has-text("Background Generator")
 www.canva.com##div.BMOCzQ.EC2pjw.LuBWVA:has(div#assistant)
 ! Sidebar, More, Dream Lab
 www.canva.com##._B7XGQ [href="/dream-lab"]
+
 
 ! -- https://www.canva.com/design?create&type=TAGyBJVQJvY (logged in, Canva Docs)
 ! Magic Write button in toolbar
