@@ -280,18 +280,17 @@ dictionary.cambridge.org##.lb-cm.hlh21:has(> [href$="/assistant"])
 www.canva.com##.q2xokA .eAUiHA:has(._5KtATA.LQzFZw.VgvqkQ._8ERLTg.MCgm0w.Z3nT2A.LQzFZw.VgvqkQ._4_iekA.j34Zww.aqbYPg._3FvZZg._zAZoQ.vH2lRg)
 ! Floating AI chat button
 www.canva.com##button[aria-label="Help Assistant"]
-! Sidebar, Create, For You, Quick Actions, AI tools
+! Sidebar, Create > For You > Quick Actions
 ! * Canva Code
-www.canva.com##[aria-label="Quick actions"] > .zAWjSA.GLyNIw:has([href="/ai/code?forceOpen"])
+www.canva.com##.zAWjSA.GLyNIw:has(.jyMing[href="/ai/code?forceOpen"])
 ! * Magic Write
-www.canva.com##[aria-label="Quick actions"] > .zAWjSA.GLyNIw:has([href="/design?create&type=TAFJi5FXMSs&category=tAFK2fpTBVQ&ui=eyJEIjp7IkgiOnsiRSI6eyJBPyI6IkEiLCJBIjp0cnVlfX19LCJBIjp7IkIiOnsiQiI6dHJ1ZX19LCJHIjp7IkIiOnRydWV9fQ"])
-! Sidebar, Create, Photo editor
-www.canva.com##[class="_7VDihQ VIDmNA _59tGwQ"]:has-text("Background Generator")
+www.canva.com##.zAWjSA.GLyNIw:has(.jyMing[href="/design?create&type=TAFJi5FXMSs&category=tAFK2fpTBVQ&ui=eyJEIjp7IkgiOnsiRSI6eyJBPyI6IkEiLCJBIjp0cnVlfX19LCJBIjp7IkIiOnsiQiI6dHJ1ZX19LCJHIjp7IkIiOnRydWV9fQ"])
+! Sidebar, Create > Photo editor
+www.canva.com##.zAWjSA.GLyNIw:has([src="https://static.canva.com/web/images/58eb8e48f401eb5dfa2cb723df801370.jpg"])
 ! Sidebar, Canva AI
-www.canva.com##div.BMOCzQ.EC2pjw.LuBWVA:has(div#assistant)
+www.canva.com##div.BMOCzQ.EC2pjw.LuBWVA:has(#assistant)
 ! Sidebar, More, Dream Lab
 www.canva.com##._B7XGQ [href="/dream-lab"]
-
 
 ! -- https://www.canva.com/design?create&type=TAGyBJVQJvY (logged in, Canva Docs)
 ! Magic Write button in toolbar
@@ -299,19 +298,21 @@ www.canva.com##.nbY0vg > div:has([class="_5KtATA LQzFZw VgvqkQ _8ERLTg MCgm0w un
 www.canva.com##.nbY0vg > div:has([class="_5KtATA LQzFZw VgvqkQ _8ERLTg MCgm0w unS_Qw LQzFZw VgvqkQ f5yKmw j34Zww aqbYPg _3FvZZg DJfiQg"]) + .bm8JbQ
 ! Magic Write in + menu next to cursor
 ! * Use AI pencil icon to identify option
-! * TODO: Button is selected by default for keyboard navigation.
+! * FIXME: Button is selected by default for keyboard navigation.
 www.canva.com##.jVQbrQ.k9r7kw [role="option"]:has([d^="M21.223 5.24a3.057 3.057 0 0 0-4.323 0L6.87 15.267a5.419 5.419 0 0 0-1.295 2.08l-1.12 3.282a1.087 1.087 0 0 0 1.378"])
 ! Magic Write prompt box
 ! * Box can steal typing focus even while hidden
 www.canva.com##._kI3Pw [class="JO7KyQ WdjJgQ gVW9og iO4bow BMOCzQ XxpeBg LuBWVA"]
-! Sidebar, Templates/Elements, "Generate" button
-! * May not work for non-english users
-www.canva.com##[role="tabpanel"] .Ka9auQ > .aDc6Yg:has-text("Generate")
-! Sidebar, Apps, "AI generation" category filter
+! Sidebar, Templates > Generate
+www.canva.com##[role="tabpanel"] .Ka9auQ > .aDc6Yg:has(> .MCgm0w.Z3nT2A.LQzFZw.VgvqkQ._4_iekA._3oHQrw)
+! Sidebar, Elements > Generate
+www.canva.com##[role="tabpanel"] .Ka9auQ > .aDc6Yg:has(> .UfYDHQ > .YVd8lA > .MCgm0w.Z3nT2A.LQzFZw.VgvqkQ._4_iekA._3oHQrw)
+
+! Sidebar,  Apps > "AI generation" category filter
 www.canva.com##[role="tabpanel"] [role="tablist"] div:has(> [id$="_-tab-ai-generation"])
-! Sidebar, Apps, "AI generation" section
+! Sidebar, Apps > "AI generation" section
 www.canva.com##[role="tabpanel"] .GcyWAw > .jv_R6g > div:has( .liTStw.aZskFA.u16U_g.snQKTg:has-text("AI generation"))
-! Sidebar, Apps, Magic Media
+! Sidebar, Apps > Magic Media
 www.canva.com##[role="tabpanel"] .GArQ9w.TOWefw > li:has-text("Magic Media")
 ! Sidebar, "Magic Media" tab
 www.canva.com##.HqCA9g:has(> [role="tab"] > [aria-label="Magic Media"])
@@ -321,7 +322,9 @@ www.canva.com##.qiAA2Q:has-text("Start typing or hit / for Magic Write"):style(f
 www.canva.com##.qiAA2Q::before:style(content: var(--new-text); font-size: 42.6667px;)
 
 ! -- https://www.canva.com/templates
-www.canva.com##.SymshQ.BMOCzQ.LuBWVA:has-text("Meet AI video effects")
+! AI video effects section
+! * Match section containing "cloud cruise" AI effect
+www.canva.com##.SymshQ.BMOCzQ.LuBWVA:has([src="https://template.canva.com/EAHBDm46r7A/3/0/450w-4uCHha18X_U.jpg"])
 
 ! =============
 ! == ChatGPT ==
