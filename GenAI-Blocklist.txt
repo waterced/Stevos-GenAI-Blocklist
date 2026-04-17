@@ -307,11 +307,6 @@ www.canva.com##._kI3Pw [class="JO7KyQ WdjJgQ gVW9og iO4bow BMOCzQ XxpeBg LuBWVA"
 www.canva.com##[role="tabpanel"] .Ka9auQ > .aDc6Yg:has(> .MCgm0w.Z3nT2A.LQzFZw.VgvqkQ._4_iekA._3oHQrw)
 ! Sidebar, Elements > Generate
 www.canva.com##[role="tabpanel"] .Ka9auQ > .aDc6Yg:has(> .UfYDHQ > .YVd8lA > .MCgm0w.Z3nT2A.LQzFZw.VgvqkQ._4_iekA._3oHQrw)
-
-! -- https://www.canva.com/design?create&type=TAGcbLa0hys&category=tAEW8R8e5hc (Website builder)
-! Sidebar, Text > Magic Write
-www.canva.com##[role="tabpanel"] .BMOCzQ.EC2pjw.LuBWVA > .sGm5Vw.ID9zAA > .nJVq1A > .jv_R6g > .MCgm0w.Z3nT2A.LQzFZw.VgvqkQ._4_iekA._3oHQrw
-
 ! Sidebar,  Apps > "AI generation" category filter
 www.canva.com##[role="tabpanel"] [role="tablist"] div:has(> [id$="_-tab-ai-generation"])
 ! Sidebar, Apps > "AI generation" section
@@ -324,6 +319,10 @@ www.canva.com##.HqCA9g:has(> [role="tab"] > [aria-label="Magic Media"])
 www.canva.com##.qiAA2Q:has-text("Start typing or hit / for Magic Write"):upward(1):style(--new-text: "Start typing";)
 www.canva.com##.qiAA2Q:has-text("Start typing or hit / for Magic Write"):style(font-size: 0px !important;)
 www.canva.com##.qiAA2Q::before:style(content: var(--new-text); font-size: 42.6667px;)
+
+! -- https://www.canva.com/design?create&type=TAGcbLa0hys&category=tAEW8R8e5hc (Website builder)
+! Sidebar, Text > Magic Write
+www.canva.com##[role="tabpanel"] .BMOCzQ.EC2pjw.LuBWVA > .sGm5Vw.ID9zAA > .nJVq1A > .jv_R6g > .MCgm0w.Z3nT2A.LQzFZw.VgvqkQ._4_iekA._3oHQrw
 
 ! -- https://www.canva.com/templates
 ! AI video effects section
