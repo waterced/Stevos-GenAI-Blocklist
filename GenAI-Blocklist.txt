@@ -310,6 +310,10 @@ www.canva.com##[role="tabpanel"] .GcyWAw > .jv_R6g > div:has( .liTStw.aZskFA.u16
 www.canva.com##[role="tabpanel"] .GArQ9w.TOWefw > li:has-text("Magic Media")
 ! Sidebar, "Magic Media" tab
 www.canva.com##.HqCA9g:has(> [role="tab"] > [aria-label="Magic Media"])
+! Replace "Start typing" text on blank document
+www.canva.com##.qiAA2Q:has-text("Start typing or hit / for Magic Write"):upward(1):style(--new-text: "Start typing";)
+www.canva.com##.qiAA2Q:has-text("Start typing or hit / for Magic Write"):style(font-size: 0px !important;)
+www.canva.com##.qiAA2Q::before:style(content: var(--new-text); font-size: 42.6667px;)
 
 ! -- https://www.canva.com/templates
 www.canva.com##.SymshQ.BMOCzQ.LuBWVA:has-text("Meet AI video effects")
