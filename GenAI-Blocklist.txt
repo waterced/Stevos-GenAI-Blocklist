@@ -2039,6 +2039,14 @@ webmail.strato.de##[data-app-name="io.ox/ai-chat"]
 ! "Magic Apron Assist" floating button
 www.homedepot.com###magic-apron-loader
 
+! ===================
+! == The New Stack ==
+! ===================
+! -- https://thenewstack.io/search/
+thenewstack.io###tns-search-overview
+thenewstack.io##.search-disclaimer
+thenewstack.io##.search-input[placeholder="This is AI-powered search. Type a prompt."]:remove-attr(placeholder)
+
 ! ==========
 ! == Time ==
 ! ==========
