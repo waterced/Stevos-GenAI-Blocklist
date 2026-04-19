@@ -743,16 +743,23 @@ github.blog##.Button[href^="https://github.com/features/copilot"]
 ! Source Control > Changes > Message bar - "Generate Commit Message" sparkle icon
 ! * Leaves behind an an invisible box which shows "click" mouse cursor when hovered. Clicking just focuses text box though.
 github.dev##.action-label.codicon.codicon-sparkle[role="button"]
+
+! Pull request, button to generate PR title with Copilot
+github.dev###app .group-title > .title-action
+
 ! "Modify selected code" sparkle icon when selecting lines of code
 ! * Sparkle to the left of line numbers (.txt file)
 github.dev##.glyph-margin-widgets > .codicon-gutter-lightbulb-sparkle-filled
 ! * Sparkle if there is a blank line next to highlighted code  (.txt file)
 github.dev##.contentWidgets > .lightBulbWidget.codicon-sparkle-filled
+
 ! "Show AI-recommended results" sparkle icon in settings search
 github.dev##.codicon-preferences-ai-results
+
 ! Copilot on status bar below code window
 ! * Only filter if Copilot chat hasn't been setup yet. Otherwise, users may need button to toggle off AI features.
 github.dev###chat\.statusBarEntry[aria-label="Finish Setup"]
+
 ! Toggle Chat button in header next to search bar
 github.dev##.agent-status-badge-section > .action-container
 ! * Fix spacing on ∨ submenu
