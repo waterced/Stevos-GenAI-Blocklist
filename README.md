@@ -133,13 +133,13 @@ Commit messages use prefixes to indicate the type of change.
 * M: Modified an existing filter
 * R: Removed a filter
 * C: Cosmetic "meta" change like editing comments or rearranging filters
-* F: Fixed a filter (not working, blocking too much, typo, etc)
+* F: Fixed a filter (not working, blocking too much, typo, etc.)
 * +: Filter applied to the "extra" list
 
 ## Other AI blocking projects
 
-* [Just the Browser](https://justthebrowser.com/): Removes AI features, telemetry, and sponsored content from deskop web browsers
-* [RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI): Removes AI components in Windows
+* [Just the Browser](https://justthebrowser.com/): Removes AI features, telemetry, and sponsored content from web browsers.
+* [RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI): Removes AI components in Windows.
 * [AI uBlock Origin Blacklist](https://github.com/alvi-se/ai-ublock-blacklist): uBlock Origin filter list for AI content farms. 
 * [uBlockOrigin Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist): Filter list to remove sites with AI generated content from search engines.
 * [CevvalYoutubeAIBlocklist](https://github.com/cevvalkoala/CevvalYoutubeAIBlocklist): Filter list for AI Music channels on YouTube for uBlock Origin.
