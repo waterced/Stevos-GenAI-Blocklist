@@ -2616,6 +2616,12 @@ hentaifromhell.org##.textwidget > [href="https://undressaitool.ai/"] + br
 hentaigasm.com###guest-nav:has(> [href="https://s.zlinkp.com/d.php?z=5442922"])
 
 ! =====================
+! == HentaiLA (NSFW) ==
+! =====================
+! AI Porn in header nav
+hentaila.tv##.nav-link[href="https://pornhaven.ai/"]
+
+! =====================
 ! == HentaiRun (NSFW) ==
 ! =====================
 ! Galleries tagged ai generated
