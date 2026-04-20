@@ -2690,6 +2690,12 @@ mult34.com##.hentry[data-exclude="1"]:has([alt="Create and Fuck your AI Slut"])
 ! "AI Generated" category
 mylust.com##.item:has(> [data-id="307"])
 
+! ========================
+! == nhentai.xxx (NSFW) ==
+! ========================
+! AI generated galleries
+nhentai.xxx##.gallery_item[data-tags~="718"]
+
 ! ====================
 ! == OHentai (NSFW) ==
 ! ====================
