@@ -2591,6 +2591,13 @@ hentaihaven.xxx###menu-item-96519
 hentaihaven.xxx##.widget_block:has(.novaads)
 hentaihaven.xxx##.widget_block:has(.wp-block-heading:has-text("AI Hentai"))
 
+! =========================
+! == Hentai Smile (NSFW) ==
+! =========================
+! AI Jerk Off & AI Porn below header
+www.hentaismile.com##.index-top > li:has([href="https://r.trackwilltrk.com/c1/08fd68a8-4961-43bb-bb77-4e36f3e9719a?cv10=%7Bad_source%7D"])
+www.hentaismile.com##.index-top > li:has([href="https://r.trackwilltrk.com/c1/218eb252-3c04-4036-a822-00f362756ea2?cv10={ad_source}"])
+
 ! ==========================
 ! == Hentai Stream (NSFW) ==
 ! ==========================
