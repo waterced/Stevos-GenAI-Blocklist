@@ -2778,6 +2778,15 @@ chan.sankakucomplex.com##.post-preview:has([data-auto_page~="ai-assisted"], [dat
 ! Sankaku subscription promo mentioning AI
 chan.sankakucomplex.com##.premium-carousel:has-text(" AI ")
 
+! ====================
+! == SexyPix (NSFW) ==
+! ====================
+! Images with AI generated in title
+sxypix.com##.grid-item[title*="ai generated"i]
+! Search bar autocomplete suggestions
+sxypix.com##.live-search > .lsel[data-href^="/s/ai-"i]
+sxypix.com##.live-search > .lsel:has-text(/(ai generat|ai-generat|aigenerat| ai )/i)
+
 ! =====================
 ! == SexyPorn (NSFW) ==
 ! =====================
