@@ -112,9 +112,9 @@ No. Opera's built in adblocker doesn't allow importing filter lists from a custo
 No. If you want to block sites from search engines, try [laylavish's Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist).
 
 ### Why is AdGuard recommended for Google Chrome and iOS instead of uBlock Origin?
-uBlock Origin is not available for Google Chrome and iOS. While uBlock Origin Lite exists as an alternative, it [does not support custom filter lists](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-2271471121). A previous version of this README suggested copying the GenAI filters into uBO Lite's custom filters as a workaround. However, filtering was unreliable, updating required [manually deleting the old filter rules](https://superuser.com/q/1934748/358766), and some filter rules were incompatible.
+uBlock Origin is not available for Google Chrome and iOS.
 
-Due to these limitations, AdGuard is recommended over uBlock Origin Lite.
+While uBlock Origin Lite exists as an alternative, it [does not support custom filter lists](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-2271471121). A previous version of this README suggested copying the GenAI filters into uBO Lite's custom filters as a workaround. However, filtering was unreliable, updating required [manually deleting the old filter rules](https://superuser.com/q/1934748/358766), and some filter rules were incompatible.
 
 ### Does this prevent AI content from being generated in the background?
 Sometimes, but usually not.
