@@ -99,6 +99,9 @@ There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https:
 ### Which adblockers will this filter list work with?
 These filters have been tested with [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo), [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html), [AdBlock](https://getadblock.com/), [Adblock Plus](https://adblockplus.org/), and [Brave's](https://brave.com) integrated adblocker.
 
+### Why are AI buttons still showing up on Google?
+If you use AdBlock Plus, make sure "[Show acceptable ads](https://help.adblockplus.org/adblock-plus-help-center/what-are-acceptable-ads)" is [disabled in your settings](https://help.adblockplus.org/adblock-plus-help-center/block-all-ads). 
+
 ### Can I use these filters with [Pi-hole](https://pi-hole.net/)?
 No. Pi-hole and uBlock Origin work differently. uBlock Origin allows filtering individual elements on pages, while Pi-hole blocks entire domains.
 
