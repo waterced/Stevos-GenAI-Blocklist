@@ -173,13 +173,15 @@ www.bing.com###aitools
 ! AI tools search suggestions (mobile only)
 www.bing.com###sa_ai_block
 
-! -- https://www.bing.com/search?q=You%20ever%20wonder%20why%20we%27re%20here%3F& (Search results)
-! Copilot "Search" tab in navbar below search bar
+! -- https://www.bing.com/search?q=recharts+import+from+csv (Search results)
+! "Search" tab in navbar below search bar
 www.bing.com###b-scopeListItem-copilotsearch
 ! "Copilot" tab in navbar below search bar
 www.bing.com###b-scopeListItem-conv
-! "Copilot Search" summary box at top of search
+! "Copilot Search" box at top of search
 www.bing.com##.b_ans:has(> #copans_container)
+! AI generated summary
+www.bing.com###b_wpt_container_ml
 ! "Ask a follow-up" at bottom of page
 www.bing.com###b_copilot_search_container
 
