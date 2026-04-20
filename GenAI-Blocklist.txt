@@ -2453,6 +2453,7 @@ www.zoom.com##.hero__content:style(padding-top: 60px !important)
 ||cdn.storagexhd.com
 ||cdn.twinrdengine.com^
 ||hh-yin.pages.dev^
+||n2j9y0x0.bxcdn.net
 ||playhubconnect.com^
 
 ! =========================
@@ -2687,6 +2688,12 @@ luscious.net##.site-banner:has([href*="genre_ids=63"])
 ! -- https://members.luscious.net/ (logged in)
 ! "AI Art" category under Manga/Hentai in navbar
 luscious.net##.desktop-module__submenu-item--njaEB:has([href$="/ai-art-63/"])
+
+! ======================
+! == ManhwaRead (NSFW) ==
+! =======================
+! AI Jerk Off
+manhwaread.com##.menu-item:has(> [href="https://juicyads.in/tab.php?id=2101971"])
 
 ! ===================
 ! == Mult34 (NSFW) ==
