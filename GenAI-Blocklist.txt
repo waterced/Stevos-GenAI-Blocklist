@@ -2783,6 +2783,15 @@ chan.sankakucomplex.com##.premium-carousel:has-text(" AI ")
 ! =====================
 ! AI Jerk Off
 sxyprn.com##[aria-label="AI TAB"]
+! Videos with AI in title or tags
+sxyprn.com##.post_el_small:has(.hash_link[label="aiporn"i])
+sxyprn.com##.post_el_small:has(.hash_link[label="generated"i])
+sxyprn.com##.post_el_small:has-text(/(ai generated|ai-generated|aigenerated)/i)
+! Auto-complete search suggestions
+sxyprn.com##.live_search > .lsel_s[data-href^="/ai-"i]
+sxyprn.com##.live_search > .lsel_b:has(.hash_link[label="generated"i])
+sxyprn.com##.live_search > .lsel_b:has(.hash_link[label="aiporn"i])
+sxyprn.com##.live_search > .lsel_b:has-text(/(#ai|ai generated|ai-generated|aigenerated| ai )/i)
 
 ! ======================
 ! == SpankBang (NSFW) ==
