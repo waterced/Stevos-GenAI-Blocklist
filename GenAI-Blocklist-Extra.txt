@@ -28,6 +28,18 @@ www.adobe.com##.adbmsgContentContainer:has(> .adbmsgContentIframe[src^="https://
 deviantart.com##[data-testid="content_row"] > div:has(a:matches-attr(data-username="/^(achooandchaos|adnkhan|akiraruki|amibahama|anitoonmaster|antoraassets|arianaboss|astrify|azuredrops-ai|bhoff666|bleedingbeauty2002|cafferequiem|character-alex|cyberwaifu69|dante-127|darkeracolyte|dissunder|dontgiveup123|dreampixelia|entropy-ai|ergunata|exclusiveadoptables|feylunia|forgotteddy|furfactoryai|genaibooru|ghostalleycat|greatobserverph|gwynbleiddarts|hentaipresident|kaolumbia|kaoriai0w0|kimberlyai|leiconsy|luvus-7|miraandroid|missgrowth|mollyoconner|mstorm1285|muyumichan|myuxx|neonthedevi|nomore0f|onizukasaiart|pixel-yo|poetatojizz|rainbowfoxyai|realitynoir|ringobataazu|sharinel|simpleelaand|solacewinter|solasistem|the-elven-gamer|thedreadmerchant|themysteryk|tiddydreamsai|toreqi|twisteddarknet|verdetto|yangol44|yellowbeeart|ziggydreamborn|zorg-lub)$/i"))
 
 ! ============
+! == GitHub ==
+! ============
+! -- https://github.com/ (logged in)
+! Copilot Settings in user profile icon menu
+github.com##.prc-ActionList-ActionListItem-So4vC:has(> [href="/settings/copilot"])
+
+! -- https://github.com/settings/profile
+! Copilot & Models settings tabs
+github.com##.ActionListItem:has([data-item-id="copilot_features"])
+github.com##.ActionListItem:has(> [href="/settings/models"])
+
+! ============
 ! == GitLab ==
 ! ============
 ! -- https://gitlab.com/universalamateur1/reclaim-mcp-server/-/merge_requests/1
