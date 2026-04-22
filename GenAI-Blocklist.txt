@@ -196,6 +196,15 @@ www.bing.com##.editorial-promo-card:has(> [aria-label^="Advance your AI skills"]
 ! Copilot price insignhts (bottom)
 www.bing.com###ShoppingLandingPage_ShoppingEducation:has-text("Try it on Copilot")
 
+! ===============
+! == Bloomberg ==
+! ===============
+! -- https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users
+! AI Takeaways
+www.bloomberg.com##.SummaryOnlyTakeaways_takeaways__8ayMD
+! * Loading placeholder
+www.bloomberg.com##[data-testid="ai-takeaways"]
+
 ! =============
 ! == Bold BI ==
 ! =============
